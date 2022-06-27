@@ -6,9 +6,7 @@
 
 [About Me](./src/about.html)
 
-[Contact](src/contact.md)
-
-[Feedback](src/feedback.md)
+[Contact](./src/contact.md)
 
 _porting WIP_
 
