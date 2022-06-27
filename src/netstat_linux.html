@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>netstat_linux</title>
+  </head>
+  <body style="background-color: #330033;"><span style="color: white;"> </span>
+    <h1 style="background-color: #330033;"><span style="color: white;">Exploring
+        Netstat</span></h1>
+    <h4><span style="color: white;">Network connections, routing tables,
+        interfaces, statistics, et cetera</span></h4>
+    <address><span style="color: white;">Netstat is an insanely powerful
+        monitoring tool when used with combinations of arguments. The <a href="https://man.archlinux.org/man/netstat.8.en"
+          target="_blank">man</a> page contains the list of accepted arguments.
+        However, it has been obsoleted by "ip" and "ss".<br>
+      </span></address>
+    <p style="background-color: #330033;"><span style="color: white;">1) From
+        the man page, "By default, netstat displays a list of open sockets".
+        Running the netstat command without any arguments on my Linux machine, <br>
+      </span></p>
+    <p style="background-color: #330033;"><span style="color: white;"><code>[~]
+          netstat&nbsp;&nbsp; <br>
+          Active Internet connections (w/o servers)<br>
+          Proto Recv-Q Send-Q Local
+          Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Foreign Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          State&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+          tcp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0
+          user:41236&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          si-in-f188.1e10:hpvroom ESTABLISHED<br>
+          tcp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0
+          user:46348&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          bom05s15-in-f10.1:https ESTABLISHED<br>
+          tcp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0
+          user:51426&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          https-111-119-15-:https ESTABLISHED<br>
+          udp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0
+          user:bootpc&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          _gateway:bootps&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          ESTABLISHED<br>
+          udp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0
+          user:53693&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          bom07s24-in-f10.1:https ESTABLISHED<br>
+          Active UNIX domain sockets (w/o servers)<br>
+          Proto RefCnt Flags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          State&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          I-Node&nbsp;&nbsp; Path<br>
+          unix&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [
+          ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          DGRAM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          27060&nbsp;&nbsp;&nbsp; /run/user/1000/systemd/notify<br>
+          unix&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [
+          ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          DGRAM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          27806&nbsp;&nbsp;&nbsp; /run/wpa_supplicant/wlan0</code></span></p>
+    <p style="background-color: #330033;"><span style="color: white;"><code>...</code><br>
+      </span></p>
+    <p style="background-color: #330033;"><span style="color: white;">2) Get
+        summary statistics for each protocol(UDP, TCP, ICMP, IP), using the
+        statistics flag(--statistics or simply -s)</span></p>
+    <p style="background-color: #330033;"><span style="color: white;"><code>~]
+          netstat
+          -s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+          Ip:<br>
+          &nbsp;&nbsp;&nbsp; Forwarding: 2<br>
+          &nbsp;&nbsp;&nbsp; 491672 total packets received<br>
+          &nbsp;&nbsp;&nbsp; 0 forwarded<br>
+          &nbsp;&nbsp;&nbsp; 0 incoming packets discarded<br>
+          &nbsp;&nbsp;&nbsp; 485413 incoming packets delivered<br>
+          &nbsp;&nbsp;&nbsp; 166022 requests sent out<br>
+          &nbsp;&nbsp;&nbsp; 1 outgoing packets dropped<br>
+          Icmp:<br>
+          &nbsp;&nbsp;&nbsp; 0 ICMP messages received<br>
+          &nbsp;&nbsp;&nbsp; 0 input ICMP message failed<br>
+          &nbsp;&nbsp;&nbsp; ICMP input histogram:<br>
+          &nbsp;&nbsp;&nbsp; 8 ICMP messages sent<br>
+          &nbsp;&nbsp;&nbsp; 0 ICMP messages failed<br>
+          &nbsp;&nbsp;&nbsp; ICMP output histogram:<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; destination unreachable: 8<br>
+          IcmpMsg:<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OutType3: 8<br>
+          Tcp:<br>
+          &nbsp;&nbsp;&nbsp; 663 active connection openings</code></span></p>
+    <p style="background-color: #330033;"><span style="color: white;"><code>...<br>
+        </code></span></p>
+    <p style="background-color: #330033;"><span style="color: white;"><code></code>3)
+        Displaying the kernel routing(--route or -r flag) table<br>
+      </span></p>
+    <p style="background-color: #330033;"><span style="color: white;"><code>[~]
+          netstat -r <br>
+          Kernel IP routing table<br>
+          Destination&nbsp;&nbsp;&nbsp;&nbsp;
+          Gateway&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Genmask&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Flags&nbsp;&nbsp; MSS Window&nbsp; irtt Iface<br>
+          default&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          _gateway&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          0.0.0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          UG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0
+          0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 wlan0<br>
+          10.0.2.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          0.0.0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          255.255.255.0&nbsp;&nbsp;
+          U&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0
+          0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 virbr1<br>
+          192.168.0.0&nbsp;&nbsp;&nbsp;&nbsp;
+          0.0.0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          255.255.255.0&nbsp;&nbsp;
+          U&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0
+          0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 wlan0<br>
+          192.168.122.0&nbsp;&nbsp;
+          0.0.0.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          255.255.255.0&nbsp;&nbsp;
+          U&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0
+          0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 virbr0</code><br>
+      </span></p>
+    <p style="background-color: #330033;"><span style="color: white;">4)
+        Finally, combining different flags</span><span style="color: white;"></span><br>
+      <span style="color: white;">I will run netstat -upv, where <br>
+      </span></p>
+    <blockquote>
+      <p style="background-color: #330033;"><span style="color: white;">u-&gt;UDP
+          internet connections, <br>
+        </span></p>
+      <p style="background-color: #330033;"><span style="color: white;">p-&gt;associated
+          PID/program name, <br>
+        </span></p>
+      <p style="background-color: #330033;"><span style="color: white;">v-&gt;verbose
+          mode<br>
+        </span></p>
+    </blockquote>
+    <p style="background-color: #330033;"><span style="color: white;"><code>[~]
+          netstat -upv<br>
+          (Not all processes could be identified, non-owned process info<br>
+          &nbsp;will not be shown, you would have to be root to see it all.)<br>
+          Active Internet connections (w/o servers)<br>
+          Proto Recv-Q Send-Q Local
+          Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Foreign Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          State&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PID/Program
+          name&nbsp;&nbsp;&nbsp; <br>
+          udp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0
+          user:48202&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          bom07s35-in-f3.1e:https ESTABLISHED 15877/chrome --type <br>
+          udp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0
+          user:bootpc&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          _gateway:bootps&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          ESTABLISHED
+          -&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </code><br></span></p>
+    <span style="color: white;">
+    </span>
+  </body>
+</html>
