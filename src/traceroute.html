@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>traceroute</title>
+  </head>
+  <body style="background-color: black;">
+    <p><span style="color: white;">Traceroute<br>
+      </span></p>
+    <p><span style="color: white;">We use the traceroute tool/command to display
+        the path of packets on an IP network, by sending a series of pings. It
+        has helped me find faults in home networks and is the first diagnostic I
+        send to my ISP when filing grievances related to poor routing and packet
+        loss. It will prove to be an invaluable tool to have under your belt, an
+        almost instant way to find the offending node. <br>
+      </span></p>
+    <p><span style="color: white;">As a classic example of demonstration, I will
+        run a traceroute to google.com</span></p>
+    <p><span style="color: white;"><code>~] traceroute google.com<br>
+          traceroute to google.com (142.250.199.142), 30 hops max, 60 byte
+          packets<br>
+          &nbsp;1&nbsp; _gateway (192.168.0.1)&nbsp; 0.862 ms&nbsp; 0.955
+          ms&nbsp; 1.187 ms<br>
+          &nbsp;2&nbsp; 103.zzz.zzz.6 (103.zzz.zzz.6)&nbsp; 2.290 ms&nbsp; 2.308
+          ms&nbsp; 2.290 ms<br>
+          &nbsp;3&nbsp; 103.zzz.zzz.5 (103.zzz.zzz.5)&nbsp; 3.044 ms&nbsp; 3.241
+          ms&nbsp; 3.227 ms<br>
+          &nbsp;4&nbsp; * * *<br>
+          &nbsp;5&nbsp; 72.14.196.76 (72.14.196.76)&nbsp; 7.163 ms&nbsp; 7.148
+          ms&nbsp; 7.133 ms<br>
+          &nbsp;6&nbsp; * * *<br>
+          &nbsp;7&nbsp; 108.170.248.177 (108.170.248.177)&nbsp; 9.135 ms&nbsp;
+          7.270 ms 108.170.226.130 (108.170.226.130)&nbsp; 6.070 ms<br>
+          &nbsp;8&nbsp; 108.170.248.170 (108.170.248.170)&nbsp; 5.780 ms
+          108.170.248.178 (108.170.248.178)&nbsp; 7.039 ms 142.251.77.99
+          (142.251.77.99)&nbsp; 8.169 ms<br>
+          &nbsp;9&nbsp; 108.170.248.193 (108.170.248.193)&nbsp; 113.362 ms
+          108.170.248.209 (108.170.248.209)&nbsp; 8.250 ms 108.170.248.193
+          (108.170.248.193)&nbsp; 113.344 ms<br>
+          10&nbsp; 142.251.77.101 (142.251.77.101)&nbsp; 113.267 ms
+          bom07s36-in-f14.1e100.net (142.250.199.142)&nbsp; 5.828 ms
+          142.251.77.99 (142.251.77.99)&nbsp; 6.505 m</code><br>
+      </span></p>
+    <p><br>
+    </p>
+    <h2><span style="color: white;">Interpreting the results of a traceroute-</span></h2>
+    <p><span style="color: white;">We see that <code>google.com</code> was
+        resolved to </span><span style="color: white;"><code>142.250.199.142</code>.
+        The traceroute will terminate when it hits this node or at 30 hops,
+        whichever occurs first.<br>
+      </span></p>
+    <p><span style="color: white;">The first hop is to the default gateway (you
+        can /software/SECverify this by running <code>ip route <br>
+        </code></span></p>
+    <p><span style="color: white;">The second and third (and possibly fourth)
+        hops are to my ISP's network(has been masked by me)</span></p>
+    <p><span style="color: white;">The fourth hop did not respond in time(it is
+        probably dropping UDP packets), you can always try running it with the
+        --icmp/-I flag to use ICMP ECHO for probes or --tcp/-T to send TCP SYN
+        flags as probes</span><span style="color: white;">. If you still do not
+        get a response, try increasing the response wait with the --wait/-W
+        flag(the wait isn't the issue usually)</span></p>
+    <p><span style="color: white;">The IP address listed at hop 5 is likely
+        located in Bombay, IN. running a <code>whois</code> on this address
+        shows that the IP block belongs to Google LLC. The remaining hops and
+        corresponding IP addresses will be within Google's network till it
+        reaches the destination IP address. Multiple IP addresses on a single
+        line indicates the different routes taken (load balancing)<br>
+      </span></p>
+  </body>
+</html>

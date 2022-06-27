@@ -4,7 +4,7 @@
 
 [Other Pages](src/pages.md)
 
-[About](./src/about.md)
+[About Me](./src/about.html)
 
 [Contact](src/contact.md)
 
