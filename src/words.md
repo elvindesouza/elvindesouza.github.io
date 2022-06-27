@@ -1,3 +1,7 @@
+#### [~](../README.md)
+
+---
+
 # Interesting words
 
 ## Compilation of interesting words that I've come across
