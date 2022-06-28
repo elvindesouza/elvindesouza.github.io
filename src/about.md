@@ -11,7 +11,7 @@ permalink: /about
 
 <!-- <img src="img/me.jpg" width="200"/> -->
 
-![](img/me.jpg){:width="50px"}
+![](img/me.jpg){:width="150px"}
 
 ## Undergraduate Computer Engineer at Vishwakarma University Pune, majoring in Information Security
 
