@@ -9,7 +9,9 @@ permalink: /about
 
 # Elvin deSouza
 
-![](img/me.jpg)
+<!-- <img src="img/me.jpg" width="200"/> -->
+
+![](img/me.jpg){:width="50px"}
 
 ## Undergraduate Computer Engineer at Vishwakarma University Pune, majoring in Information Security
 
@@ -19,21 +21,22 @@ I like programming, cybersecurity, and linux. With a keen eye for learning new t
 
 I have experience with networking, operating systems, and security fundamentals.
 
-![](img/modern-web.jpg)
+![](img/modern-web.jpg){:width="100px"}
 
 I also have experience with the modern web with **Angular**, **NodeJs**: **express**, ejs, pug, etc, though i feel more comfortable with the back-end
 
-![](img/python.jpg)
+![](img/python.jpg){:width="100px"}
 
 **Python** web development with Django-SQLite,
 scripting and automation using a plethora of amazing libraries,
 experience with AI/ML-data visualization libraries like
 openCV, seaborn, matplotlib, numpy, pandas, keras, etc.
 
-![](img/java.png)
+![](img/java.png){:width="100px"}
+
 **Java** application development with AWT and Swing, and JDBC
 
-![](img/db.png)
+![](img/db.png){:width="100px"}
 
 (Relational) Database management using **SQL**, with MySQL and SQLite. Also limited experience with mongoDB as part of a MEAN stack webproject
 
