@@ -17,6 +17,10 @@ Hardened a small network by installing network security measures, and setting th
 
 Conducting a Network Penetration Test on a Small Network. Followed all the standard steps of a penetration test in accordance with applicable standards and guidelines, and documented the process.
 
+### [GnuPG](gnupg.md)
+
+File and message encryption with GnuPG. Different types of encryption-symmetric and asymmetric, along with GPG-GUI, a front-end to GnuPG written in Python
+
 ### [netstat](netstat_linux.html)
 
 Exploring netstat, and how we could use this as a diagnostic tool when troubleshooting or monitoring networks

@@ -9,9 +9,9 @@ permalink: /projects/
 
 # Projects
 
-## [GPG-GUI](elvindsouza.github.io/gpg-gui)
+## [GPG-GUI](https://elvindsouza.github.io/GPG-GUI/)
 
-Simple graphical front-end to GnuPG, making encryption accessible to everyone!
+Simple graphical front-end to [GnuPG](gnupg.md), making encryption accessible to everyone!
 
 ## [Heart Failure Detection](https://github.com/elvindsouza/assorted/tree/master/heart-failure-detection)
 
