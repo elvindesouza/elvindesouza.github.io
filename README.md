@@ -10,8 +10,6 @@
 
 [Contact](./src/contact.md)
 
-_porting WIP_
-
 ---
 
 _Elvin deSouza_

@@ -1,6 +1,10 @@
-#### [~](../README.md)
+---
+layout: page
+title: "~/Security"
+permalink: https://elvindsouza.github.io/security
+---
 
-#### [~/Pages](pages.md)
+#### [~](../README.md)
 
 ---
 
