@@ -1,3 +1,8 @@
+---
+title: "Passwords and Secrets Management"
+permalink: /pages/pws_secrets
+---
+
 # Passwords/Secrets Management
 
 ## [Keepass](https://keepass.info/)/[KeepassX](https://www.keepassx.org/)/[KeepassXC](https://keepassxc.org/).
