@@ -9,8 +9,6 @@ permalink: /about
 
 # Elvin deSouza
 
-<!-- <img src="img/me.jpg" width="200"/> -->
-
 ![](img/me.jpg){:width="150px"}
 
 ## Undergraduate Computer Engineer at Vishwakarma University Pune, majoring in Information Security
