@@ -1,7 +1,6 @@
 ---
-layout: page
 title: "~/Security"
-permalink: https://elvindsouza.github.io/security
+permalink: /security/
 ---
 
 #### [~](../README.md)
