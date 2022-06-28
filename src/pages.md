@@ -1,3 +1,8 @@
+---
+title: "~/Pages"
+permalink: /pages/
+---
+
 #### [~](../README.md)
 
 ---

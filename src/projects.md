@@ -1,3 +1,8 @@
+---
+title: "~/Projects"
+permalink: /projects/
+---
+
 #### [~](../README.md)
 
 ---

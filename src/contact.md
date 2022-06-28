@@ -1,3 +1,8 @@
+---
+title: "~/Contact"
+permalink: /about/contact/
+---
+
 #### [~](../README.md)
 
 ---

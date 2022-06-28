@@ -1,3 +1,8 @@
+---
+title: "Words"
+permalink: /pages/words
+---
+
 #### [~](../README.md)
 
 ---
