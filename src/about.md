@@ -3,7 +3,7 @@ title: "~/About"
 permalink: /about
 ---
 
-#### [~](../README.md)
+# [~](../README.md)
 
 ---
 
@@ -15,7 +15,7 @@ permalink: /about
 
 I like programming, cybersecurity, and linux. With a keen eye for learning new things and exploring.
 
-## My Skills
+# My Skills
 
 I have experience with networking, operating systems, and security fundamentals.
 
@@ -69,7 +69,7 @@ _1 year of experience_
 
 I also have experience with the modern web with **Angular**, **NodeJs**: **express**, ejs, pug, etc, though i feel more comfortable with the back-end
 
-# C/C++
+## C/C++
 
 - **C++** object-oriented programming and web development(CGI scripting)
 
@@ -83,13 +83,13 @@ _Aside from technology and programming related interests, my hobbies include pla
 
 ---
 
-## Experience
+# Experience
 
-### Tech Assistant at the Revolution Software Development Club
+## Tech Assistant at the Revolution Software Development Club
 
 _June 2021-Now_
 
-### Tech Assistant at the Genesis ML/AI Club
+## Tech Assistant at the Genesis ML/AI Club
 
 _June 2021-Now_
 

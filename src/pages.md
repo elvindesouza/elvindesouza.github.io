@@ -3,7 +3,7 @@ title: "~/Pages"
 permalink: /pages/
 ---
 
-#### [~](../README.md)
+# [~](../README.md)
 
 ---
 

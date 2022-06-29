@@ -1,14 +1,17 @@
-# Blag!
+---
+title: "Blag! ~"
+permalink: /
+---
 
-## [Security](src/security.md)
+# [Security](src/security.md)
 
-## [Projects](src/projects.md)
+# [Projects](src/projects.md)
 
-## [Other Pages](src/pages.md)
+# [Other Pages](src/pages.md)
 
-## [About Me](./src/about.md)
+# [About Me](./src/about.md)
 
-## [Contact](./src/contact.md)
+# [Contact](./src/contact.md)
 
 ---
 
