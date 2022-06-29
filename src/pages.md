@@ -7,6 +7,8 @@ permalink: /pages/
 
 ---
 
+_misc pages_
+
 ## [Passwords and Secrets Management](secrets.md)
 
 ## [Surfing the Internet Securely and Privately](surfing.md)
@@ -16,6 +18,10 @@ permalink: /pages/
 <!-- ## [GNU/Linux](linux.html) -->
 
 <!--
-## [Secure Coding Practices](secure_coding.md)
 
 ## [Virtualization](virtualization.md) -->
+
+<!-- ## [Important Android Apps](android.md#apps) -->
+
+<!-- ## [Important Linux Software](software.md) -->
+<!-- [Linux Ricing](ricing.md) -->
