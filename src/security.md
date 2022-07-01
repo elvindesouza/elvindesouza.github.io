@@ -17,9 +17,15 @@ Hardened a small network by installing network security measures, and setting th
 
 Conducting a Network Penetration Test on a Small Network. Followed all the standard steps of a penetration test in accordance with applicable standards and guidelines, and documented the process.
 
-## [GnuPG](gnupg.md)
+## [GnuPG-The free implementation of the OpenPGP standard and using GPG-GUI](gnupg.md)
 
 The [free](https://www.gnu.org/philosophy/free-sw.en.html) implementation of the OpenPGP standard. File and message encryption with GnuPG. Different types of encryption-symmetric and asymmetric, along with [GPG-GUI](https://elvindsouza.github.io/GPG-GUI/), a front-end to GnuPG written in Python
+
+Also exploring creating and verifying signatures on files or messages
+
+## [The kexec system call and scope of a physical attack](kexec.md)
+
+Using the kexec Linux system call to load a kernel of choice, and perform an attack with scripting in a more familiar environment
 
 ## [netstat](netstat_linux.html)
 
@@ -32,10 +38,6 @@ Setting up a DoS attack on a system or network, and experimenting with additiona
 ## [traceroute](traceroute.html)
 
 Using the traceroute utility to inspect the route of a packet sent across networks. Additionally, covers how we could use this as a diagnostic tool
-
-## [kexec and the scope of a physical attack](kexec.md)
-
-Using the kexec Linux system call to load a kernel of your choice, and perform an attack in a more familiar environment
 
 <!-- ## [Android Security](android.md) -->
 
@@ -63,12 +65,13 @@ Exploring the Domain Name System, using `nslookup`, DNS cache poisoning, DNSSEC 
 
 ## [How the Web Works, HTTP Request/Response Cycle](web.md)
 
+## [Microsoft Windows Operating System Security](windows.md)
+
 <!-- ## [DevTools](devtools.md) -->
 <!--
 ## Enumerating Network Services
 ## Exploiting Network Services
 ## [Wireshark](wireshark.md)
-## Microsoft Windows Operating System Security
 ## Active Directory
 ## GNU/Linux Operating System Security -->
 

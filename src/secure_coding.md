@@ -18,8 +18,8 @@ The problem with that is if you are only checking if they have a valid reset tok
 
 6. A subset of 5 is to make sure you are not open to SQL injections. They will let people ruin and take control of your database.
 
-6. Never trust your vendors. If you're using something that's from the public, you need to have a no trust policy with these products. The best ways to do this are things like running your own cache (such as sonatype's Nexus, or your own docker registry) or virus scanning on your images before they're used in production, among avoiding external dependencies when possible. It seems you hear once a month some docker image or npm package was being exploited.
+7. Never trust your vendors. If you're using something that's from the public, you need to have a no trust policy with these products. The best ways to do this are things like running your own cache (such as sonatype's Nexus, or your own docker registry) or virus scanning on your images before they're used in production, among avoiding external dependencies when possible. It seems you hear once a month some docker image or npm package was being exploited.
 
-7. Don't run things Public unless they're really supposed to be. If you're running your own registry or gitlab instance or Jenkins server, etc etc there usually isn't any reason to have it public. Utilize a VPN with key rotation to access your network and whitelist access to your tools appropriately within the VPN.
+8. Don't run things Public unless they're really supposed to be. If you're running your own registry or gitlab instance or Jenkins server, etc etc there usually isn't any reason to have it public. Utilize a VPN with key rotation to access your network and whitelist access to your tools appropriately within the VPN.
 
-8. Don't use root accounts when you don't have to. This applies to almost anything, your local system, the user being run as inside a VM or docker, your AWS / Google cloud account, etc. By limiting use of root accounts you limit potentially how bad you'll be affected by an intrusion or vulnerability
+9. Don't use root accounts when you don't have to. This applies to almost anything, your local system, the user being run as inside a VM or docker, your AWS / Google cloud account, etc. By limiting use of root accounts you limit potentially how bad you'll be affected by an intrusion or vulnerability

@@ -1,5 +1,5 @@
 ---
-title: "Blag! ~"
+title: "Blag!"
 permalink: /
 ---
 

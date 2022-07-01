@@ -1,30 +1,81 @@
 ---
-title: "File Encryption with GPG"
+title: "GnuPG-The free implementation of the OpenPGP standard"
 permalink: /security/GPG
 ---
 
+![](img/gnupg.png)
+
 # Single file encryption with GPG:
 
-There are many ways to encrypt/lock files, folders and drives on Linux. I was looking for a method in which individual files were encrypted, most encryption software talked about online had full-disk encryption and container encryption. Then I realized I already had GPG set up after I stopped using GNU Pass. After completing the GPG key generation again(RSA-RSA 4096, no expiry), I put all the files I wanted to encrypt(documents, important photographs) in a folder and ran
+There are many ways to encrypt/lock files, folders and drives on Linux. I was looking for a method in which individual files were encrypted, most encryption software talked about online had filesystem encryption and container(stacked filesystem/FUSE) encryption
 
-`gpg --encrypt-files <files> -r myadd@email.com`
+- GnuPG offers individual file encryption-decryption
 
-This encrypted all the files with the .gpg suffix, and deleted the original ones. I could then unencrypt the files(w/the correct credentials) with
+## Asymmetric Encryption
 
-`gpg -o filename.ext -d filename.ext.gpg`
+you can generate a new keyset at any time with
 
-(This could easily be scripted with python, but the tediousness was intentional)
+`$ gpg --gen-key`
 
-You can use symmetric encryption on a file too, with
+> your name doesn't necessarily have to be your real name, and unless you are going to use encryption with e-mails, the address doesn't have to be your actual address either
 
-`gpg -c file`
+```
+> echo $GNUPGHOME
+/home/user/.local/share/gnupg
+```
+
+After completing the GPG key generation (RSA-RSA 4096bit, no expiry), I could perform encryption(encrypting a file to myself) on a single file with
+
+`$ gpg -r rmyadd@email.com -e <file>`
+
+I put all the files I wanted to encrypt(documents, important photographs) in a folder and ran
+
+`$ gpg --encrypt-files <files> -r myadd@email.com`
+
+This encrypted all the files with the .gpg suffix, and deleted the original ones. I could then decrypt the files(w/the correct credentials) with
+
+`$ gpg -o filename.ext -d filename.ext.gpg`
+
+To export your public key, so that others can send you encrypted files and messages(check email caveat above), use the following
+
+`$ gpg --export --armor --output publickey <ID>`
+
+## Symmetric Encryption
+
+You can use symmetric encryption(passphrase) on a file too, with
+
+`$ gpg -c file`
 
 Decryption for symmetrically encrypted files follows the same process
 
-Symmetric encryption has its advantages, and you can feel free to use it with archiving less important data(vacation photos, etc.). Then in this case, you could just use 7zip instead.
+Symmetric encryption has its advantages, and you can feel free to use it with archiving less important data(vacation photos, etc.). In this case, you could just use 7zip instead.
 
 The GPG documentation is FANTASTIC, btw
 
-_This is a precursor to my next project, where I create a simple frontend for GPG **asymmetric** encryption, link below_
+# GPG and Signatures
+
+## Signing a file or message
+
+Signatures use your **private** key while encryption uses your **public** key
+
+_They provide_
+
+- data integrity
+- authentication
+- support for nonrepudiation
+
+To sign a file,
+
+`$ gpg --output file.sig --sign file`
+
+A more common method is to send or distribute the unencrypted file or message, with a separate signature file
+
+`$ gpg --output file.sig --detach-sig file`
+
+## Verify a Signature
+
+`$ gpg --verify sign.sig`
+
+_This is a precursor to my next project, where I create a simple frontend for GPG **asymmetric** file encryption, link below_
 
 ## [GPG-GUI ](https://elvindsouza.github.io/GPG-GUI/)

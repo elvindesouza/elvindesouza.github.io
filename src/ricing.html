@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+  </head>
+  <body>
+    <h1 style="background-color: black;"><span style="color: white;">Guide to
+        Tinkering on GNU/Linux</span><span style="color: white;"></span></h1>
+    <h1 style="background-color: black;"><span style="color: white;">Knowing the
+        risk levels</span></h1>
+    <p style="background-color: black;"><span style="color: white;">A)
+        Sandboxed(Virtual-Machine)</span></p>
+    <p style="background-color: black;"><span style="color: white;">you are free
+        to tinker with anything you want. Experimenting and tinkering here is
+        typically safe and the risks only deal with how the sandbox might
+        unknowingly affect hardware outside of the sandbox. Without extensive
+        research and brute-force, you are completely isolated from the host
+        system's bootloader, root directory, physical drive partition table and
+        data, network configuration, kernel. You will have access to the
+        allotted RAM, CPU (and GPU if passed through)and storage pool. This
+        could open you up to long term hardware damage. I don't reckon there are
+        many exploits out there that can Worst case- your SSD might wear out
+        from frequent IO and reinstallations. Not sleeping/killing a VM might
+        lead to some issues with host OS suspend/hibernate. Nothing major
+        though.</span></p>
+    <p style="background-color: black;"><span style="color: white;">B) Bare
+        Metal/hardware</span></p>
+    <p style="background-color: black;"><span style="color: white;">the levels
+        of risk are divided into-</span></p>
+    <p style="background-color: black;"><span style="color: white;">Application
+        software/high-level</span></p>
+    <p style="background-color: black;"><span style="color: white;">Software
+        here is relatively safe. You will get a polkit prompt to run privileged
+        operations. Software in the "high-level" category usually has a GUI and
+        progress bars. Exceptions are usually handled well and logfiles are
+        descriptive. """Apps"""" fall in this category, along with a large
+        portion of systemd, and udev, grub/refind, coreutils etc. They usually
+        have good documentation, user-friendly APIs and guides in Linux wikis.</span></p>
+    <p style="background-color: black;"><span style="color: white;">Changes here
+        are mostly temporary and do not persist across reboots(obviously not
+        talking about disk modifications, grub configuration etc).</span></p>
+    <p style="background-color: black;"><span style="color: white;">Userspace/low-level</span></p>
+    <p style="background-color: black;"><span style="color: white;">Software
+        here is usually documented and mentions hardware support, usually
+        implicit(ideapad_laptop module for example). Modifying disks with
+        low-level utilities, EFI system partition creation and modification.
+        Documentation for programs have an exiguous existence for some reason,
+        and checking various various Linux wikis is the first thing you should
+        do. Changing fan speeds, cpu frequency and voltage, talk</span></p>
+    <p style="background-color: black;"><span style="color: white;">Hardware</span></p>
+    <p style="background-color: black;"><span style="color: white;">This is a
+        red zone. Tinkering here includes issuing ACPI calls that are not
+        documented and not confirmed to work flawlessly, using completely
+        incompatible drivers, etc. You can easily cause hardware damage here. A
+        lot of these changes are PERSISTENT across reboots and OSes. Never
+        "modify" hardware. There is almost always a better implementation that
+        relies on profiles, udev, systemd APIs. Issuing acpi calls to power down
+        the discrete gpu when not in hybrid graphics mode, damaging the MUX,
+        freezing the OS and sending fans to 100% speed in under a
+        second(happened) because of heat. Other examples- not reading the manual
+        and issuing APM to unsupported drives causing a full crash and
+        corruption of hard drive, modifying undocumented and unsupported
+        features of wireless and sound cards, etc. Mistakes here are usually
+        because of not heeding several warnings and not using the recommended
+        userspace tools. Remember, you want to always be able to have a clean
+        slate by rebooting.</span></p>
+    <p style="background-color: black;"><span style="color: white;">G</span></p>
+  </body>
+</html>
