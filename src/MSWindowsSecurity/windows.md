@@ -295,4 +295,3 @@ _run_ `netplwiz` and it will open up the User Accounts manager
 - enable security features
   ![](img/windows_gpedit_setting.png)
 
-##

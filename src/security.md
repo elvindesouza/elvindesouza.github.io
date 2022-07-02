@@ -27,6 +27,14 @@ Also exploring creating and verifying signatures on files or messages
 
 Using the kexec Linux system call to load a kernel of choice, and perform an attack with scripting in a more familiar environment
 
+## [Microsoft Windows Operating System Security](MSWindowsSecurity/windows.md)
+
+Microsoft Windows Operating System administration, maintenance, architecture, and security fundamentals
+
+## [GNU/Linux Operating System Security](LinuxSecurity/linux.md)
+
+Administration and maintenance of the GNU/Linux operating system, common security tools and security aspects
+
 ## [netstat](netstat_linux.html)
 
 Exploring netstat, and how we could use this as a diagnostic tool when troubleshooting or monitoring networks
@@ -64,8 +72,6 @@ Exploring the Domain Name System, using `nslookup`, DNS cache poisoning, DNSSEC 
 <!-- dnsenum -->
 
 ## [How the Web Works, HTTP Request/Response Cycle](web.md)
-
-## [Microsoft Windows Operating System Security](windows.md)
 
 <!-- ## [DevTools](devtools.md) -->
 <!--
