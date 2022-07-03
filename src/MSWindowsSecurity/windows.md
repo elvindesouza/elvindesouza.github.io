@@ -1,3 +1,8 @@
+---
+title: "Microsoft Windows Operating System and Windows Security"
+permalink: /security/WindowsSecurity
+---
+
 # Microsoft Windows Operating System and Windows Security
 
 In any organization, non-technical employees are likely using Microsoft Windows. In fact, the overwhelming majority of desktop and laptop systems run Windows.
@@ -294,4 +299,3 @@ _run_ `netplwiz` and it will open up the User Accounts manager
 - tweak certain graphical and network settings that are otherwise not accessible via the Control Panel
 - enable security features
   ![](img/windows_gpedit_setting.png)
-

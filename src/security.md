@@ -47,9 +47,9 @@ Setting up a DoS attack on a system or network, and experimenting with additiona
 
 Using the traceroute utility to inspect the route of a packet sent across networks. Additionally, covers how we could use this as a diagnostic tool
 
-<!-- ## [Android Security](android.md) -->
+## [Secure Coding Practices and Introduction to Application Security](secure_coding.md)
 
-<!-- ## [Secure Coding Practices and Introduction to Application Security](secure_coding.md) -->
+A set of practices that applies security considerations to how software will be coded and encrypted to best defend against a cyber attack or vulnerabilities.
 
 <!-- ## [Secure Python Development](secure_coding_python.md) -->
 
@@ -81,9 +81,12 @@ Exploring the Domain Name System, using `nslookup`, DNS cache poisoning, DNSSEC 
 ## Active Directory
 ## GNU/Linux Operating System Security -->
 
+<!-- virtualization,setup, security (virtualization.md)  -->
 <!-- # Threat & Vulnerability management -->
 
 ## [Nessus](https://elvindsouza.github.io/NetworkPenetrationTesting/#nessus)
+
+## [Android Security](android.md)
 
 <!-- ## MITRE, MITRE ATT&CK
 ## Yara

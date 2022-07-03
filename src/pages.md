@@ -23,5 +23,6 @@ _misc pages_
 
 <!-- ## [Important Android Apps](android.md#apps) -->
 
-<!-- ## [Important Linux Software](software.md) -->
+## [Important Free Software](software.md)
+
 <!-- [Linux Ricing](ricing.md) -->

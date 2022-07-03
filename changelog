@@ -1,0 +1,17 @@
+(volatile)
+mod ~/about
+    moved about markdown and images to new folder
+    added new content on about
+
+mod linux security
+
+mod README
+    headings to bold
+
+add securedevelopment
+
+mod pages
+    add securedev link
+
+add changelog
+add TODO

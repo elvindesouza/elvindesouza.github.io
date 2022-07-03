@@ -5,6 +5,8 @@ permalink: /about/contact/
 
 # [~](../README.md)
 
+# [~/about](../src/about/about.md)
+
 ---
 
 # Contact Me-

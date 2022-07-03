@@ -1,25 +1,60 @@
-1. Keep all your secrets out of your repos. If you are using git, you can set up a .gitignore file for this. If you want to be super paranoid, put them in a completely different folder. If somebody gets a hold of your signing key, you are screwed.
+---
+title: "Secure Coding Manifesto"
+permalink: /security/securedev
+---
 
-2. If you are handling passwords, try to avoid handling them (seriously, it's a lot of responsibility to do it). If you have to, for the love of god make sure you use a strong hash and a salt. Never store passwords or other sensitive information (EG credit cards) in plain text.
+_Resources-_
 
-3. Try to break your own software. I mean this quite literally. You know how it should work, but you need to constantly ask yourself "What if I do X?". The amount of weird bugs I have found by intentionally doing something I was not supposed to do in programs is amazing.
+[OWASP](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/migrated_content)
 
-A subset of this is to try to break your own security. It can be somewhat hard to do though.
+[UC Berkeley](https://security.berkeley.edu/secure-coding-practice-guidelines)
 
-4. Be open to security audits. "I'm glad no one knows about this because it could probably get hacked very easily" is a terrible mindset to have. People should be able to look at your code and feel comfortable with what you have done. At the very least, write code as if you are going to be audited one day.
+---
 
-5. Never trust the user. The user should always be assumed to be malicious and because of point 3 is going to break everything. This means you should verify everything the user does is a valid thing for them to do.
+1. Keep all secrets out of repos.
 
-An example of not doing this would be to create a password reset system with the following URL.
+   Set up a .gitignore file. If secrets have been pushed to a git repository, assume they have been grabbed. It is very difficult to cover it up, and your best course of action is to invalidate these secrets and request new ones
 
-    http://<SITE>/resetpassword?userid=30&token=<TOKEN>
+2. Leave password handling to audited and trusted frameworks and libraries. Follow standards and guidelines for that specific library or encryption type.
 
-The problem with that is if you are only checking if they have a valid reset token, the user can just change the ID to any other user and reset their password, instead of their own. In this example each token should only be valid for a specific user.
+3. Try to break your own software.
 
-6. A subset of 5 is to make sure you are not open to SQL injections. They will let people ruin and take control of your database.
+   Static code analysis, done in a code-review context, is the first and most essential step in developing and maintaining good software. Can also be analyzing code against a ruleset or coding standards. These address vulnerabilities, and code smell.
 
-7. Never trust your vendors. If you're using something that's from the public, you need to have a no trust policy with these products. The best ways to do this are things like running your own cache (such as sonatype's Nexus, or your own docker registry) or virus scanning on your images before they're used in production, among avoiding external dependencies when possible. It seems you hear once a month some docker image or npm package was being exploited.
+   Use automated testing to check integrations, interfaces, performance, the operation of specific modules and security. Unit tests, regression tests, API and integration tests, smoke tests, UI and I/O tests, security and vulnerability tests, stress tests, and acceptance tests.
 
-8. Don't run things Public unless they're really supposed to be. If you're running your own registry or gitlab instance or Jenkins server, etc etc there usually isn't any reason to have it public. Utilize a VPN with key rotation to access your network and whitelist access to your tools appropriately within the VPN.
+   [Analysis Tools](https://analysis-tools.dev/)
 
-9. Don't use root accounts when you don't have to. This applies to almost anything, your local system, the user being run as inside a VM or docker, your AWS / Google cloud account, etc. By limiting use of root accounts you limit potentially how bad you'll be affected by an intrusion or vulnerability
+   [Dynamic Analysis Tools](https://github.com/analysis-tools-dev/dynamic-analysis)
+
+   **Static Application Security testing** to test code quality and scan for security issues.
+
+   **Dynamic Application Security testing** performs a black-box test, reporting vulnerabilities by actually performing attacks
+
+   Check for known vulnerablities in dependencies. GitHub offers functions to check and notify you of known vulnerabilities in dependencies in your projects.
+
+   Automate **vulnerability scanning**
+
+   A subset of this is to try to break your own security.
+
+4. Be open to security audits. [Security through obscurity is not an answer](https://www.pearsonitcertification.com/articles/article.aspx?p=2218577&seqNum=7#:~:text=Security%20through%20obscurity%20means%20that,trusted%20people%20from%20seeing%20it.)
+
+   [Related](https://danielmiessler.com/study/security-by-obscurity/#goodbad)
+
+5. Any thing the user touches is assumed to be evil by default. Uploaded files, any user input, requests
+
+   Do not give attackers namespaces to explore.
+
+6. Make sure you are not open to SQL injections. Database data exposure==org going under, as fines get larger. It is far too easy to check for injectable areas and SQLi vulnerabilities now that it isn't an excuse.
+
+7. Never trust your supply chain or third party vendors. Have a no trust policy with their products and services.
+
+   [Supply Chain Vulnerability](https://www.techtarget.com/searcherp/definition/supply-chain-security)
+
+   [NIST-Best Practices in Cyber Supply Chain Risk Management](https://csrc.nist.gov/CSRC/media/Projects/Supply-Chain-Risk-Management/documents/briefings/Workshop-Brief-on-Cyber-Supply-Chain-Best-Practices.pdf)
+
+8. Minimize exposure in the first place, and follow [hardening](https://elvindsouza.github.io/hardening/) practices. Keep as few services exposed to the internet or networks as possible. If you must have them, use strong authentication, and detective(logging)+preventive(DoS prevention, proxy,etc.) measures.
+
+9. Follow the principle of [Least Privilege](https://elvindsouza.github.io/hardening/#least-privilege)
+
+---
