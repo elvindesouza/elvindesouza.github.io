@@ -233,6 +233,77 @@ The most important signals used-
 
 _use `2>/dev/null` in your scripts to send STDERR to `/dev/null`_
 
-## Webserver Security
+## Permission Management
 
-_wip_
+Remember to set up correct permissions on webserver directories, log folders, and configuration files
+
+### Linux Permissions
+
+**a file or directoy can be assigned**
+
+- r(Read)
+- w(Write)
+- x(Execute)
+
+**These three permissions can be set for the**
+
+- owner
+- group
+- others
+
+### Change Permissions
+
+`chmod [u|g|o|a(all)][+|-][r|w|x]`
+
+prepend + or - to add or remove permissions
+
+_OR_ use numeric mode to directly assign an octal value
+
+![](img/chmod.png)
+_chmod usage_
+
+Change ownership of a file or director with the `chown` command
+
+![](img/chown.png)
+_chown usage_
+
+`chattr` is the command in Linux that allows a user to set certain attributes of a file
+
+_for example, you might make `/etc/resolv.conf` immutable with `chattr +i /etc/resolv.conf`_
+
+`lsattr` is the command that displays the attributes of a file.
+
+### SUID-SGID-Sticky Bit
+
+Set User ID,Set Group ID
+
+![](img/suid_sgid_stickybit.png)
+_this lets a user run `password` to change their password without privileged access_
+
+## SELinux
+
+[RedHat](https://www.redhat.com/en/topics/linux/what-is-selinux)
+
+provides Mandatory Access Control, through Linux Security Modules in the kernel
+
+every process, file, object, etc. is given a label
+
+## AppArmor
+
+[Canonical/Ubuntu](https://ubuntu.com/server/docs/security-apparmor)
+
+> AppArmor is a Linux Security Module implementation of name-based mandatory access controls
+
+---
+
+Periodically audit the system for vulnerabilities and misconfigurations like
+
+- obsolete software
+- out-of-date kernel
+- user permission issues
+- world-writable files
+- misconfigured cronjobs/services
+
+Always keep an eye on the EOL/EOSL of the linux distribution you are running on your servers
+
+<!-- ## Webserver Security -->

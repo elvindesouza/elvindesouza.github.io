@@ -95,6 +95,7 @@ Then every further request you make, you'll send the cookie data back to the web
 Because HTTP is stateless (doesn't keep track of your previous requests), cookies are used to remind the webserver of session state or user information.
 
 You can view cookies set when visiting a website or logging in by using your browser's developer tools
-![mozilla developer tools view cookie]()
 
-[Firefox DevTools](https://firefox-source-docs.mozilla.org/devtools-user/)
+![mozilla developer tools view cookie](img/cookie_viewing.png)
+
+[Firefox DevTools Docs](https://firefox-source-docs.mozilla.org/devtools-user/)

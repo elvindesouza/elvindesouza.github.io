@@ -1,17 +1,20 @@
 (volatile)
-mod ~/about
-    moved about markdown and images to new folder
-    added new content on about
-
 mod linux security
 
-mod README
-    headings to bold
+add appsec
 
-add securedevelopment
+mod security
+    add appsec ref
 
-mod pages
-    add securedev link
+moved appsec pages into new folder
 
-add changelog
-add TODO
+mod about fix **
+
+mod networking
+    fix WHOIS response
+
+mod web.md
+    fix broken image
+
+mod security
+    fix uncommented line

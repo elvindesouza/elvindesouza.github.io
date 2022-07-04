@@ -17,6 +17,8 @@ Hardened a small network by installing network security measures, and setting th
 
 Conducting a Network Penetration Test on a Small Network. Followed all the standard steps of a penetration test in accordance with applicable standards and guidelines, and documented the process.
 
+## [Appliation Security](AppSec/appsec.md)
+
 ## [GnuPG-The free implementation of the OpenPGP standard and using GPG-GUI](gnupg.md)
 
 The [free](https://www.gnu.org/philosophy/free-sw.en.html) implementation of the OpenPGP standard. File and message encryption with GnuPG. Different types of encryption-symmetric and asymmetric, along with [GPG-GUI](https://elvindsouza.github.io/GPG-GUI/), a front-end to GnuPG written in Python
@@ -93,7 +95,6 @@ Exploring the Domain Name System, using `nslookup`, DNS cache poisoning, DNSSEC 
 ## ISAC
 ## OpenVAS
 ## MISP
+# SO & Monitoring
 ---
 -->
-
-<!-- # SO & Monitoring->

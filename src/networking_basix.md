@@ -120,8 +120,9 @@ related writeup, [Domain Name System](dns.md)
 
 ![](img/whois.png)
 
-![Full WHOIS response](../resources/whois.txt)
+[Full WHOIS response](../resources/whois.txt)
 
 ## Dig
+
 - manually query recursive DNS servers of our choice for information about domains
 - shows the ANSWER(containing IP addresses), TTL, etc. of the query
