@@ -1,20 +1,3 @@
 (volatile)
-mod linux security
-
-add appsec
-
 mod security
-    add appsec ref
-
-moved appsec pages into new folder
-
-mod about fix **
-
-mod networking
-    fix WHOIS response
-
-mod web.md
-    fix broken image
-
-mod security
-    fix uncommented line
+    fix appsec refs

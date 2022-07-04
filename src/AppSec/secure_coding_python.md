@@ -43,9 +43,16 @@ _pass in your prospector args in Visual Studio Code_
 
 ## mypy
 
-flake8
-pylance
-pycodestyle
-pydocstyle
-pylama
-pylint
+## flake8
+
+## pylance
+
+## pycodestyle
+
+## pydocstyle
+
+## pylama
+
+## pylint
+
+_wip_

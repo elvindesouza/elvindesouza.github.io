@@ -49,11 +49,21 @@ Setting up a DoS attack on a system or network, and experimenting with additiona
 
 Using the traceroute utility to inspect the route of a packet sent across networks. Additionally, covers how we could use this as a diagnostic tool
 
-## [Secure Coding Practices and Introduction to Application Security](secure_coding.md)
+## [Introduction to Application Security(AppSec)](AppSec/appsec.md)
+
+## [SAST](AppSec/sast.md)
+
+## [Secure Coding Practices and Introduction to Application Security](AppSec/secure_coding.md)
 
 A set of practices that applies security considerations to how software will be coded and encrypted to best defend against a cyber attack or vulnerabilities.
 
-<!-- ## [Secure Python Development](secure_coding_python.md) -->
+## [Secure Python Development](AppSec/secure_coding_python.md)
+
+Tools and guidelines to follow when developing projects in Python, to make them less vulnerable and insecure
+
+## [Static Code Analysis](AppSec/static_analysis.md)
+
+Static Code Analysis (also known as Source Code Analysis) is usually performed as part of a Code Review (also known as white-box testing) and is carried out at the Implementation phase of a Security Development Lifecycle (SDL)
 
 ## [Networking Basics](networking_basix.md)
 
