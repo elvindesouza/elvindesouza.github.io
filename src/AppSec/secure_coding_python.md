@@ -1,7 +1,8 @@
 ---
-title: ""
-permalink: /security/
+title: "Secure Coding with Python"
+permalink: /security/appsec/pythondevsec
 ---
+
 
 ## Prospector
 

@@ -32,7 +32,9 @@ comprised of the
 
 ## Requests
 
-[Here]() we use the `requests` module in python to view a response
+[Here](../resources/request.py) we use the `requests` module in python make a request
+
+[Here](../resources/response.txt) is the response
 
 ## HTTP Methods
 

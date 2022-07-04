@@ -1,3 +1,8 @@
+---
+title: "Static Code Analysis"
+permalink: /security/appsec/staticanalysis
+---
+
 # Static Code Analysis
 
 Static Code Analysis (also known as Source Code Analysis) is usually performed as part of a Code Review (also known as white-box testing) and is carried out at the Implementation phase of a Security Development Lifecycle (SDL)
@@ -36,7 +41,6 @@ For things that such tools can automatically find with high confidence, such as 
 ## Automate Static Analysis
 
 ### Incorporate it into your project
-
 
 Most popular static analysis tools have plug-ins for popular IDEs, and run against open files, project files, or workspace files
 

@@ -306,4 +306,18 @@ Periodically audit the system for vulnerabilities and misconfigurations like
 
 Always keep an eye on the EOL/EOSL of the linux distribution you are running on your servers
 
+## Linux-Specific Hardening
+
+- Removing or disabling all unnecessary services and software
+- Removing all services that rely on unencrypted authentication mechanisms
+- Ensure NTP is enabled and Syslog is running
+- Ensure that each user has its own account
+- Enforce the use of strong passwords
+- Set up password aging and restrict the use of previous passwords
+- Locking user accounts after login failures
+- Disable all unwanted SUID/SGID binaries
+
 <!-- ## Webserver Security -->
+<!-- Snort, chkrootkit, rkhunter, Lynis,  -->
+<!-- fail2ban -->
+<!-- iptables,ufw -->

@@ -1,3 +1,8 @@
+---
+title: "Static Application Security Testing"
+permalink: /security/appsec/sast
+---
+
 _wip_
 
 `References`

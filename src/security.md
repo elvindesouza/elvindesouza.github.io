@@ -85,6 +85,16 @@ Exploring the Domain Name System, using `nslookup`, DNS cache poisoning, DNSSEC 
 
 ## [How the Web Works, HTTP Request/Response Cycle](web.md)
 
+HTTP/HTTPS-methods, status codes, URLs, tracking a GET request and the response
+
+Also talking briefly about HTTP headers, and session keys, cookies
+
+## [Android Security](android.md)
+
+Security related apps and tools available for Android
+
+Android hardening and de-bloating, setting up Termux for SSH/SFTP and FTP access
+
 <!-- ## [DevTools](devtools.md) -->
 <!--
 ## Enumerating Network Services
@@ -97,8 +107,6 @@ Exploring the Domain Name System, using `nslookup`, DNS cache poisoning, DNSSEC 
 <!-- # Threat & Vulnerability management -->
 
 ## [Nessus](https://elvindsouza.github.io/NetworkPenetrationTesting/#nessus)
-
-## [Android Security](android.md)
 
 <!-- ## MITRE, MITRE ATT&CK
 ## Yara

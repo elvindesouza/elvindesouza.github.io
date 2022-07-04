@@ -1,5 +1,5 @@
 Headers:
-{'Content-Encoding': 'gzip', 'Age': '284009', 'Cache-Control': 'max-age=604800', 'Content-Type': 'text/html; charset=UTF-8', 'Date': 'Wed, 29 Jun 2022 09:44:37 GMT', 'Etag': '"3147526947+gzip"', 'Expires': 'Wed, 06 Jul 2022 09:44:37 GMT', 'Last-Modified': 'Thu, 17 Oct 2019 07:18:26 GMT', 'Server': 'ECS (dcb/7F17)', 'Vary': 'Accept-Encoding', 'X-Cache': 'HIT', 'Content-Length': '648'}
+{'Content-Encoding': 'gzip', 'Accept-Ranges': 'bytes', 'Age': '559675', 'Cache-Control': 'max-age=604800', 'Content-Type': 'text/html; charset=UTF-8', 'Date': 'Mon, 04 Jul 2022 11:07:47 GMT', 'Etag': '"3147526947+gzip"', 'Expires': 'Mon, 11 Jul 2022 11:07:47 GMT', 'Last-Modified': 'Thu, 17 Oct 2019 07:18:26 GMT', 'Server': 'ECS (dcb/7F3B)', 'Vary': 'Accept-Encoding', 'X-Cache': 'HIT', 'Content-Length': '648'}
 
 URL:https://example.com/
 

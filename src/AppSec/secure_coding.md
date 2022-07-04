@@ -1,6 +1,6 @@
 ---
 title: "Secure Coding Manifesto"
-permalink: /security/securedev
+permalink: /security/appsec/securedev
 ---
 
 _Resources-_
