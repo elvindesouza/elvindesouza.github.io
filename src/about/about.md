@@ -25,7 +25,8 @@ I have experience with networking, operating systems, and security fundamentals.
 
 _3 years of experience_
 
-- scripting and automation using the standard library(with **re**, **shutil**, **os**, **pathlib**, **) along with the plethora of amazing libraries available like **selenium**, and **requests\*\*
+- scripting and automation using the standard library(with **re**
+  , **shutil**, **os**, **pathlib**,etc.) along with the plethora of amazing libraries available like **selenium**, and **requests**
 
 - web development with **Django**, **database APIs**(MySQL,SQLite) ,
 
