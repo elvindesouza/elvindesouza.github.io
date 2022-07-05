@@ -1,5 +1,2 @@
-- expand upon least privilege
 - android security
 - restructure networking
-- fix WHOIS response, networking
-- add requests and request output files ref
