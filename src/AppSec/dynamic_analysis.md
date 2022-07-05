@@ -1,6 +1,6 @@
 ---
-title: "Static Code Analysis"
-permalink: /security/appsec/staticanalysis
+title: "Dynamic Code Analysis"
+permalink: /security/appsec/dynamicanalysis
 ---
 
 _wip_

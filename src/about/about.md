@@ -28,7 +28,7 @@ _3 years of experience_
 - scripting and automation using the standard library(with **re**
   , **shutil**, **os**, **pathlib**,etc.) along with the plethora of amazing libraries available like **selenium**, and **requests**
 
-- web development with **Django**, **database APIs**(MySQL,SQLite) ,
+- web development with **Django**, **database APIs**(MySQL,SQLite)
 
 - extensible module/library development following the PEP8 python style guide, conforming to the guidelines on project structure, naming conventions, docstrings, commit messages, unit tests, and running code linters and type checking on projects to check for vulnerabilities and possible flaws
 

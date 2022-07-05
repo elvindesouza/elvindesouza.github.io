@@ -19,6 +19,12 @@ Conducting a Network Penetration Test on a Small Network. Followed all the stand
 
 ## [Appliation Security](AppSec/appsec.md)
 
+> Application security (short AppSec) includes all tasks that introduce a secure software development life cycle to development teams. Its final goal is to improve security practices and, through that, to find, fix and preferably prevent security issues within applications.
+
+Exploring Web application security, OWASP, and tooling(SAST, DAST, static and dynamic analyzers, codestyle and standards)
+
+Also leaning into DevSecOps, which is the seamless integration of security testing and protection throughout the software development and deployment lifecycle
+
 ## [GnuPG-The free implementation of the OpenPGP standard and using GPG-GUI](gnupg.md)
 
 The [free](https://www.gnu.org/philosophy/free-sw.en.html) implementation of the OpenPGP standard. File and message encryption with GnuPG. Different types of encryption-symmetric and asymmetric, along with [GPG-GUI](https://elvindsouza.github.io/GPG-GUI/), a front-end to GnuPG written in Python
@@ -49,10 +55,6 @@ Setting up a DoS attack on a system or network, and experimenting with additiona
 
 Using the traceroute utility to inspect the route of a packet sent across networks. Additionally, covers how we could use this as a diagnostic tool
 
-## [Introduction to Application Security(AppSec)](AppSec/appsec.md)
-
-## [SAST](AppSec/sast.md)
-
 ## [Secure Coding Practices and Introduction to Application Security](AppSec/secure_coding.md)
 
 A set of practices that applies security considerations to how software will be coded and encrypted to best defend against a cyber attack or vulnerabilities.
@@ -60,6 +62,8 @@ A set of practices that applies security considerations to how software will be 
 ## [Secure Python Development](AppSec/secure_coding_python.md)
 
 Tools and guidelines to follow when developing projects in Python, to make them less vulnerable and insecure
+
+Covers codestyle, module structure guidelines, security tools to check python code, tests with Python, formatters and standardization, and type hinting along with type checking to scan for issues.
 
 ## [Static Code Analysis](AppSec/static_analysis.md)
 
