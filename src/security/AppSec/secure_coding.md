@@ -53,8 +53,8 @@ _Resources-_
 
    [NIST-Best Practices in Cyber Supply Chain Risk Management](https://csrc.nist.gov/CSRC/media/Projects/Supply-Chain-Risk-Management/documents/briefings/Workshop-Brief-on-Cyber-Supply-Chain-Best-Practices.pdf)
 
-8. Minimize exposure in the first place, and follow [hardening](https://elvindsouza.github.io/hardening/) practices. Keep as few services exposed to the internet or networks as possible. If you must have them, use strong authentication, and detective(logging)+preventive(DoS prevention, proxy,etc.) measures.
+8. Minimize exposure in the first place, and follow [hardening](https://elvindesouza.github.io/hardening/) practices. Keep as few services exposed to the internet or networks as possible. If you must have them, use strong authentication, and detective(logging)+preventive(DoS prevention, proxy,etc.) measures.
 
-9. Follow the principle of [Least Privilege](https://elvindsouza.github.io/hardening/#least-privilege)
+9. Follow the principle of [Least Privilege](https://elvindesouza.github.io/hardening/#least-privilege)
 
 ---

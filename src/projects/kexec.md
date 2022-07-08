@@ -77,7 +77,7 @@ An attacker wanting to set up exfil/C&C the easy way can just bring along a flas
 ## Prevention?
 
 1. disable the root account
-2. principle of least privilege, [here is a quick rundown](https://elvindsouza.github.io/hardening/#least-privilege) on implementation, from a project of mine
+2. principle of least privilege, [here is a quick rundown](https://elvindesouza.github.io/hardening/#least-privilege) on implementation, from a project of mine
 3. physical security measures like securing equipment down, especially hard disks
 4. manage hubs and disable unused USB/SATA ports from the BIOS
 5. set up firewall rules to account for these kinds of attacks from systems on the local network

@@ -9,7 +9,12 @@ cp-copy
 ref-references
 ```
 
-## 08.07/22
+## 08.07.22/2
+
+- restructure entire directory
+- change elvindsouza.github.io refs
+
+## 08.07.22
 
 - add changelog
 - mv android security

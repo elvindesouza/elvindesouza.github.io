@@ -110,6 +110,6 @@ You can check out my Hackerrank [here](https://github.com/elvindsouza/)
 You can check out my TryHackMe [here](https://github.com/elvindsouza/)
 You can check out my HackTheBox [here](https://github.com/elvindsouza/) -->
 
-You can find my contact details [here](https://elvindsouza.github.io/about/contact/)
+You can find my contact details [here](https://elvindesouza.github.io/about/contact/)
 
 ---

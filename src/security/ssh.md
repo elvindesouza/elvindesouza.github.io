@@ -3,10 +3,8 @@ title: "Secure Shell Protocol"
 permalink: /security/ssh
 ---
 
-
-* TOC
-{:toc}
-
+- TOC
+  {:toc}
 
 # Secure Shell
 
@@ -78,7 +76,7 @@ AllowGroups   group1 group2
 
 Install an intrusion prevention service like `Fail2ban`.
 
-I have already described setting up Fail2Ban [here](https://elvindsouza.github.io/hardening/#fail2ban-installation-and-setup)
+I have already described setting up Fail2Ban [here](https://elvindesouza.github.io/hardening/#fail2ban-installation-and-setup)
 
 Additionally, opt for a stateful firewall to detect and prevent brute force attacks. Don't forget to configure it
 

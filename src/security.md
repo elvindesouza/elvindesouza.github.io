@@ -9,11 +9,11 @@ permalink: /security/
 
 # Security
 
-## [Small Network Hardening](https://elvindsouza.github.io/hardening)
+## [Small Network Hardening](https://elvindesouza.github.io/hardening)
 
 Hardened a small network by installing network security measures, and setting them up keeping in mind the services available on the network. Removed unnecessary services and applications, and audited user and service accounts on the systems. Reserved IP addresses manually, set up whitelists, and made other configurations to make the network more secure.
 
-## [Small Network Penetration Testing](https://elvindsouza.github.io/NetworkPenetrationTesting)
+## [Small Network Penetration Testing](https://elvindesouza.github.io/NetworkPenetrationTesting)
 
 Conducting a Network Penetration Test on a Small Network. Followed all the standard steps of a penetration test in accordance with applicable standards and guidelines, and documented the process.
 
@@ -27,7 +27,7 @@ Also leaning into DevSecOps, which is the seamless integration of security testi
 
 ## [GnuPG-The free implementation of the OpenPGP standard and using GPG-GUI](gnupg.md)
 
-The [free](https://www.gnu.org/philosophy/free-sw.en.html) implementation of the OpenPGP standard. File and message encryption with GnuPG. Different types of encryption-symmetric and asymmetric, along with [GPG-GUI](https://elvindsouza.github.io/GPG-GUI/), a front-end to GnuPG written in Python
+The [free](https://www.gnu.org/philosophy/free-sw.en.html) implementation of the OpenPGP standard. File and message encryption with GnuPG. Different types of encryption-symmetric and asymmetric, along with [GPG-GUI](https://elvindesouza.github.io/GPG-GUI/), a front-end to GnuPG written in Python
 
 Also exploring creating and verifying signatures on files or messages
 
@@ -117,7 +117,7 @@ Using the traceroute utility to inspect the route of a packet sent across networ
 <!-- virtualization,setup, security (virtualization.md)  -->
 <!-- # Threat & Vulnerability management -->
 
-## [Nessus](https://elvindsouza.github.io/NetworkPenetrationTesting/#nessus)
+## [Nessus](https://elvindesouza.github.io/NetworkPenetrationTesting/#nessus)
 
 <!-- ## MITRE, MITRE ATT&CK
 ## Yara

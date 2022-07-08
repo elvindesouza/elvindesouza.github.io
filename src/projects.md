@@ -9,7 +9,7 @@ permalink: /projects/
 
 # Projects
 
-## [GPG-GUI](https://elvindsouza.github.io/GPG-GUI/)
+## [GPG-GUI](https://elvindesouza.github.io/GPG-GUI/)
 
 Simple graphical front-end to [GnuPG](gnupg.md), making encryption accessible to everyone!
 

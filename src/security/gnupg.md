@@ -114,4 +114,4 @@ gpg> quit
 
 _This is a precursor to my next project, where I create a simple frontend for GPG **asymmetric** file encryption, link below_
 
-## [GPG-GUI ](https://elvindsouza.github.io/GPG-GUI/)
+## [GPG-GUI ](https://elvindesouza.github.io/GPG-GUI/)

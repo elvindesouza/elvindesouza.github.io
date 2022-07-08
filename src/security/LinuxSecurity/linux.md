@@ -100,7 +100,7 @@ Most tools will have a `--help` flag that will output a short description of the
 
 <!-- xargs,head/tail, grep,tr,sort,cut,column,awk,sed -->
 
-## [SSH](https://elvindsouza.github.io/hardening/#setting-up-remotelocal-administrationssh)
+## [SSH](https://elvindesouza.github.io/hardening/#setting-up-remotelocal-administrationssh)
 
 ## Users and Groups
 
@@ -177,7 +177,7 @@ $ sudo apt upgrade
 
 ### Services and Daemons
 
-**I have previously covered basic administration with systemd [here](https://elvindsouza.github.io/hardening/#systemd)**
+**I have previously covered basic administration with systemd [here](https://elvindesouza.github.io/hardening/#systemd)**
 
 The Linux system you are using likely uses [systemd](https://systemd.io/)
 
@@ -186,7 +186,7 @@ The Linux system you are using likely uses [systemd](https://systemd.io/)
 The main command used to introspect and control systemd is `systemctl`
 ![](img/systemctl.png)
 
-**journalctl** is the logging system and is also already covered [here](https://elvindsouza.github.io/hardening/#systemd)\*\*
+**journalctl** is the logging system and is also already covered [here](https://elvindesouza.github.io/hardening/#systemd)
 
 **Timers** are systemd unit files and can be used as an alternative to cron
 

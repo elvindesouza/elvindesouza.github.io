@@ -22,7 +22,7 @@ Discussed [here](../security/android.md#Syncthing)
 
 ## timeshift
 
-Discussed [here](https://elvindsouza.github.io/hardening/backups.html#timeshift)
+Discussed [here](https://elvindesouza.github.io/hardening/backups.html#timeshift)
 
 Donation link available at bottom of the developer's website
 
