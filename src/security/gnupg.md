@@ -3,6 +3,12 @@ title: "GnuPG-The free implementation of the OpenPGP standard"
 permalink: /security/GPG
 ---
 
+
+* TOC
+{:toc}
+
+---
+
 ![](img/gnupg.png)
 
 # Single file encryption with GPG:

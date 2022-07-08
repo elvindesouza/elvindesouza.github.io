@@ -3,6 +3,12 @@ title: "Domain Name System"
 permalink: /security/networking/dns
 ---
 
+
+* TOC
+{:toc}
+
+---
+
 # Domain Name System
 <!-- TODO dnsenum -->
 

@@ -3,6 +3,12 @@ title: "Secure Coding with Python"
 permalink: /security/appsec/pythondevsec
 ---
 
+
+* TOC
+{:toc}
+
+---
+
 <!-- split into finding issues, code style, linting,formatter,etc -->
 
 ## Prospector

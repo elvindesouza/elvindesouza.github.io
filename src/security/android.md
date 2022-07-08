@@ -5,8 +5,8 @@ permalink: /security/android
 
 <!-- security focused settings,tweaks -->
 
-<!-- * TOC
-{:toc} -->
+* TOC
+{:toc}
 
 Android Security and Privacy Controls
 

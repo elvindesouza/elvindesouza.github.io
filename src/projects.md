@@ -21,4 +21,4 @@ Used binary logistic regression to build a model with scikit-learn to predict he
 
 Utility of the kexec Linux system call.
 
-Documenting how a physical attack can be carried out by (mis)using the `kexec` system call to boot into another kernel(operating system) from a kernel
+Documenting how a physical attack can be carried out by (mis)using the `kexec` system call to boot into another kernel(operating system) from a kernel, and perform an attack with scripting in a more familiar environment

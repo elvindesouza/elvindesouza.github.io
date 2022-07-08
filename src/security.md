@@ -50,39 +50,39 @@ Administration and maintenance of the GNU/Linux operating system, common securit
 
 Covers key generation, public key authentication, intrusion prevention, X11 forwarding, etc.
 
-## [Secure Coding Practices and Introduction to Application Security](AppSec/secure_coding.md)
+## [Secure Coding Practices and Introduction to Application Security](security/AppSec/secure_coding.md)
 
 A set of practices that applies security considerations to how software will be coded and encrypted to best defend against a cyber attack or vulnerabilities.
 
-## [Secure Python Development](AppSec/secure_coding_python.md)
+## [Secure Python Development](security/AppSec/secure_coding_python.md)
 
 Tools and guidelines to follow when developing projects in Python, to make them less vulnerable and insecure
 
 Covers codestyle, module structure guidelines, security tools to check python code, tests with Python, formatters and standardization, and type hinting along with type checking to scan for issues.
 
-## [Static Code Analysis](AppSec/static_analysis.md)
+## [Static Code Analysis](security/AppSec/static_analysis.md)
 
 Static Code Analysis (also known as Source Code Analysis) is usually performed as part of a Code Review (also known as white-box testing) and is carried out at the Implementation phase of a Security Development Lifecycle (SDL)
 
-## [Networking Basics](networking_basix.md)
+## [Networking Basics](security/networking/networking_basix.md)
 
 Routers(and setup), switches, identifying devices on a local network, troubleshooting, ICMP, using the `ping` utility
 
 The OSI and TCP/IP Models, packet capture with Wireshark
 
-## [IP addressing](ip_addressing.md)
+## [IP addressing](security/networking/ip_addressing.md)
 
 IP addresses-public and private, LAN, subnetting, DHCP servers
 
 MAC addresses, ARP and ARP spoofing
 
-## [DNS, nslookup, DNSSEC and OCSP](dns.md)
+## [DNS, nslookup, DNSSEC and OCSP](security/networking/dns.md)
 
 Exploring the Domain Name System, using `nslookup`, DNS cache poisoning, DNSSEC and OCSP stapling
 
 <!-- dnsenum -->
 
-## [How the Web Works, HTTP Request/Response Cycle](web.md)
+## [How the Web Works, HTTP Request/Response Cycle](security/networking/web.md)
 
 HTTP/HTTPS-methods, status codes, URLs, tracking a GET request and the response
 
@@ -94,15 +94,15 @@ Security related apps and tools available for Android
 
 Android hardening and de-bloating, setting up Termux for SSH/SFTP and FTP access
 
-## [netstat](netstat_linux.html)
+## [netstat](security/networking/netstat_linux.html)
 
 Exploring netstat, and how we could use this as a diagnostic tool when troubleshooting or monitoring networks
 
-## [hping3](hping3.html)
+## [hping3](security/networking/hping3.html)
 
 Setting up a DoS attack on a system or network, and experimenting with additional modes with hping
 
-## [traceroute](traceroute.html)
+## [traceroute](security/networking/traceroute.html)
 
 Using the traceroute utility to inspect the route of a packet sent across networks. Additionally, covers how we could use this as a diagnostic tool
 

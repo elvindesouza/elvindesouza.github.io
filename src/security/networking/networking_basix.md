@@ -3,6 +3,12 @@ title: "The Theory of Networking"
 permalink: /security/networking/basix
 ---
 
+
+* TOC
+{:toc}
+
+---
+
 # The Theory of Networking
 
 ## OSI Model

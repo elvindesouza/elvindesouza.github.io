@@ -7,6 +7,8 @@ permalink: /security/kexec
 * TOC
 {:toc}
 
+---
+
 # kexec
 
 from the [manpage](https://linux.die.net/man/8/kexec),

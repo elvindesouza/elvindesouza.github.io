@@ -3,6 +3,12 @@ title: "IP and MAC addresses"
 permalink: /security/networking/ip_mac
 ---
 
+
+* TOC
+{:toc}
+
+---
+
 # IP addressing
 
 _prereq reading_

@@ -3,6 +3,12 @@ title: "Microsoft Windows Operating System and Windows Security"
 permalink: /security/WindowsSecurity
 ---
 
+
+* TOC
+{:toc}
+
+---
+
 # Microsoft Windows Operating System and Windows Security
 
 In any organization, non-technical employees are likely using Microsoft Windows. In fact, the overwhelming majority of desktop and laptop systems run Windows.

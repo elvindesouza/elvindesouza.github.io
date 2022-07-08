@@ -3,8 +3,11 @@ title: "Secure Shell Protocol"
 permalink: /security/ssh
 ---
 
-- TOC
-  {:toc}
+
+* TOC
+{:toc}
+
+---
 
 # Secure Shell
 
