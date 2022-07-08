@@ -17,7 +17,7 @@ Hardened a small network by installing network security measures, and setting th
 
 Conducting a Network Penetration Test on a Small Network. Followed all the standard steps of a penetration test in accordance with applicable standards and guidelines, and documented the process.
 
-## [Appliation Security](AppSec/appsec.md)
+## [Appliation Security Blogposts](AppSec/appsec.md)
 
 > Application security (short AppSec) includes all tasks that introduce a secure software development life cycle to development teams. Its final goal is to improve security practices and, through that, to find, fix and preferably prevent security issues within applications.
 
@@ -43,17 +43,12 @@ Microsoft Windows Operating System administration, maintenance, architecture, an
 
 Administration and maintenance of the GNU/Linux operating system, common security tools and security aspects
 
-## [netstat](netstat_linux.html)
+## [SSH setup and secure configuration](security/ssh.md)
 
-Exploring netstat, and how we could use this as a diagnostic tool when troubleshooting or monitoring networks
+> operate securely over an unsecured network
+> remote shell login, but any network service can be secured with SSH
 
-## [hping3](hping3.html)
-
-Setting up a DoS attack on a system or network, and experimenting with additional modes with hping
-
-## [traceroute](traceroute.html)
-
-Using the traceroute utility to inspect the route of a packet sent across networks. Additionally, covers how we could use this as a diagnostic tool
+Covers key generation, public key authentication, intrusion prevention, X11 forwarding, etc.
 
 ## [Secure Coding Practices and Introduction to Application Security](AppSec/secure_coding.md)
 
@@ -93,11 +88,23 @@ HTTP/HTTPS-methods, status codes, URLs, tracking a GET request and the response
 
 Also talking briefly about HTTP headers, and session keys, cookies
 
-## [Android Security](android.md)
+## [Android Security](security/android.md)
 
 Security related apps and tools available for Android
 
 Android hardening and de-bloating, setting up Termux for SSH/SFTP and FTP access
+
+## [netstat](netstat_linux.html)
+
+Exploring netstat, and how we could use this as a diagnostic tool when troubleshooting or monitoring networks
+
+## [hping3](hping3.html)
+
+Setting up a DoS attack on a system or network, and experimenting with additional modes with hping
+
+## [traceroute](traceroute.html)
+
+Using the traceroute utility to inspect the route of a packet sent across networks. Additionally, covers how we could use this as a diagnostic tool
 
 <!-- ## [DevTools](devtools.md) -->
 <!--

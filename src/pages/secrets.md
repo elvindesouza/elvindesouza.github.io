@@ -3,6 +3,13 @@ title: "Passwords and Secrets Management"
 permalink: /pages/pws_secrets
 ---
 
+
+#### [~](../../README.md)
+
+#### [~/Pages](../pages.md)
+
+---
+
 # Passwords/Secrets Management
 
 ## [Keepass](https://keepass.info/)/[KeepassX](https://www.keepassx.org/)/[KeepassXC](https://keepassxc.org/).

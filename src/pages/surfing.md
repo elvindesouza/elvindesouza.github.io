@@ -1,6 +1,12 @@
 ---
-title: "Secure&Private Surfing"
+title: "Secure & Private Surfing"
 permalink: /pages/surfing
+---
+
+#### [~](../../README.md)
+
+#### [~/Pages](../pages.md)
+
 ---
 
 # Surfing:

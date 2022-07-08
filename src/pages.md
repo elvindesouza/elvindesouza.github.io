@@ -9,20 +9,18 @@ permalink: /pages/
 
 _misc pages_
 
-## [Passwords and Secrets Management](secrets.md)
+## [Passwords and Secrets Management](pages/secrets.md)
 
-## [Surfing the Internet Securely and Privately](surfing.md)
+## [Surfing the Internet Securely and Privately](pages/surfing.md)
 
-## [Words](words.md)
+## [Words](pages/words.md)
+
+## [Important Free Software](pages/software.md)
 
 <!-- ## [GNU/Linux](linux.html) -->
 
 <!--
 
 ## [Virtualization](virtualization.md) -->
-
-<!-- ## [Important Android Apps](android.md#apps) -->
-
-## [Important Free Software](software.md)
 
 <!-- [Linux Ricing](ricing.md) -->

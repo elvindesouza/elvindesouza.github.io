@@ -3,9 +3,9 @@ title: "~/Contact"
 permalink: /about/contact/
 ---
 
-# [~](../README.md)
+# [~](../../README.md)
 
-# [~/about](../src/about/about.md)
+# [~/about](about.md)
 
 ---
 
@@ -18,6 +18,10 @@ permalink: /about/contact/
 alternatively, use my gmail address, \<my lowercase fullname\> (at) gmail (dot) com
 
 ## [Public Key](https://github.com/elvindsouza/elvindsouza/blob/master/public-key.gpg)
+
+## [LinkedIn](https://www.linkedin.com/in/elvindesouza/)
+
+Shoot me a message, and I will send you my phone number
 
 ---
 
