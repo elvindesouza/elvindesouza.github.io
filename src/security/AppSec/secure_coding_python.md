@@ -3,20 +3,19 @@ title: "Secure Coding with Python"
 permalink: /security/appsec/pythondevsec
 ---
 
+**[~](../../../README.md)**
 
-# [~](../../../README.md)
+**[~/Security](../../security.md)**
 
-# [~/Security](../../security.md)
-
-# [~/Security/Appsec](../appsec.md)
+**[~/Security/Appsec](../appsec.md)**
 
 ---
-
 
 * TOC
 {:toc}
 
 ---
+
 
 <!-- split into finding issues, code style, linting,formatter,etc -->
 

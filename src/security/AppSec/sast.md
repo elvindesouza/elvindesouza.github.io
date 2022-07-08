@@ -3,15 +3,18 @@ title: "Static Application Security Testing"
 permalink: /security/appsec/sast
 ---
 
+**[~](../../../README.md)**
 
-# [~](../../../README.md)
+**[~/Security](../../security.md)**
 
-# [~/Security](../../security.md)
-
-# [~/Security/Appsec](../appsec.md)
+**[~/Security/Appsec](../appsec.md)**
 
 ---
 
+* TOC
+{:toc}
+
+---
 _wip_
 
 `References`

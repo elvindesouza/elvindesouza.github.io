@@ -3,10 +3,18 @@ title: "Android"
 permalink: /security/android
 ---
 
-<!-- security focused settings,tweaks -->
+**[~](../../README.md)**
+
+**[~/Security](../security.md)**
+
+---
 
 * TOC
 {:toc}
+
+---
+
+<!-- security focused settings,tweaks -->
 
 Android Security and Privacy Controls
 

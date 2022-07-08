@@ -3,6 +3,11 @@ title: "Secure Shell Protocol"
 permalink: /security/ssh
 ---
 
+**[~](../../README.md)**
+
+**[~/Security](../security.md)**
+
+---
 
 * TOC
 {:toc}

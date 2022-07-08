@@ -3,6 +3,13 @@ title: "GNU/Linux Operating System Security"
 permalink: /security/LinuxSecurity
 ---
 
+
+**[~](../../../README.md)**
+
+**[~/Security](../../security.md)**
+
+---
+
 * TOC
 {:toc}
 

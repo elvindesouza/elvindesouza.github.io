@@ -3,6 +3,13 @@ title: "Domain Name System"
 permalink: /security/networking/dns
 ---
 
+**[~](../../../README.md)**
+
+**[~/Security/Networking](../networking.md)**
+
+**[~/Security](../../security.md)**
+
+---
 
 * TOC
 {:toc}
@@ -10,6 +17,7 @@ permalink: /security/networking/dns
 ---
 
 # Domain Name System
+
 <!-- TODO dnsenum -->
 
 - communicate with others on the internet without needing to remember their IP addresses

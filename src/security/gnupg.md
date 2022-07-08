@@ -3,11 +3,17 @@ title: "GnuPG-The free implementation of the OpenPGP standard"
 permalink: /security/GPG
 ---
 
+**[~](../../README.md)**
+
+**[~/Security](../security.md)**
+
+---
 
 * TOC
 {:toc}
 
 ---
+
 
 ![](img/gnupg.png)
 

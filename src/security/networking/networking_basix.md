@@ -4,6 +4,16 @@ permalink: /security/networking/basix
 ---
 
 
+
+**[~](../../../README.md)**
+
+
+**[~/Security/Networking](../networking.md)**
+
+**[~/Security](../../security.md)**
+
+---
+
 * TOC
 {:toc}
 

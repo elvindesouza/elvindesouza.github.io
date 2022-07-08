@@ -3,11 +3,16 @@ title: "Secure Coding Manifesto"
 permalink: /security/appsec/securedev
 ---
 
-# [~](../../../README.md)
+**[~](../../../README.md)**
 
-# [~/Security](../../security.md)
+**[~/Security](../../security.md)**
 
-# [~/Security/Appsec](../appsec.md)
+**[~/Security/Appsec](../appsec.md)**
+
+---
+
+* TOC
+{:toc}
 
 ---
 

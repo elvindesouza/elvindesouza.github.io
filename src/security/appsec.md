@@ -3,11 +3,17 @@ title: "Application Security(AppSec) and DevSecOps"
 permalink: /security/appsec
 ---
 
-# [~](../../README.md)
+**[~](../../README.md)**
 
-# [~/Security](../security.md)
+**[~/Security](../security.md)**
 
 ---
+
+* TOC
+{:toc}
+
+---
+
 
 > Application security (short AppSec) includes all tasks that introduce a secure software development life cycle to development teams. Its final goal is to improve security practices and, through that, to find, fix and preferably prevent security issues within applications.
 

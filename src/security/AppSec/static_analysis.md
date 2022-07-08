@@ -3,15 +3,13 @@ title: "Static Code Analysis"
 permalink: /security/appsec/staticanalysis
 ---
 
+**[~](../../../README.md)**
 
-# [~](../../../README.md)
+**[~/Security](../../security.md)**
 
-# [~/Security](../../security.md)
-
-# [~/Security/Appsec](../appsec.md)
+**[~/Security/Appsec](../appsec.md)**
 
 ---
-
 
 * TOC
 {:toc}
