@@ -3,14 +3,16 @@ title: "Important Software"
 permalink: /pages/software
 ---
 
-#### [~](../../README.md)
+**[~](../../README.md)**
 
-#### [~/Pages](../pages.md)
+**[~/Pages](../pages.md)**
 
 ---
 
 * TOC
 {:toc}
+
+---
 
 # Important [Free](https://sfconservancy.org/copyleft-compliance/glossary.html#software-freedom) Software
 

@@ -3,21 +3,31 @@ title: "~/About"
 permalink: /about
 ---
 
-# [~](../../README.md)
+**[~](../../README.md)**
+
+---
+
+* TOC
+{:toc}
 
 ---
 
 # Elvin deSouza
 
-![](img/me.jpg){:width="200px"}
+![](img/me.jpg){:width="300px"}
 
-## Undergraduate Computer Engineer at Vishwakarma University Pune, majoring in Information Security
+**Undergraduate Computer Engineer at Vishwakarma University Pune, majoring in Information Security in association with IBM**
 
 I like programming, cybersecurity, and linux.
 
+I have a strong work ethic, with good teamwork and
+communication skills
+
+I am also an avid programmer, with extensive problem solving skills and using programming patterns.
+
 # My Skills
 
-I have experience with networking, operating systems, and security fundamentals.
+I have experience with programming, networking, operating systems, and security fundamentals.
 
 ## Python
 
@@ -25,12 +35,14 @@ I have experience with networking, operating systems, and security fundamentals.
 
 _3 years of experience_
 
-- scripting and automation using the standard library(with **re**
+- scripting and automation, using the standard library(with **re**
   , **shutil**, **os**, **pathlib**,etc.) along with the plethora of amazing libraries available like **selenium**, and **requests**
 
 - web development with **Django**, **database APIs**(MySQL,SQLite)
 
-- extensible module/library development following the PEP8 python style guide, conforming to the guidelines on project structure, naming conventions, docstrings, commit messages, unit tests, and running code linters and type checking on projects to check for vulnerabilities and possible flaws
+- [secure Python development ](../security/AppSec/secure_coding_python.md) using unit tests, running code linters, type checkers on projects to check for undetected issues, security tools like [Prospector](../security/AppSec/secure_coding_python.md#Prospector) and [Bandit](../security/AppSec/secure_coding_python.md#Bandit) to find vulnerabilities and possible flaws
+
+- extensible module/library development following the PEP8 python style guide, conforming to the guidelines on project structure and layout, naming conventions, docstrings, type hints, commit messages, etc.
 
 - experience with AI/ML and data visualization-processing libraries like
   **openCV**, **matplotlib**, **numpy**, **pandas**, **scikit-learn**, etc.
@@ -81,9 +93,38 @@ I also have experience with the modern web with **Angular**, **NodeJs**: **expre
 
 - **C** programming for Linux
 
+## Other Skills
+
+Git, OOPS, LaTeX, Markdown, Applying Data Structures and Algorithms
+
+## Languages/Communication Skills
+
+### English
+
+- Distinction (90/100) in Communication Skills Grade 3, Trinity College London
+- Distinction in Choral Speaking Grade 2, Trinity College London
+- Distinction (89/100) in Speech and Drama Grade 2, Trinity College London
+- Attained 34/35 ( rank 221 Internationally ) in the International English Olympiad
+
+### German
+
+- Level A1, Passed the Fit in Deutsch 1 (Fit1/Fit Eins) from the Goethe-Institut with grade A
+
+### Hindi
+
+### Marathi
+
+## Misc Skills
+
+- literature
+- teaching the guitar
+- sports
+- art
+- video editing
+
 ---
 
-_I am a proponent of free and open source software that adheres to the Unix philosophy. Software that adheres at least in part to this that I use or keep an eye on is listed [here](../software.md)_
+_I am a proponent of free and open source software that adheres to the Unix philosophy. Software that adheres at least in part to this that I use, donate to, or keep an eye on is listed [here](../pages/software.md)_
 
 _Aside from technology and programming related interests, my hobbies include playing the guitar and writing about things I am fascinated by._
 
@@ -91,24 +132,44 @@ _Aside from technology and programming related interests, my hobbies include pla
 
 # Experience
 
+## Web Development Intern at Collegepond
+
+_July 2022-Now_
+
 ## Tech Assistant at the Revolution Software Development Club
 
 _June 2021-Now_
+
+- Used binary logistic regression to build a model with scikit-learn to predict heart failure with high accuracy rate
+- Authored write-ups on applied ML (ranking, recommendation, classification, regression, clustering, anomaly detection)
 
 ## Tech Assistant at the Genesis ML/AI Club
 
 _June 2021-Now_
 
+- Content Strategist, writing in-depth technical pieces for community outreach
+
+<!-- # Certifications -->
+
 ---
+
+# View my Work
+
+_some links might not be available_
 
 You can check out my GitHub [here](https://github.com/elvindesouza/)
 
 You can check out my LinkedIn [here](https://www.linkedin.com/in/elvindesouza/)
 
-<!-- You can check out my Leetcode [here](https://github.com/elvindesouza/)
-You can check out my Hackerrank [here](https://github.com/elvindesouza/)
-You can check out my TryHackMe [here](https://github.com/elvindesouza/)
-You can check out my HackTheBox [here](https://github.com/elvindesouza/) -->
+You can check out my Leetcode [here](https://leetcode.com/elvindesouza/)
+
+You can check out my TryHackMe [here](https://tryhackme.com/p/elvindesouza)
+
+You can check out my Hackerrank [here](https://www.hackerrank.com/elvindesouza)
+
+You can check out my HackTheBox [here](https://app.hackthebox.com/profile/elvindesouza)
+
+You can check out my GitLab [here](https://gitlab.com/elvindesouza)
 
 You can find my contact details [here](https://elvindesouza.github.io/about/contact/)
 

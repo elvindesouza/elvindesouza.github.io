@@ -3,16 +3,16 @@ title: "Secure & Private Surfing"
 permalink: /pages/surfing
 ---
 
-#### [~](../../README.md)
+**[~](../../README.md)**
 
-#### [~/Pages](../pages.md)
+**[~/Pages](../pages.md)**
 
 ---
-
 
 * TOC
 {:toc}
 
+---
 # Surfing:
 
 ## [ungoogled chromium](https://github.com/ungoogled-software/ungoogled-chromium)
