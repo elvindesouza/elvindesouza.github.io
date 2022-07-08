@@ -17,7 +17,7 @@ Hardened a small network by installing network security measures, and setting th
 
 Conducting a Network Penetration Test on a Small Network. Followed all the standard steps of a penetration test in accordance with applicable standards and guidelines, and documented the process.
 
-## [Appliation Security Blogposts](AppSec/appsec.md)
+## [Appliation Security Blogposts](security/AppSec/appsec.md)
 
 > Application security (short AppSec) includes all tasks that introduce a secure software development life cycle to development teams. Its final goal is to improve security practices and, through that, to find, fix and preferably prevent security issues within applications.
 
@@ -25,21 +25,21 @@ Exploring Web application security, OWASP, and tooling(SAST, DAST, static and dy
 
 Also leaning into DevSecOps, which is the seamless integration of security testing and protection throughout the software development and deployment lifecycle
 
-## [GnuPG-The free implementation of the OpenPGP standard and using GPG-GUI](gnupg.md)
+## [GnuPG-The free implementation of the OpenPGP standard and using GPG-GUI](security/gnupg.md)
 
 The [free](https://www.gnu.org/philosophy/free-sw.en.html) implementation of the OpenPGP standard. File and message encryption with GnuPG. Different types of encryption-symmetric and asymmetric, along with [GPG-GUI](https://elvindesouza.github.io/GPG-GUI/), a front-end to GnuPG written in Python
 
 Also exploring creating and verifying signatures on files or messages
 
-## [The kexec system call and scope of a physical attack](kexec.md)
+## [The kexec system call and scope of a physical attack](projects/kexec.md)
 
 Using the kexec Linux system call to load a kernel of choice, and perform an attack with scripting in a more familiar environment
 
-## [Microsoft Windows Operating System Security](MSWindowsSecurity/windows.md)
+## [Microsoft Windows Operating System Security](security/MSWindowsSecurity/windows.md)
 
 Microsoft Windows Operating System administration, maintenance, architecture, and security fundamentals
 
-## [GNU/Linux Operating System Security](LinuxSecurity/linux.md)
+## [GNU/Linux Operating System Security](security/LinuxSecurity/linux.md)
 
 Administration and maintenance of the GNU/Linux operating system, common security tools and security aspects
 

@@ -11,13 +11,13 @@ permalink: /projects/
 
 ## [GPG-GUI](https://elvindesouza.github.io/GPG-GUI/)
 
-Simple graphical front-end to [GnuPG](gnupg.md), making encryption accessible to everyone!
+Simple graphical front-end to [GnuPG](security/gnupg.md), making encryption accessible to everyone!
 
-## [Heart Failure Detection](https://github.com/elvindsouza/assorted/tree/master/heart-failure-detection)
+## [Heart Failure Detection](https://github.com/elvindesouza/assorted/tree/master/heart-failure-detection)
 
 Used binary logistic regression to build a model with scikit-learn to predict heart failure with high accuracy rate
 
-## [kexec](kexec.md)
+## [kexec](projects/kexec.md)
 
 Utility of the kexec Linux system call.
 

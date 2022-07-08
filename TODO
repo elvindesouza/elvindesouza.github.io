@@ -1,4 +1,5 @@
-- restructure networking
+- add TOC if necessary
 - make sure can access all .md pages
 - make sure all img/ used
 - get termux img from sdc doc
+- go through all pages and evaluate data exposure

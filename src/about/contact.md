@@ -17,7 +17,7 @@ permalink: /about/contact/
 
 alternatively, use my gmail address, \<my lowercase fullname\> (at) gmail (dot) com
 
-## [Public Key](https://github.com/elvindsouza/elvindsouza/blob/master/public-key.gpg)
+## [Public Key](https://github.com/elvindesouza/elvindesouza/blob/master/public-key.gpg)
 
 ## [LinkedIn](https://www.linkedin.com/in/elvindesouza/)
 

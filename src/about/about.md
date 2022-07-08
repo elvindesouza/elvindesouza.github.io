@@ -101,14 +101,14 @@ _June 2021-Now_
 
 ---
 
-You can check out my GitHub [here](https://github.com/elvindsouza/)
+You can check out my GitHub [here](https://github.com/elvindesouza/)
 
 You can check out my LinkedIn [here](https://www.linkedin.com/in/elvindesouza/)
 
-<!-- You can check out my Leetcode [here](https://github.com/elvindsouza/)
-You can check out my Hackerrank [here](https://github.com/elvindsouza/)
-You can check out my TryHackMe [here](https://github.com/elvindsouza/)
-You can check out my HackTheBox [here](https://github.com/elvindsouza/) -->
+<!-- You can check out my Leetcode [here](https://github.com/elvindesouza/)
+You can check out my Hackerrank [here](https://github.com/elvindesouza/)
+You can check out my TryHackMe [here](https://github.com/elvindesouza/)
+You can check out my HackTheBox [here](https://github.com/elvindesouza/) -->
 
 You can find my contact details [here](https://elvindesouza.github.io/about/contact/)
 

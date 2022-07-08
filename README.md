@@ -11,7 +11,7 @@ permalink: /
 
 # **[About Me](./src/about/about.md)**
 
-# **[Contact](./src/contact.md)**
+# **[Contact](./src/about/contact.md)**
 
 ---
 

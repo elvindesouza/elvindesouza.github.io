@@ -9,6 +9,10 @@ permalink: /pages/surfing
 
 ---
 
+
+* TOC
+{:toc}
+
 # Surfing:
 
 ## [ungoogled chromium](https://github.com/ungoogled-software/ungoogled-chromium)

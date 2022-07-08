@@ -9,8 +9,8 @@ permalink: /pages/software
 
 ---
 
-<!-- * TOC
-{:toc} -->
+* TOC
+{:toc}
 
 # Important [Free](https://sfconservancy.org/copyleft-compliance/glossary.html#software-freedom) Software
 
