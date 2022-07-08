@@ -17,7 +17,7 @@ Hardened a small network by installing network security measures, and setting th
 
 Conducting a Network Penetration Test on a Small Network. Followed all the standard steps of a penetration test in accordance with applicable standards and guidelines, and documented the process.
 
-## [Appliation Security Blogposts](security/AppSec/appsec.md)
+## [Appliation Security Blogposts](security/appsec.md)
 
 > Application security (short AppSec) includes all tasks that introduce a secure software development life cycle to development teams. Its final goal is to improve security practices and, through that, to find, fix and preferably prevent security issues within applications.
 

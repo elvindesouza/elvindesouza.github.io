@@ -3,6 +3,14 @@ title: "Secure Coding Manifesto"
 permalink: /security/appsec/securedev
 ---
 
+# [~](../../../README.md)
+
+# [~/Security](../../security.md)
+
+# [~/Security/Appsec](../appsec.md)
+
+---
+
 _Resources-_
 
 [OWASP](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/migrated_content)
