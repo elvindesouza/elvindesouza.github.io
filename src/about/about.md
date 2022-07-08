@@ -12,7 +12,7 @@ permalink: /about
 
 ---
 
-# Elvin deSouza
+# Elvin deSouza - A Summary
 
 ![](img/me.jpg){:width="300px"}
 
@@ -136,6 +136,10 @@ _Aside from technology and programming related interests, my hobbies include pla
 
 _July 2022-Now_
 
+- Creating and maintaining web pages for the website built with WordPress
+- Designing forms, implementing them on the website, parsing form responses, and aggregating data
+- Working on frontend and backend projects
+
 ## Tech Assistant at the Revolution Software Development Club
 
 _June 2021-Now_
@@ -153,9 +157,33 @@ _June 2021-Now_
 
 ---
 
+# Education
+
+## Vishwakarma University, Pune
+
+_Bachelor of Technology in Computer Engineering in association with IBM ( BTech. CE INFOSEC ), AUG 2020-Now_
+
+- Specialization ( Major ) : Information Security
+
+## RASIKLAL M. DHARIWAL JUNIOR COLLEGE
+
+_Maharashtra State Board of Secondary & Higher Secondary Education, FEB 2020_
+
+_79.85%_
+
+- Stream : Science
+
+- Selection : Physics+Chemistry+Maths
+
+## St. Vincent’S High School, Pune
+
+_Maharashtra State Board of Secondary & Higher Secondary Education, MAR 2018_
+
+_89.80%_
+
 # View my Work
 
-_some links might not be available_
+_some links might not be available because accounts have been set to private_
 
 You can check out my GitHub [here](https://github.com/elvindesouza/)
 
