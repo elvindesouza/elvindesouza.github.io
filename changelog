@@ -1,12 +1,1 @@
 (volatile)
-mod linux
-
-mod appsec all pages headers
-
-mod android
-
-mod web.md
-    fix req-res reference
-
-mod security
-    add descriptiond

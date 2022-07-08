@@ -76,6 +76,42 @@ A more common method is to send or distribute the unencrypted file or message, w
 
 `$ gpg --verify sign.sig`
 
+## Backup and Restore of keys
+
+If exported in an OpenPGP-compliant way, the private key will always contain the public key
+
+**export** the key with
+
+`gpg -o key.gpg --export-options backup --export-secret-keys your@email.com`
+
+or LONG keyid if you do not remember typing an email
+
+![](img/gnupg_export.png)
+
+**import** the key with
+
+` gpg --import-options restore --import key.gpg`
+
+`gpg --edit-key your@email.com`
+
+```
+gpg> trust
+.
+.
+.
+1 = I don't know or won't say
+2 = I do NOT trust
+3 = I trust marginally
+4 = I trust fully
+5 = I trust ultimately
+m = back to the main menu
+Your decision? 5
+Do you really want to set this key to ultimate trust? (y/N) y
+gpg> quit
+```
+
+---
+
 _This is a precursor to my next project, where I create a simple frontend for GPG **asymmetric** file encryption, link below_
 
 ## [GPG-GUI ](https://elvindsouza.github.io/GPG-GUI/)
