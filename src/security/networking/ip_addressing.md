@@ -3,10 +3,7 @@ title: "IP and MAC addresses"
 permalink: /security/networking/ip_mac
 ---
 
-
-
 **[~](../../../README.md)**
-
 
 **[~/Security/Networking](../networking.md)**
 
@@ -42,6 +39,8 @@ for small networks like a home network, you likely will not need more than 254 d
 _example of an assigned IP address(and subnet) of a computer on a small network_
 ![](img/ip_subnet.png)
 
+![](img/ip_subnetting2.png)
+
 ## DHCP and DHCP Servers
 
 IP addresses can be assigned manually, or automatically using a DHCP server
@@ -71,3 +70,5 @@ MAC addresses can be spoofed with programs like `macchanger`
 between layer 2 and 3 of the OSI model
 
 allows devices to identify themselves on a network
+
+![](img/ip_subnetting2.png)

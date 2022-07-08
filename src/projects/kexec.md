@@ -3,7 +3,6 @@ title: "kexec-booting into a new kernel"
 permalink: /security/kexec
 ---
 
-
 * TOC
 {:toc}
 
@@ -22,7 +21,7 @@ There are two steps,
 1. loading a new kernel
 2. rebooting into the new kernel(preferably gracefully)
 
-To load the kernel,
+## load the kernel
 
 ```
 kexec  [-l (--load) kernel-image [--append=command-line-options] [--reuse-cmdline][--initrd=initrd-image]
@@ -34,13 +33,15 @@ where kernel-image is the kernel file
 initrd is the initial ramdisk
 ```
 
+## reboot
+
 A simple "reboot" for an archlinux system can be
 
 `# kexec -l /boot/vmlinuz-linux --initrd=/boot/initramfs-linux.img --reuse-cmdline && sudo systemctl kexec`
 
 where `systemctl kexec` would terminate services and shutdown gracefully
 
-## Performing an [Evil Maid Attack](https://en.wikipedia.org/wiki/Evil_maid_attack) using the kexec system call
+# Performing an [Evil Maid Attack](https://en.wikipedia.org/wiki/Evil_maid_attack) using the kexec system call
 
 keep a flash drive other other removable media with a linux distribution of your choice with all the tools you could need ready.
 
@@ -73,14 +74,14 @@ _you will now be in a familiar environment, and your scripts set up to autorun h
 
 [Further reading](https://lwn.net/Articles/580269/)
 
-## Scope of a physical attack?
+# Scope of a physical attack?
 
 This highlights the importance of [Physical Security](https://en.wikipedia.org/wiki/Physical_security).
 This system call lets you bypass the BIOS password and bootloader on UNIX-like systems. This is ripe for physical attacks and perpetrators who want to carry out an attack (persistent) on many systems from the inside while remaining relatively undetected.
 
 An attacker wanting to set up exfil/C&C the easy way can just bring along a flash drive containing a linux environment and applications, scripts, tools of their choosing, and `kexec` into it. A familiar environment now lies before them, and they can carry out attacks from this system and remain undetected, and unperturbed by firewalls and other gateway-facing measures.
 
-## Prevention?
+# Prevention?
 
 1. disable the root account
 2. principle of least privilege, [here is a quick rundown](https://elvindesouza.github.io/hardening/#least-privilege) on implementation, from a project of mine

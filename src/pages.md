@@ -13,9 +13,9 @@ _misc pages_
 
 ## [Surfing the Internet Securely and Privately](pages/surfing.md)
 
-## [Words](pages/words.md)
-
 ## [Important Free Software](pages/software.md)
+
+## [Words](pages/words.md)
 
 <!-- ## [GNU/Linux](linux.html) -->
 
