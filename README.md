@@ -9,6 +9,10 @@ permalink: /
 
 # **[Other Pages](src/pages.md)**
 
+# **[Spotlight](spotlight.md)**
+
+# **[Changelog](changelog.md)**
+
 # **[About Me](./src/about/about.md)**
 
 # **[Contact](./src/about/contact.md)**

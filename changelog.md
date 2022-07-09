@@ -9,6 +9,13 @@ cp-copy
 ref-references
 ```
 
+## 09.07.22
+
+- mod appsec, restructure and add material
+- add OWASP cheatsheet
+- add OWASP 2021:1,2
+- mod python secure development, now complete
+
 ## 08.07.22/2
 
 - restructure entire directory

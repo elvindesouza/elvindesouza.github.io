@@ -16,8 +16,7 @@ permalink: /security/appsec/pythondevsec
 
 ---
 
-
-<!-- split into finding issues, code style, linting,formatter,etc -->
+Consistency is key. A group of programmers all writing in different styles, using different design philosophies, and poor naming schemes and smelly code leave a lot of vulnerabilities undiscovered.
 
 ## Prospector
 
@@ -100,6 +99,24 @@ _running black on a directory of Python scripts_
 
 It is much easier to use, and has saner defaults compared to `autopep8` and `yapf`
 
+## pylama
+
+Code audit tool for Python. Pylama wraps these tools:
+
+- [pycodestyle](#pycodestyle)
+- [pydocstyle](#pydocstyle)
+- [Pylint](#pylint)
+- [Mypy](#mypy)
+- eradicate
+- Vulture
+- PyFlakes
+- Mccabe
+- Radon
+
+[Documentation](https://klen.github.io/pylama/#installation)
+
+It is very easy to use, and does a lot of the heavy lifting for you. Invocation is simple, like most of the tools here.
+
 ## mypy
 
 Reasonably new versions of Python will have support for [Type Hinting](https://docs.python.org/3/library/typing.html)
@@ -124,12 +141,42 @@ _running mypy on a python script, that exposes unseen issues_
 
 ## flake8
 
-## pylance
+A tool for style guide enforcement
+
+Flake8 is configurable, and supports storing its configuration in your project in one of setup.cfg, tox.ini, or .flake8
+
+```
+flake8 --ignore D203 \
+         --exclude .git,__pycache__,docs/source/conf.py,old,build,dist \
+         --max-complexity 10
+```
+
+![](img/flake8usage.png)
+_running flake8 against a directory containing Python files_
+
+Flake8 is a wrapper around [pycodestyle](#pycodestyle)
+
+## pylint
+Pylint has a huge number of checks
+
+Configuration can be stored in .pylintrc
 
 ## pycodestyle
 
+[Documentation](https://pycodestyle.pycqa.org/en/latest/)
+
+Check your Python code against some of the conventions in PEP8
+
+Does not support variable name and docstring conventions, and does not apply fixes natively, but these can be enabled with plugins
+
 ## pydocstyle
 
-## pylama
+[Documentation](http://www.pydocstyle.org/en/stable/)
 
-## pylint
+Documentation is very important!
+
+Checks compliance with docstring conventions, to ensure the code can be understood and maintained by other parties
+
+## it is compliant with most of [PEP 257](https://peps.python.org/pep-0257/)
+
+[Valuable Resource](https://github.com/PyCQA)

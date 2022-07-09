@@ -3,7 +3,9 @@ title: "~/Security/Networking"
 permalink: /security/networking
 ---
 
-# [~](../README.md)
+# [~](../../README.md)
+
+# [~/Security](../security.md)
 
 ---
 
