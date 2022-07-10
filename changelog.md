@@ -1,3 +1,12 @@
+---
+title: "~/Changelog"
+permalink: /changelog
+---
+
+**[~](README.md)**
+
+---
+
 # Change Log
 
 **Legend**
@@ -8,6 +17,10 @@ mv-move
 cp-copy
 ref-references
 ```
+
+## 10.07.22
+- fix changelog url, add YAML frontmatter
+- fix spotlight ref, add SQLi ref
 
 ## 09.07.22
 

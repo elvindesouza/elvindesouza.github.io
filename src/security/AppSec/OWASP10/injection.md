@@ -1,4 +1,3 @@
-
 **[~](../../../../README.md)**
 
 **[~/Security](../../../security.md)**
@@ -14,8 +13,9 @@
 
 ---
 
-# Cause
+> SQL injection (SQLi) is a web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database. It generally allows an attacker to view data that they are not normally able to retrieve. This might include data belonging to other users, or any other data that the application itself is able to access. In many cases, an attacker can modify or delete this data, causing persistent changes to the application's content or behavior.
 
+# Cause
 
 - User-supplied data is not validated, filtered, or sanitized by the application.
 
@@ -44,11 +44,11 @@
 The query given is-
 `SELECT * FROM products WHERE category = 'Gifts' AND released = 1`
 
-![](img/sqli1.png)
+![](img/sqli_a1.png)
 
 change the parameters in the request to perform a query that returns all products
 
-![](img/sqli2.png)
+![](img/sqli_a2.png)
 
 the query would be
 
@@ -56,11 +56,17 @@ the query would be
 
 ## Subverting application logic
 
+![](img/sqli_b1.png)
 On the login page, we may assume that the SQL query is
 
+![](img/sqli_b2.png)
 `SELECT * FROM users WHERE username = 'wiener' AND password = 'bluecheese'`
 
 we can either manipulate the `username` or `password` parameters in a similar way to bypass authentication
+
+![](img/sqli_b3.png)
+
+![](img/sqli_b4.png)
 
 In a real-life situation, you would be able to see what tech stack the website is running, and guess the username of the administrator account. At this point, you only need to make the SQL server interpret the code for the password checking logic as a comment, bypassing authentication
 
@@ -72,6 +78,7 @@ For a UNION query to work, two key requirements must be met:
 
 - The individual queries must return the same number of columns(you may use `Null` columns in your query)
 - The data types in each column must be compatible between the individual queries.
+  ![](img/sqli_c1.png)
 
 _two effective methods to determine how many columns are being returned from the original query_
 
@@ -86,8 +93,20 @@ _two effective methods to determine how many columns are being returned from the
 
 ### Finding compatible datatypes of columns
 
-![](img/sqli_c5)
+![](img/sqli_c5.png)
+
+### Performing the UNION attack
+
+I have determined the number of columns returned by the original query and found which columns can hold string data, and can now retrieve interesting data
+
+If after [Examining the database](#examining-the-database) it surfaces that the database contains a different table called `users`, with columns called `username` and `password`, I can now perform an SQL injection UNION attack that retrieves all usernames and passwords, and use the information to log in as the administrator user
+
+![](img/sqli_c6.png)
 
 ## Examining the Database
+
+# Resources
+
+[A cheatsheet of sorts](https://www.websec.ca/kb/sql_injection)
 
 _wip_

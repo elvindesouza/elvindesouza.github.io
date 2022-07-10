@@ -9,8 +9,8 @@ permalink: /security/appsec
 
 ---
 
-- TOC
-  {:toc}
+* TOC
+{:toc}
 
 ---
 
