@@ -7,7 +7,7 @@ permalink: /changelog
 
 ---
 
-# Change Log
+# Changelog
 
 **Legend**
 
@@ -21,6 +21,7 @@ ref-references
 ## 10.07.22
 - fix changelog url, add YAML frontmatter
 - fix spotlight ref, add SQLi ref
+- mod SQLi, fleshed out more
 
 ## 09.07.22
 
