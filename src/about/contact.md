@@ -1,6 +1,6 @@
 ---
 title: "~/Contact"
-permalink: /about/contact/
+https://elvindesouza.github.io/permalink: /about/contact/
 ---
 
 # [~](../../README.md)
