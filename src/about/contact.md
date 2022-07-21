@@ -1,6 +1,7 @@
 ---
 title: "~/Contact"
-https://elvindesouza.github.io/permalink: /about/contact/
+layout: about
+permalink: /about/contact/
 ---
 
 # [~](../../README.md)
@@ -13,13 +14,11 @@ https://elvindesouza.github.io/permalink: /about/contact/
 
 ## Feel free to reach out!
 
-[elvindesouza@tutanota.com](mailto:elvindesouza@tutanota.com)
-
-alternatively, use my gmail address, \<my lowercase fullname\> (at) gmail (dot) com
+## <a href="mailto:elvindesouza@gmail.com"> <img src="https://img.icons8.com/fluent/48/000000/gmail.png" width="5%"/> [elvindesouza@gmail.com](mailto:elvindesouza@gmail.com)
 
 ## [Public Key](https://github.com/elvindesouza/elvindesouza/blob/master/public-key.gpg)
 
-## [LinkedIn](https://www.linkedin.com/in/elvindesouza/)
+## [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="5%"/>](https://www.linkedin.com/in/elvindesouza/) [LinkedIn](https://www.linkedin.com/in/elvindesouza)
 
 Shoot me a message, and I will send you my phone number
 
@@ -27,4 +26,4 @@ Shoot me a message, and I will send you my phone number
 
 ## I do not respond to or even check for messages on social media.
 
-Do not attempt to contact me through other media (phone/email) without permission (excluding the email addresses listed above).
+---

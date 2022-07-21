@@ -38,13 +38,9 @@ _3 years of experience_
 
 - scripting and automation, using the standard library(with **re**
   , **shutil**, **os**, **pathlib**,etc.) along with the plethora of amazing libraries available like **selenium**, and **requests**
-
 - web development with **Django**, **database APIs**(MySQL,SQLite)
-
 - [secure Python development ](../security/AppSec/secure_coding_python.md) using unit tests, running code linters, type checkers on projects to check for undetected issues, security tools like [Prospector](../security/AppSec/secure_coding_python.md#Prospector) and [Bandit](../security/AppSec/secure_coding_python.md#Bandit) to find vulnerabilities and possible flaws
-
 - extensible module/library development following the PEP8 python style guide, conforming to the guidelines on project structure and layout, naming conventions, docstrings, type hints, commit messages, etc.
-
 - experience with AI/ML and data visualization-processing libraries like
   **openCV**, **matplotlib**, **numpy**, **pandas**, **scikit-learn**, etc.
 
@@ -67,9 +63,7 @@ I also have experience in setting up and maintaining **webservers** like apache 
 _1 year of experience_
 
 - application development with **AWT** and **Swing**, **JDBC** to create user-friendly GUIs with appropriate encapsulation and exception handling
-
 - distributed application development by following guidelines on maintaining projects in accordance with guidelines(writing quality comments, testcases, [black box programming](https://en.wikipedia.org/wiki/Black_box#:~:text=In%20computing%20in%20general%2C%20a,routine%20suitable%20for%20re%2Duse.)), using version control and signing commits, and following a well-documented SDLC methodology
-
 - secure development with fuzz testing and unit testing
 
 ## SQL
@@ -77,7 +71,6 @@ _1 year of experience_
 ![](img/logo_db.jpeg){:width="100px"}
 
 - (Relational) Database management using **SQL**, with MySQL and SQLite.
-
 - limited experience with mongoDB as part of a MEAN stack webapp
 
 ## Javascript for Web Development
@@ -91,7 +84,6 @@ I also have experience with the modern web with **Angular**, **NodeJs**: **expre
 ![](img/logo_c_cpp.png){:width="50px"}
 
 - **C++** object-oriented programming and web development(CGI scripting)
-
 - **C** programming for Linux
 
 ## Other Skills
@@ -173,7 +165,6 @@ _Maharashtra State Board of Secondary & Higher Secondary Education, FEB 2020_
 _79.85%_
 
 - Stream : Science
-
 - Selection : Physics+Chemistry+Maths
 
 ## St. Vincent’S High School, Pune
