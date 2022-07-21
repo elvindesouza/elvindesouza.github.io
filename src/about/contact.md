@@ -25,5 +25,3 @@ Shoot me a message, and I will send you my phone number
 ---
 
 ## I do not respond to or even check for messages on social media.
-
----

@@ -18,7 +18,13 @@ cp-copy
 ref-references
 ```
 
+## 21.07.22
+
+- add css, layout
+- set about, contact to new sleek theme
+
 ## 10.07.22
+
 - fix changelog url, add YAML frontmatter
 - fix spotlight ref, add SQLi ref
 - mod SQLi, fleshed out more
