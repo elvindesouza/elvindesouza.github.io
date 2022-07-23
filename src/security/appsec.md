@@ -42,6 +42,8 @@ Static Code Analysis (also known as Source Code Analysis) is usually performed a
 
 ## [Dynamic Code Analysis](AppSec/dynamic_analysis.md)
 
+Dynamic code analysis involves running code and examining the outcome, which also entails testing possible execution paths of the code.
+
 ## [SAST](AppSec/sast.md)
 
 ## [DAST](AppSec/dast.md)

@@ -13,6 +13,8 @@ permalink: /about
 
 ---
 
+**A brief, one-page resume is available in .pdf format [here](elvindesouza.github.io/resume)**
+
 # Elvin deSouza - A Summary
 
 ![](img/me.jpg){:width="300px"}
@@ -26,7 +28,7 @@ communication skills
 
 I am also an avid programmer, with extensive problem solving skills and using programming patterns.
 
-# My Skills
+# My Technical Skills and Proficiencies
 
 I have experience with programming, networking, operating systems, and security fundamentals.
 
@@ -37,12 +39,12 @@ I have experience with programming, networking, operating systems, and security 
 _3 years of experience_
 
 - scripting and automation, using the standard library(with **re**
-  , **shutil**, **os**, **pathlib**,etc.) along with the plethora of amazing libraries available like **selenium**, and **requests**
+  , **shutil**, **os**, **pathlib**,etc.) along with the plethora of amazing libraries available like **pytest**,**selenium**,**requests**
 - web development with **Django**, **database APIs**(MySQL,SQLite)
 - [secure Python development ](../security/AppSec/secure_coding_python.md) using unit tests, running code linters, type checkers on projects to check for undetected issues, security tools like [Prospector](../security/AppSec/secure_coding_python.md#Prospector) and [Bandit](../security/AppSec/secure_coding_python.md#Bandit) to find vulnerabilities and possible flaws
 - extensible module/library development following the PEP8 python style guide, conforming to the guidelines on project structure and layout, naming conventions, docstrings, type hints, commit messages, etc.
 - experience with AI/ML and data visualization-processing libraries like
-  **openCV**, **matplotlib**, **numpy**, **pandas**, **scikit-learn**, etc.
+  **openCV**, **matplotlib**, **numpy**, **pandas**, **scikit-learn**, etc [as a Tech. Assistant at the Genesis ML Club](#tech-assistant-at-the-genesis-mlai-club)
 
 ## GNU/Linux
 
@@ -70,12 +72,16 @@ _1 year of experience_
 
 ![](img/logo_db.jpeg){:width="100px"}
 
-- (Relational) Database management using **SQL**, with MySQL and SQLite.
+_1 year of experience_
+
+- (Relational) Database management using **SQL** with MySQL, and SQLite.
 - limited experience with mongoDB as part of a MEAN stack webapp
 
 ## Javascript for Web Development
 
 ![](img/logo_js.png){:width="50px"}
+
+_5 months of experience_
 
 I also have experience with the modern web with **Angular**, **NodeJs**: **express**, ejs, pug, etc, though i feel more comfortable with the back-end
 
@@ -83,21 +89,36 @@ I also have experience with the modern web with **Angular**, **NodeJs**: **expre
 
 ![](img/logo_c_cpp.png){:width="50px"}
 
+_3 years of experience_
+
 - **C++** object-oriented programming and web development(CGI scripting)
 - **C** programming for Linux
 
 ## Other Skills
 
-Git, OOPS, LaTeX, Markdown, Applying Data Structures and Algorithms
+- Git
+- OOP
+- Penetration Testing
+- LaTeX
+- Markdown
+- Applying Data Structures and Algorithms
 
-## Languages/Communication Skills
+# Communication Skills and Soft Skills
+
+- problem solving
+- communication skills
+- analytical thinking
+- strong work ethic
+- enthusiastic learner
+- teamwork skills
+- critical thinking
 
 ### English
 
 - Distinction (90/100) in Communication Skills Grade 3, Trinity College London
 - Distinction in Choral Speaking Grade 2, Trinity College London
 - Distinction (89/100) in Speech and Drama Grade 2, Trinity College London
-- Attained 34/35 ( rank 221 Internationally ) in the International English Olympiad
+- Scored 34/35 ( rank 221 Internationally ) in the International English Olympiad
 
 ### German
 
@@ -105,7 +126,11 @@ Git, OOPS, LaTeX, Markdown, Applying Data Structures and Algorithms
 
 ### Hindi
 
+- as a second language
+
 ### Marathi
+
+- as a fourth language
 
 ## Misc Skills
 
@@ -117,59 +142,87 @@ Git, OOPS, LaTeX, Markdown, Applying Data Structures and Algorithms
 
 ---
 
-_I am a proponent of free and open source software that adheres to the Unix philosophy. Software that adheres at least in part to this that I use, donate to, or keep an eye on is listed [here](../pages/software.md)_
+_I am a proponent of free and open source software that adheres to the Unix philosophy. Software that adheres at least in part to this that I use, donate to development of, or keep an eye on is listed [here](../pages/software.md)_
 
 _Aside from technology and programming related interests, my hobbies include playing the guitar and writing about things I am fascinated by._
 
 ---
 
-# Experience
+# Work Experience
 
-## Web Development Intern at Collegepond
+## Software Engineer at Collegepond
 
 _July 2022-Now_
 
-- Creating and maintaining web pages for the website built with WordPress
-- Designing forms, implementing them on the website, parsing form responses, and aggregating data
-- Working on frontend and backend projects
+- Created and maintained web pages for the website built with WordPress
+- Designed forms, implemented them on the website, parsed form responses, and aggregated data
+- Increased traffic by monitoring SEO and optimizing pages for load time, mobile viewing, and accessibility
+- Worked on various frontend and backend projects, including Linux server troubleshooting and administration
 
-## Tech Assistant at the Revolution Software Development Club
+# Community and Leadership
+
+## President of the Revolution Software Development Club
 
 _June 2021-Now_
 
-- Used binary logistic regression to build a model with scikit-learn to predict heart failure with high accuracy rate
-- Authored write-ups on applied ML (ranking, recommendation, classification, regression, clustering, anomaly detection)
+- Spread knowledge of industry-standard technology by organizing hackathons, workshops, projects and webinars
+- Conducted research on bleeding edge tooling, and worked on projects involving the same
+- Increased community outreach as a Content Strategist by writing in-depth technical pieces
 
 ## Tech Assistant at the Genesis ML/AI Club
 
 _June 2021-Now_
 
-- Content Strategist, writing in-depth technical pieces for community outreach
+- Built a model with scikit-learn to predict heart failure with high accuracy rate using binary logistic regression
+- Authored write-ups on applied ML (ranking, recommendation, classification, regression, clustering, anomaly detection)
 
-<!-- # Certifications -->
+# Certifications
+
+## CompTIA Security+ Certification
+
+_SY0-601_
+
+_PASS, score 786/900_
+
+Ensures that I have the security problem-solving skills required to:
+
+- Assess the security posture of an enterprise environment and recommend and implement appropriate security solutions
+- Monitor and secure hybrid environments, including cloud, mobile, and IoT
+- Operate with an awareness of applicable laws and policies, including principles of governance, risk, and compliance
+- Identify, analyze, and respond to security events and incidents
 
 ---
 
 # Education
 
-## Vishwakarma University, Pune
+## Bachelor of Technology in Computer Engineering in association with IBM ( BTech. CE INFOSEC )
 
-_Bachelor of Technology in Computer Engineering in association with IBM ( BTech. CE INFOSEC ), AUG 2020-Now_
+_Vishwakarma University, Pune_
 
-- Specialization ( Major ) : Information Security
+_AUG 2020-Now_
 
-## RASIKLAL M. DHARIWAL JUNIOR COLLEGE
+_CGPA 8.68/10_
 
-_Maharashtra State Board of Secondary & Higher Secondary Education, FEB 2020_
+_latest GPA 9.26/10_
+
+- Specialization ( Minor ) : Information Security
+
+## Maharashtra State Board of Secondary & Higher Secondary Education
+
+_Rasiklal M. Dhariwal Junior College_
+
+_FEB 2020_
 
 _79.85%_
 
 - Stream : Science
 - Selection : Physics+Chemistry+Maths
 
-## St. Vincent’S High School, Pune
+## Maharashtra State Board of Secondary & Higher Secondary Education
 
-_Maharashtra State Board of Secondary & Higher Secondary Education, MAR 2018_
+_St. Vincent’s High School, Pune_
+
+_MAR 2018_
 
 _89.80%_
 

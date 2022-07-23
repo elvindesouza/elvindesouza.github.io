@@ -34,7 +34,7 @@ For things that such tools can automatically find with high confidence, such as 
   - find security vulnerabilities early
 - easy to incoporate into projects
 
-## Types of static analysis
+# Types of static analysis
 
 - codestyle
 - security linting
@@ -47,19 +47,27 @@ For things that such tools can automatically find with high confidence, such as 
 - dead coe detectio
 - framework best practices
 
-## Static Analysis with Python
+# Static Analysis with Python
 
 **covered [here](secure_coding_python.md)**
 
-## Automate Static Analysis
+# Automate Static Analysis
 
-### Incorporate it into your project
+## Incorporate it into your project
 
 Most popular static analysis tools have plug-ins for popular IDEs, and run against open files, project files, or workspace files
 
 ![](img/prospector.png)
 _pass in your prospector args in Visual Studio Code_
 
-### Incorporate it into CI/CD
+## Incorporate it into CI/CD
+
+Use something like Github Actions to perform static analysis before code goes live. Here you can configure automated actions for:
+
+- [Security Issues](https://github.com/marketplace?category=security&type=actions)
+- [Code Quality](https://github.com/marketplace?category=code-quality&type=actions)
+- [Code Review](https://github.com/marketplace?category=code-review&type=actions)
+- [Software Composition Analysis/Dependency Scanning](https://github.com/marketplace?category=dependency-management&type=actions)
+- [Testing](https://github.com/marketplace?category=testing&type=actions)
 
 _fin_

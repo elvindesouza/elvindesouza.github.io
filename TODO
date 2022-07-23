@@ -1,3 +1,5 @@
+- python test
+- python profiling
 - make sure all img/ used
 - get termux img from sdc doc
 - go through all pages and evaluate data exposure
