@@ -18,6 +18,12 @@ cp-copy
 ref-references
 ```
 
+## 23.07.22
+- add dark theme
+- misc improvements
+- mod about section
+- mod pdf object embed
+
 ## 21.07.22
 
 - add css, layout
