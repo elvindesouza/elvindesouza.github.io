@@ -9,8 +9,6 @@ permalink: /pages/
 
 _misc pages_
 
-## [Blog](../blog.md)
-
 ## [Passwords and Secrets Management](pages/secrets.md)
 
 ## [Surfing the Internet Securely and Privately](pages/surfing.md)

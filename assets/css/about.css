@@ -109,8 +109,9 @@ ul {
   list-style: none;
 }
 ul li::before {
-  content: ">>  ";
+  content: ">  ";
   color: #b5e853;
+  list-style-position: outside;
 }
 ol {
   display: table;
@@ -171,5 +172,5 @@ ol {
   padding-left: 10px;
 }
 .mediumsize {
-  font-size: 30px;
+  font-size: 60px;
 }

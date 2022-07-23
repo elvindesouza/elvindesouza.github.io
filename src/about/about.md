@@ -13,7 +13,7 @@ permalink: /about
 
 ---
 
-**A brief, one-page resume is available in .pdf format [here](elvindesouza.github.io/resume)**
+**A brief, one-page resume is available in .pdf format [here](https://elvindesouza.github.io/resume)**
 
 # Elvin deSouza - A Summary
 
@@ -87,7 +87,7 @@ I also have experience with the modern web with **Angular**, **NodeJs**: **expre
 
 ## C/C++
 
-![](img/logo_c_cpp.png){:width="50px"}
+![](img/logo_c_cpp.png){:width="80px"}
 
 _3 years of experience_
 
