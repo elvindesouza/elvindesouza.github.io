@@ -159,23 +159,6 @@ _July 2022-Now_
 - Increased traffic by monitoring SEO and optimizing pages for load time, mobile viewing, and accessibility
 - Worked on various frontend and backend projects, including Linux server troubleshooting and administration
 
-# Community and Leadership
-
-## President of the Revolution Software Development Club
-
-_June 2021-Now_
-
-- Spread knowledge of industry-standard technology by organizing hackathons, workshops, projects and webinars
-- Conducted research on bleeding edge tooling, and worked on projects involving the same
-- Increased community outreach as a Content Strategist by writing in-depth technical pieces
-
-## Tech Assistant at the Genesis ML/AI Club
-
-_June 2021-Now_
-
-- Built a model with scikit-learn to predict heart failure with high accuracy rate using binary logistic regression
-- Authored write-ups on applied ML (ranking, recommendation, classification, regression, clustering, anomaly detection)
-
 # Certifications
 
 ## CompTIA Security+ Certification
@@ -225,6 +208,24 @@ _St. Vincent’s High School, Pune_
 _MAR 2018_
 
 _89.80%_
+
+# Community and Leadership
+
+## Tech Department Lead of the Revolution Software Development Club
+
+_June 2021-Now_
+
+- Spread knowledge of industry-standard technology by organizing hackathons, workshops, projects and webinars
+- Conducted research on bleeding edge tooling, and worked on projects involving the same
+- Increased community outreach as a Content Strategist by writing in-depth technical pieces
+
+## Tech Assistant at the Genesis ML/AI Club
+
+_June 2021-Now_
+
+- Built a model with scikit-learn to predict heart failure with high accuracy rate using binary logistic regression
+- Authored write-ups on applied ML (ranking, recommendation, classification, regression, clustering, anomaly detection)
+
 
 # View my Work
 
