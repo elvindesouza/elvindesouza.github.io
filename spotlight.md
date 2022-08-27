@@ -7,6 +7,13 @@ permalink: /spotlight
 
 ---
 
+## [Bypassing CGNAT with ngrok](src/pages/ngrok.md)
+
+> ngrok is a cross-platform application that enables developers to expose a local development server to the Internet with minimal effort
+
+Using ngrok for administration and remote desktop for systems on a home network behind CGNAT
+
+
 ## [Creating a network topology map using Cisco Packet Tracer](src/security/networking/topologymap/topology.md)
 
 Setting up a small network of a few network and end devices using Hubs/Switches. It includes configuring LAN Cards, interfaces, preparation of cables, assigning IP addresses, and checking the connection of the network, all done in Cisco packet tracer, a network topology mapper.

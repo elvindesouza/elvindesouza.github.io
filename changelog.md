@@ -18,6 +18,12 @@ cp-copy
 ref-references
 ```
 
+# 27.08.22
+- add ngrok
+- add packettracer
+- misc improvements
+- mod about section, work experience
+
 ## 23.07.22
 - add dark theme
 - misc improvements
