@@ -19,6 +19,7 @@ ref-references
 ```
 
 # 27.08.22
+- change gitconfig, now contributing as "elvindesouza"
 - add ngrok
 - add packettracer
 - misc improvements
