@@ -1,4 +1,6 @@
-**Setting up a small network of a few network and end devices using Hubs/Switches. It includes configuring LAN Cards, interfaces, preparation of cables, assigning IP addresses, and checking the connection of the network, all done in Cisco packet tracer, a network topology mapper.**
+# Creating a network topology map using Ciscco Packet Tracer
+
+**Setting up a small network of a few network and end devices using Hubs/Switches. It includes configuring LAN Cards, interfaces, preparation of cables, assigning IP addresses, and checking the connection of the network, all done in Cisco Packet Tracer, a network topology mapper.**
 
 ---
 
@@ -6,11 +8,11 @@ We will be using Cisco Packet Tracer to create a network topology map for the gi
 
 Open up Packet Tracer and go to the Logical view, and start adding devices.
 
-![](devices.jpg){ height=300px }
+![](devices.jpg)
 
 After all the network and end devices have been added, begin adding connections. You can add or remove network interfaces to these devices and create connections.
 
-![](connections.jpg){ height=300px }
+![](connections.jpg)
 
 You can start to configure all the devices individually
 
@@ -52,8 +54,8 @@ FastEthernet1/0 -> 192.168.4.1
 
 subnet mask for both -> 255.255.255.0
 
-![](router1_1.jpg){ height=300px }
-![](router1_2.jpg){ height=300px }
+![](router1_1.jpg)
+![](router1_2.jpg)
 
 ## Router 2
 
@@ -67,8 +69,8 @@ Do not assign an address that ends in .0 or .255, these are reserved for network
 
 ![](router1.jpg)
 
-![](router2_1.jpg){ height=300px }
-![](router2_2.jpg){ height=300px }
+![](router2_1.jpg)
+![](router2_2.jpg)
 
 ## Wireless Router
 
@@ -84,20 +86,20 @@ For _authentication_, use WPA2-PSK(do not use WPA, WEP as they are outdated and 
 
 here, "vu123456789"
 
-![](wifi_1.jpg){ height=300px }
-![](wifi1_2.jpg){ height=300px }
+![](wifi_1.jpg)
+![](wifi1_2.jpg)
 
 ## Switch 1
 
 Enable ports that you will be using. Make sure the rest of the ports are disabled
 
-![](switch1.jpg){ height=300px }
+![](switch1.jpg)
 
 ## Switch 2
 
 Set up in a similar fashion
 
-![](switch2.jpg){ height=300px }
+![](switch2.jpg)
 
 ## Server 1
 
@@ -105,45 +107,45 @@ As we have started configuring IPv4 for end devices, keep in mind the IP address
 
 This server has only one NIC, so we must power the machine down and add another one in the empty slot
 
-![](server1_0.jpg){ height=300px }
+![](server1_0.jpg)
 
-![](server1_1.jpg){ height=300px }
+![](server1_1.jpg)
 
 As stated in the beginning, we must allocate two unique IP addresses for these two interfaces, after powering on the machine.
 
-![](server1_2.jpg){ height=300px }
+![](server1_2.jpg)
 
-![](server1_3.jpg){ height=300px }
+![](server1_3.jpg)
 
 ## Server 2
 
 Set this up in accordance with the source topology map, in a similar fashion
 
-![](server2_1.jpg){ height=300px }
+![](server2_1.jpg)
 
 ## PC 1
 
 Set the IPv4 default gateway manually to "192.168.1.1". Also statically configure the IPv4 address and subnet mask like we've done before
 
-![](pc1.jpg){ height=300px }
+![](pc1.jpg)
 
 ## PC 2
 
 set the default gateway address by looking at the addressing scheme and subnetting
 
-![](pc2.jpg){ height=300px }
+![](pc2.jpg)
 
 ## PC 3
 
 set this host up in the same way
 
-![](pc3.jpg){ height=300px }
+![](pc3.jpg)
 
 ## PC 4
 
 set this host up in the same way
 
-![](pc4.jpg){ height=300px }
+![](pc4.jpg)
 
 ## Laptop 1
 
@@ -153,7 +155,7 @@ Set up the gateway manually or use DHCP
 
 For convenience sake, you can use DHCP to configure hosts connected wirelessly
 
-![](laptop1.jpg){ height=300px }
+![](laptop1.jpg)
 
 ## Smartphone 1
 
@@ -161,7 +163,7 @@ For convenience sake, you can use DHCP to configure hosts connected wirelessly
 
 Here, it is configured a static IP address 192.168.3.4
 
-![](smartphone1.jpg){ height=300px }
+![](smartphone1.jpg)
 
 ---
 

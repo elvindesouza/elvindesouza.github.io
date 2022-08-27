@@ -150,18 +150,22 @@ _Aside from technology and programming related interests, my hobbies include pla
 
 # Work Experience
 
-## Software Engineer at Collegepond
+## Software Engineer at Converge/Collegepond
 
 _July 2022-Now_
 
 - Created and maintained web pages for the website built with WordPress
 - Designed forms, implemented them on the website, parsed form responses, and aggregated data
-- Increased traffic by monitoring SEO and optimizing pages for load time, mobile viewing, and accessibility
+- Increased traffic by monitoring SEO and making changes to SEO-related parameters
+- Optimizing pages for load time, mobile viewing, and accessibility
+- Revamping the website's frontend CSS and other styling
 - Worked on various frontend and backend projects, including Linux server troubleshooting and administration
 
 # Certifications
 
 ## CompTIA Security+ Certification
+
+![Certificate and Verification Code](resources/ComptiaSecurity%2B.pdf)
 
 _SY0-601_
 
@@ -219,13 +223,14 @@ _June 2021-Now_
 - Conducted research on bleeding edge tooling, and worked on projects involving the same
 - Increased community outreach as a Content Strategist by writing in-depth technical pieces
 
+Previous position: Tech Assistant, [letter of appreciation](resources/RevolutionTechAssistant.pdf)
+
 ## Tech Assistant at the Genesis ML/AI Club
 
 _June 2021-Now_
 
 - Built a model with scikit-learn to predict heart failure with high accuracy rate using binary logistic regression
 - Authored write-ups on applied ML (ranking, recommendation, classification, regression, clustering, anomaly detection)
-
 
 # View my Work
 
