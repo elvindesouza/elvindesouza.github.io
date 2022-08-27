@@ -11,6 +11,10 @@ permalink: /security/networking
 
 # Networking
 
+## [Creating a network topology map using Cisco Packet Tracer](networking/topologymap/topology.md)
+
+Setting up a small network of a few network and end devices using Hubs/Switches. It includes configuring LAN Cards, interfaces, preparation of cables, assigning IP addresses, and checking the connection of the network, all done in Cisco packet tracer, a network topology mapper.
+
 ## [Networking Basics](networking/networking_basix.md)
 
 Routers(and setup), switches, identifying devices on a local network, troubleshooting, ICMP, using the `ping` utility
