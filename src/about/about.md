@@ -165,7 +165,7 @@ _July 2022-Now_
 
 ## CompTIA Security+ Certification
 
-![Certificate and Verification Code](resources/ComptiaSecurity%2B.pdf)
+![Certificate and Verification Code](resources/ComptiaSecurity.pdf)
 
 _SY0-601_
 
