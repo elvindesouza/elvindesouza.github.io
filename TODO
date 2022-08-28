@@ -1,3 +1,19 @@
+- shell programming
+- neovim configuration md
+- awk
+- sh/UNIX command-line usage
+- burpsuite basix
+- django md
+- python tests
+- sphinx
+- travis
+- python virtual envs
+- cirrus ci
+- gitlab ci/ github actions
+- setuptools&configuration
+- appsecmap.com
+- pre-commit
+- tox
 - make sure all img/ used
 - go through all pages and evaluate data exposure
 - virtualization

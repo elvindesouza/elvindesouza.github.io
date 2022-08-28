@@ -21,7 +21,11 @@ Using ngrok for administration and remote desktop for systems on a home network 
 
 ## [Important Free Software](pages/software.md)
 
+List of important free sotware, with links to how you can support these projects
+
 ## [Words](pages/words.md)
+
+Compilation of interesting words that I've come across, add them to your lexicon!
 
 <!-- ## [GNU/Linux](linux.html) -->
 

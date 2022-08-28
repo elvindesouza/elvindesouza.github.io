@@ -15,7 +15,14 @@ permalink: /pages/words
 
 ## Add them to your lexicon!
 
+    portmanteau
+    contraction
+    subterfuge
+    obsequious
+    ostentatious
+    scare quotes
     perfidy
+    acronym/abbreviation
     adjucate
     argot
     pertinent
@@ -195,15 +202,27 @@ permalink: /pages/words
     attrition
     tandem
     heuristic
-    '-apostrophe
-    "-quotations
-    \*-asterisk
-    --hyphen
-    .-fullstop/period
-    ()-parentheses
     `grave accent/backtick
-    ^caret/circumflex
     ~tilde
+    ! exclamation mark, bang
+    @ at sign
+    # hash, number sign
+    % percent sign
+    & ampersand
+    _ underscore
+    ' apostrophe
+    " quotations
+    \* asterisk
+    / oblique
+    --hyphen
+    < less-than sign
+    > more-than sign
+    . fullstop/period
+    () parentheses
+    [] brackets
+    {} braces
+    ⟨⟩ chevrons
+    ^ caret/circumflex
     prodigy, savant
     perogative
     minutiae
@@ -217,3 +236,4 @@ permalink: /pages/words
     unconscionable
     placate
     kludge
+    pro bono
