@@ -19,6 +19,11 @@ ref-references
 ```
 
 # 27.08.22
+- added a few more words
+- fixed ngrok head, pages section
+- trying signed commits henceforth
+
+# 27.08.22
 - change gitconfig, now contributing as "elvindesouza"
 - add ngrok
 - add packettracer
