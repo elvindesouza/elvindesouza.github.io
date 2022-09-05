@@ -194,7 +194,9 @@ _latest GPA 9.26/10_
 
 - Specialization ( Minor ) : Information Security
 
-## Maharashtra State Board of Secondary & Higher Secondary Education
+## Higher Secondary School Certificate
+
+**Maharashtra State Board of Secondary & Higher Secondary Education**
 
 _Rasiklal M. Dhariwal Junior College_
 
@@ -205,7 +207,9 @@ _79.85%_
 - Stream : Science
 - Selection : Physics+Chemistry+Maths
 
-## Maharashtra State Board of Secondary & Higher Secondary Education
+## Secondary School Certificate
+
+**Maharashtra State Board of Secondary & Higher Secondary Education**
 
 _St. Vincent’s High School, Pune_
 

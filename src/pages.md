@@ -9,6 +9,13 @@ permalink: /pages/
 
 _misc pages_
 
+## [Exploring the Unix command-line](pages/unix-commandline.md)
+
+- To understand how to use Unix commands.
+- To understand How and Why they are used in Shell Programming
+- To enable the user to communicate with the kernel through the command interpreter.
+- Introduction to shell programming
+
 ## [Bypassing CGNAT with ngrok](pages/ngrok.md)
 
 > ngrok is a cross-platform application that enables developers to expose a local development server to the Internet with minimal effort

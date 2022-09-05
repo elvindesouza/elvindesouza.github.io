@@ -18,6 +18,10 @@ cp-copy
 ref-references
 ```
 
+# 30.08.22
+- add unix commandline
+- mod wordlist, added few words
+
 # 27.08.22
 - added a few more words
 - fixed ngrok head, pages section

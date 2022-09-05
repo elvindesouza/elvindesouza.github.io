@@ -15,6 +15,7 @@ permalink: /pages/words
 
 ## Add them to your lexicon!
 
+    trite
     portmanteau
     contraction
     subterfuge
