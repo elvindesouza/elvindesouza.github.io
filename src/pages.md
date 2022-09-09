@@ -9,6 +9,18 @@ permalink: /pages/
 
 _misc pages_
 
+## [Shell Scripting - A Quick Reference](pages/shell-programming.md)
+
+Shebangs, comments, syntax, flow control and looping constructs, running external commands, etc.
+
+All compressed into a quick reference to refresh the memory once in a while
+
+## [The AWK Programming Reference](pages/awk-programming.md)
+
+>AWK operates at the field level. It can easily access, transform, and format individual fields in a record. It also accepts regular expressions for pattern matching
+
+The AWK programming language, as a cheatsheet of sorts
+
 ## [Exploring the Unix command-line](pages/unix-commandline.md)
 
 - To understand how to use Unix commands.

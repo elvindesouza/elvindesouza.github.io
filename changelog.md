@@ -18,6 +18,11 @@ cp-copy
 ref-references
 ```
 
+# 09.09.22
+- add UNIX command-line referece
+- add shell scripting
+- add awk programming
+
 # 30.08.22
 - add unix commandline
 - mod wordlist, added few words
