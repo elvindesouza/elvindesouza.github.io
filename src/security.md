@@ -9,7 +9,7 @@ permalink: /security/
 
 # Security
 
-## [Appliation Security Section](security/AppSec/_application-security.md)
+## [Appliation Security Section](security/AppSec/0application-security.md)
 
 > Application security (short AppSec) includes all tasks that introduce a secure software development life cycle to development teams. Its final goal is to improve security practices and, through that, to find, fix and preferably prevent security issues within applications.
 
@@ -17,7 +17,7 @@ Exploring Web application security, OWASP, and tooling(SAST, DAST, static and dy
 
 Also leaning into DevSecOps, which is the seamless integration of security testing and protection throughout the software development and deployment lifecycle
 
-## [Network Security Section](security/NetworkSecurity/_network-security.md)
+## [Network Security Section](security/NetworkSecurity/0network-security.md)
 
 Networking basics-Routers(and setup), switches, identifying devices on a local network, troubleshooting, ICMP, IP addressing, MAC addressing, DNS, nslookup, DNSSEC and OCSP, etc.
 
@@ -25,11 +25,11 @@ Discussing common diagnostic and security tools like `ping`, `netstat`, `ss`, `h
 
 Also delving into how the Web works, the HTTP Request/Response Cycle, HTTP headers, and session keys, cookies
 
-## [GNU/Linux Operating System Security Section](security/LinuxSecurity/_linux-security.md)
+## [GNU/Linux Operating System Security Section](security/LinuxSecurity/0linux-security.md)
 
 Administration and maintenance of the GNU/Linux operating system, common security tools and security aspects
 
-## [Microsoft Windows Operating System Security Section](security/MSWindowsSecurity/_windows-security.md)
+## [Microsoft Windows Operating System Security Section](security/MSWindowsSecurity/0windows-security.md)
 
 Microsoft Windows Operating System administration, maintenance, architecture, and security fundamentals
 
@@ -52,9 +52,9 @@ Security related apps and tools available for Android
 
 Android hardening and de-bloating, setting up Termux for SSH/SFTP and FTP access
 
-## [Blue Teaming Section](security/Blue/_blue-security.md)
+## [Blue Teaming Section](security/Blue/0blue-security.md)
 
-## [Red Teaming Section](security/Red/_red-security.md)
+## [Red Teaming Section](security/Red/0red-security.md)
 
 ## [Wireshark](security/wireshark.md)
 
