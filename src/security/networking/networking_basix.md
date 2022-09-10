@@ -3,8 +3,6 @@ title: "The Theory of Networking"
 permalink: /security/networking/basix
 ---
 
-
-
 **[~](../../../README.md)**
 
 
@@ -136,7 +134,7 @@ related writeup, [Domain Name System](dns.md)
 
 ![](img/whois.png)
 
-[Full WHOIS response](../resources/whois.txt)
+[Full WHOIS response](resources/whois.txt)
 
 ## Dig
 

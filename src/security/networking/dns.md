@@ -18,6 +18,13 @@ permalink: /security/networking/dns
 
 # Domain Name System
 
+**NOTES**
+
+1. Domain names were created to convert the numeric IP address to a simple recognizable name
+2. Fully qualified domain names are much easier for people to remember than an IP address
+
+**/NOTES**
+
 <!-- TODO dnsenum -->
 
 - communicate with others on the internet without needing to remember their IP addresses

@@ -18,6 +18,10 @@ cp-copy
 ref-references
 ```
 
+# 10.09.22
+- add centralized DHCP server configuration
+- add Linux+Windows networking command-line tools
+
 # 09.09.22
 - add UNIX command-line referece
 - add shell scripting

@@ -1,3 +1,21 @@
+---
+title: "Creating a network topology map using Ciscco Packet Tracer"
+permalink: /security/networking/topology_ip_schema
+---
+
+**[~](../../../../README.md)**
+
+**[~/Security/Networking](../../networking.md)**
+
+**[~/Security](../../../security.md)**
+
+---
+
+* TOC
+{:toc}
+
+[I talk about network topology maps and network planning here](../topology.md)
+
 # Creating a network topology map using Ciscco Packet Tracer
 
 **Setting up a small network of a few network and end devices using Hubs/Switches. It includes configuring LAN Cards, interfaces, preparation of cables, assigning IP addresses, and checking the connection of the network, all done in Cisco Packet Tracer, a network topology mapper.**

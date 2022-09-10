@@ -15,6 +15,9 @@ permalink: /pages/words
 
 ## Add them to your lexicon!
 
+    pernicious
+    transliterate
+    transcribe
     trite
     portmanteau
     contraction
