@@ -198,3 +198,10 @@ We will use this as a tool to verify network connectivity. Make sure all the tes
 ![](connectivity.jpg)
 
 ---
+
+
+# References
+
+[Classful IP Addressing](../resources/Classful%20IP%20Addressing%20Refernce.pdf)
+
+[IPv4 Addressing Scheme Manual](../resources/IPv4%20addressing%20scheme%20manual.pdf)

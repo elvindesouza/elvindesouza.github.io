@@ -72,3 +72,9 @@ between layer 2 and 3 of the OSI model
 allows devices to identify themselves on a network
 
 ![](img/ip_subnetting2.png)
+
+# References
+
+[Classful IP Addressing](resources/Classful%20IP%20Addressing%20Refernce.pdf)
+
+[IPv4 Addressing Scheme Manual](resources/IPv4%20addressing%20scheme%20manual.pdf)

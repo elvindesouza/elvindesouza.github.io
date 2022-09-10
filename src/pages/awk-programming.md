@@ -14,9 +14,9 @@ permalink: /pages/awk
 
 ---
 
-[AWK Help](./AWK-Help)
+[AWK Help](resources/AWK-Help)
 
-[AWK Manpages](./AWK-Manpages)
+[AWK Manpages](resources/AWK-Manpages)
 
 # The Awk Reference
 

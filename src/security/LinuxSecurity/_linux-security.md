@@ -14,6 +14,14 @@ permalink: /security/LinuxSecurity
 
 ---
 
+*pre-requisites, available on this webiste itself*
+
+# [The GNU/Linux Command Reference for Security Professionals](linux-command-reference.md)
+
+# [Exploring the UNIX Command Line](../../pages/unix-commandline.md)
+
+---
+
 # GNU/Linux Operating System Security
 
 ## Linux Filesystem Hierarchy Standard(https://www.pathname.com/fhs/)

@@ -16,6 +16,10 @@ permalink: /security/WindowsSecurity
 
 ---
 
+# [The Microsoft Windows Command Reference for Security Professionals](windows-command-reference.md)
+
+---
+
 # Microsoft Windows Operating System and Windows Security
 
 In any organization, non-technical employees are likely using Microsoft Windows. In fact, the overwhelming majority of desktop and laptop systems run Windows.
@@ -128,7 +132,7 @@ although GUI tools can be easier to use, the command line offers
 - automation
 - scalability
 
-[Windows Command Reference](https://download.microsoft.com/download/5/8/9/58911986-D4AD-4695-BF63-F734CD4DF8F2/ws-commands.pdf)
+[Windows Command Reference](./ws-commands.pdf)
 
 ### PowerShell
 

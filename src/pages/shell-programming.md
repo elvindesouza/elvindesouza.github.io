@@ -18,7 +18,7 @@ permalink: /pages/sh
 
 ## Shebang
 
-The `#!` syntax is used in scripts to indicate an interpreter for execution under UNIX / Linux operating systems. The directive must be the first line in the Linux shell script and must start with shebang #!. 
+The `#!` syntax is used in scripts to indicate an interpreter for execution under UNIX / Linux operating systems. The directive must be the first line in the Linux shell script and must start with shebang #!.
 
 ```
 #!/usr/bin/env sh
@@ -85,7 +85,7 @@ done
 
 ### test
 
-[RTFM!](./Test-Reference)
+[RTFM!](resources/Test-Reference)
 
 *`[` is a symbolic link to `test`
 
@@ -225,5 +225,3 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 ```
-
-

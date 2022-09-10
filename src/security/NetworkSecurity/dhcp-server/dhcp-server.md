@@ -16,6 +16,8 @@ permalink: /security/networking/dhcp_server
 
 ---
 
+*The save file is available [here](../resources/dhcp-server.pkt)*
+
 # Aim
 
 To Design and configure DHCP server using Cisco packet tracer
