@@ -7,7 +7,7 @@ permalink: /security/appsec/staticanalysis
 
 **[~/Security](../../security.md)**
 
-**[~/Security/Appsec](../appsec.md)**
+**[~/Security/Appsec](0application-security.md)**
 
 ---
 

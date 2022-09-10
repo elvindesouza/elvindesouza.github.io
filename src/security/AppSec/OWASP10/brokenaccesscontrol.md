@@ -1,8 +1,13 @@
+---
+title: "Broken Access Control"
+permalink: /security/appsec/owasp10/broken_access_control
+---
+
 **[~](../../../../README.md)**
 
 **[~/Security](../../../security.md)**
 
-**[~/Security/Appsec](../../appsec.md)**
+**[~/Security/Appsec](../0application-security.md)**
 
 **[~/Security/Appsec/OWASP10](../OWASP10.md)**
 

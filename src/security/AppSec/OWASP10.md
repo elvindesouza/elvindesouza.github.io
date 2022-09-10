@@ -1,8 +1,13 @@
-**[~](../../../../README.md)**
+---
+title: "The OWASP Top 10"
+permalink: /security/appsec/owasp10
+---
 
-**[~/Security](../../../security.md)**
+**[~](../../../README.md)**
 
-**[~/Security/Appsec](../../appsec.md)**
+**[~/Security](../../security.md)**
+
+**[~/Security/Appsec](0application-security.md)**
 
 ---
 

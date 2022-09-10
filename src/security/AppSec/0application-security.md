@@ -3,9 +3,9 @@ title: "Application Security(AppSec) and DevSecOps"
 permalink: /security/appsec
 ---
 
-**[~](../../README.md)**
+**[~](../../../README.md)**
 
-**[~/Security](../security.md)**
+**[~/Security](../../security.md)**
 
 ---
 
