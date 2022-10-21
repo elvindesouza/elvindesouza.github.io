@@ -40,17 +40,17 @@ _July 2022-Now_
 - Revamping the website's frontend CSS and other styling
 - Worked on various frontend and backend projects, including Linux server troubleshooting and administration
 
-![Letter of Recommendation](resources/Collegepond-Converge-Recommendation.pdf)
+[Letter of Recommendation](resources/Collegepond-Converge-Recommendation.pdf)
 
-![Offer Letter](resources/Collegepond-Converge-Offer.pdf)
+[Offer Letter](resources/Collegepond-Converge-Offer.pdf)
 
-![Letter of Experience](resources/Collegepond-Converge-Experience.pdf)
+[Letter of Experience](resources/Collegepond-Converge-Experience.pdf)
 
 # Certifications and Accreditations
 
 ## CompTIA Security+ Certification
 
-![Certificate and Verification Code](resources/ComptiaSecurity.pdf)
+[Certificate and Verification Code](resources/ComptiaSecurity.pdf)
 
 _SY0-601_
 
@@ -69,7 +69,7 @@ Ensures that I have the security problem-solving skills required to:
 
 ## Bachelor of Technology in Computer Engineering in association with IBM ( BTech. CE INFOSEC )
 
-![Transcript of Marks](resources/VishwakarmaUniversity-Transcript.pdf)
+[Transcript of Marks](resources/VishwakarmaUniversity-Transcript.pdf)
 
 _Vishwakarma University, Pune_
 
@@ -141,6 +141,7 @@ _June 2021-Now_
 
 - Built a model with scikit-learn to predict heart failure with high accuracy rate using binary logistic regression
 - Authored write-ups on applied ML (ranking, recommendation, classification, regression, clustering, anomaly detection)
+
 # My Technical Skills and Proficiencies
 
 I have experience with programming, networking, operating systems, and security fundamentals.
