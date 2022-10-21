@@ -5,9 +5,9 @@ permalink: /security/networking/topology_ip_schema
 
 **[~](../../../../README.md)**
 
-**[~/Security/Networking](../../networking.md)**
-
 **[~/Security](../../../security.md)**
+
+**[~/Security/Networking](../0network-security.md)**
 
 ---
 

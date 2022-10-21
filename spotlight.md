@@ -7,6 +7,10 @@ permalink: /spotlight
 
 ---
 
+## [To design and configure a firewall on a server](src/security/NetworkSecurity/firewall/firewall.md)
+
+To design and configure a firewall on a server using Cisco Packet Tracer. Also involves testing correct configuration/ruleset. 
+
 ## [Neovim Configuration](src/pages/neovim.md)
 
 Switching from vim to neovim, and re-writing the configuration in pure-lua. Aim is to get an almost-IDE(syntax highlighting, autocompletion, code actions and LSP) working with only the most popular(well-supported), and lua-only plugins

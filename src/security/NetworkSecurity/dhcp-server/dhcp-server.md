@@ -7,7 +7,7 @@ permalink: /security/networking/dhcp_server
 
 **[~/Security](../../../security.md)**
 
-**[~/Security/Networking](../../networking.md)**
+**[~/Security/Networking](../0network-security.md)**
 
 ---
 

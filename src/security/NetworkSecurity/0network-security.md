@@ -11,6 +11,10 @@ permalink: /security/networking
 
 # Networking
 
+## [To design and configure a firewall on a server](firewall/firewall.md)
+
+To design and configure a firewall on a server using Cisco Packet Tracer. Also involves testing correct configuration/ruleset. 
+
 ## [Designing and configuring a DHCP server using Cisco Packet Tracer](dhcp-server/dhcp-server.md)
 
 We will be using Cisco Packet Tracer to create a network topology map consisting of a few PCs, and a server system to act as a DHCP server

@@ -7,7 +7,7 @@ permalink: /security/networking/commandline_networking_tools
 
 **[~/Security](../../../security.md)**
 
-**[~/Security/Networking](../../networking.md)**
+**[~/Security/Networking](../0network-security.md)**
 
 ---
 
