@@ -132,4 +132,37 @@ an array is considered to be declared the moment it is used, it is automatically
 
 # Example Program for Practice
 
-*WIP*
+program.awk
+```
+BEGIN {
+    FS = "|"
+    print "\t\tResults:\n"
+    printf("%-20s %-6s\n","Full Name",  "Percentage")
+    printf("%-20s %-6s\n", "-----------","-----------")
+}
+
+{
+    total=int($2)+int($3)+int($4)+int($5)+int($6);
+    pc=(total)/5;
+
+    if (pc >= 66) grade ="Distinction";
+    else if (pc >= 60) grade ="First Class";
+    else grade="PASS";
+    if ( pc<40) grade ="FAIL";
+    printf("%-20s %-6s\n",$1,grade);
+}
+
+END{
+}
+```
+
+inputfile
+
+```
+Ish  Studaynt | 60 | 56 | 80 | 67 | 64
+Hoovas  Imparis | 85 | 67 | 88 | 78 | 85
+Goated  Saus | 60 | 56 | 44 | 76 | 68
+Tibh  Krecha | 15 | 7 | 14 | 20 | 30
+Topar  Smasar | 48 | 46 | 60 | 49 | 53
+Quandale Dingle | 100 | 100 | 100 | 100 | 100
+```

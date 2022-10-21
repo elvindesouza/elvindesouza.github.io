@@ -9,9 +9,9 @@ permalink: /pages/
 
 _misc pages_
 
-## [Neovim Configuration]
+## [Neovim Configuration](pages/neovim.md)
 
-Switching from vim to neovim, and re-writing the configuration in pure-lua. Aim is to get an almost-IDE working with only the most popular(supported), and lua-only plugins
+Switching from vim to neovim, and re-writing the configuration in pure-lua. Aim is to get an almost-IDE(syntax highlighting, autocompletion, code actions and LSP) working with only the most popular(well-supported), and lua-only plugins
 
 ## [Shell Scripting - A Quick Reference](pages/shell-programming.md)
 

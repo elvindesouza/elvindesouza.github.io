@@ -3,9 +3,9 @@ title: "Words"
 permalink: /pages/words
 ---
 
-#### [~](../../README.md)
+**[~](../../README.md)**
 
-#### [~/Pages](../pages.md)
+**[~/Pages](../pages.md)**
 
 ---
 

@@ -3,9 +3,14 @@ title: 'Neovim Configuration'
 permalink: /pages/nvim
 ---
 
-#### [~](../../README.md)
+**[~](../../README.md)**
 
-#### [~/Pages](../pages.md)
+**[~/Pages](../pages.md)**
+
+---
+
+* TOC
+{:toc}
 
 ---
 

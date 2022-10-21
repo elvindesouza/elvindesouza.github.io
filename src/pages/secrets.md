@@ -3,9 +3,9 @@ title: "Passwords and Secrets Management"
 permalink: /pages/pws_secrets
 ---
 
-#### [~](../../README.md)
+**[~](../../README.md)**
 
-#### [~/Pages](../pages.md)
+**[~/Pages](../pages.md)**
 
 ---
 

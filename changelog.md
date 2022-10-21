@@ -18,6 +18,11 @@ cp-copy
 ref-references
 ```
 
+# 21.10.22
+- add neovim configuration
+- mod projects, fix hyperlink
+- mod about-me, added and updated documents
+
 # 10.09.22
 - add centralized DHCP server configuration
 - add Linux+Windows networking command-line tools

@@ -3,11 +3,12 @@ title: "ngrok and CGNAT"
 permalink: /pages/ngrok
 ---
 
-#### [~](../../README.md)
+**[~](../../README.md)**
 
-#### [~/Pages](../pages.md)
+**[~/Pages](../pages.md)**
 
 ---
+
 # Bypassing CGNAT with ngrok
 
 > ngrok is a cross-platform application that enables developers to expose a local development server to the Internet with minimal effort
