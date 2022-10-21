@@ -1,10 +1,9 @@
 ---
-title: "The Theory of Networking"
+title: 'The Theory of Networking'
 permalink: /security/networking/basix
 ---
 
 **[~](../../../README.md)**
-
 
 **[~/Security/Networking](../networking.md)**
 
@@ -75,7 +74,7 @@ The data link layer also adds a piece on at the end of the transmission, to veri
 
 ![](img/encapsulation2.jpeg)
 
-the receiver would perfom _de-encapsulation_, reversing this process
+the receiver would perfom _de-encapsulation_ , reversing this process
 
 ## TCP/IP Model
 

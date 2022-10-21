@@ -15,6 +15,10 @@ permalink: /pages/words
 
 ## Add them to your lexicon!
 
+    rescind
+    renege
+    rift
+    corroborate
     pernicious
     transliterate
     transcribe
