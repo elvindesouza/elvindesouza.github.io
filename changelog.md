@@ -18,6 +18,11 @@ cp-copy
 ref-references
 ```
 
+# 26.10.22
+- add dotfile configuration mds(WIP)
+- add owasp10 mds
+- add threat modeling notes
+
 # 21.10.22
 - add neovim configuration
 - mod projects, fix hyperlink
