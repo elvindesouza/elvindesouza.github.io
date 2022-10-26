@@ -18,7 +18,20 @@ permalink: /security/appsec/owasp10/injection
 
 ---
 
+**input validation, input validation, input validation.**
+
 > SQL injection (SQLi) is a web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database. It generally allows an attacker to view data that they are not normally able to retrieve. This might include data belonging to other users, or any other data that the application itself is able to access. In many cases, an attacker can modify or delete this data, causing persistent changes to the application's content or behavior.
+
+High impact-can impact all of the CIA.
+
+Occur when webapps don't have proper boundaries set up.
+
+Use a prepared statements-more efficient, more secure. They prevent SQLi as they separate the code from the data.
+
+If you can't use prepared statements, escape special characters.
+
+The fundamental property that allows injection to happen-code can be interpreted as either instructions or data.
+
 
 # Cause
 

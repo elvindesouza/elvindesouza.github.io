@@ -18,11 +18,14 @@ permalink: /security/appsec/owasp10/broken_access_control
 
 ---
 
+Counter by logging and monitoring said logs. Data Classification Policy
+QA plays an important role. Access Control Testing.
+
 # Cause
 
 - Access control enforces policy such that users cannot act outside of their intended permissions. Failures typically lead to unauthorized information disclosure, modification, or destruction of all data or performing a business function outside the user's limits. Common access control vulnerabilities include:
 
-- Violation of the principle of least privilege(discussed [here](https://elvindesouza.github.io/hardening/#least-privilege)) or deny by default, where access should only be granted for particular capabilities, roles, or users, but is available to anyone.
+- Violation of the principle of least privilege(discussed [here](https://elvindesouza.github.io/hardening/#least-privilege)) or deny by default, where access should only be granted for particular capabilities, roles, or users, but is available to anyone. Access should be restricted to the minimum required to perform work. Follow deny-by-default
 
 - Bypassing access control checks by modifying the URL (parameter tampering or force browsing), internal application state, or the HTML page, or by using an attack tool modifying API requests.
 

@@ -45,12 +45,12 @@ VNC is reliable, and great for low-bandwidth questions, but you might prefer RDP
 
 _X2Go_, _moonlight_ are other alternatives, with different use cases
 
-I use [x11vnc](https://github.com/LibVNC/x11vnc) to view an existing X session on a real display
+I either [x11vnc](https://github.com/LibVNC/x11vnc) to view an existing X session on a real display
 
 from the client side, run
 
 ```
-$ ssh -t -L 5900:localhost:5900 -p <PORT> username@address.ngrok.io 'x11vnc -localhost -display :0 -loop -wait 50 -noxdamage
+$ ssh -t -L 5900:localhost:5900 -p <PORT> username@host.ngrok.io 'x11vnc -localhost -display :0 -loop -wait 50 -noxdamage
 ```
 
 from _man vncviewer_ ,
@@ -86,3 +86,42 @@ To foward spice protocol traffic,
 ```
 $ ssh -L 5900:localhost:5900 -p <PORT> username@address.ngrok.io
 ```
+
+# SSHFS
+
+I use `sshfs` to (FUSE)mount all my partitions onto my laptop when I attend college. 
+
+```
+sshfs user@ngrokhost:/path/to/dir /path/to/mountpoint -o reconnect,follow_symlinks
+```
+
+# X11 forwarding
+
+Will require changing the `sshd` configuration. Please review security guidelines, to ensure that you absolutely need this feature enabled. There are alternatives like using a dedicated VNC server, forwarding a real x11 display, etc.
+
+
+```
+ssh -XC user@ngrokhost
+```
+
+# Using a TigerVNC VNC server
+
+[tigervnc-server](https://wiki.archlinux.org/title/TigerVNC#Initial_setup) to run a headless i3 session
+
+After configuration, start the configured VNC server with
+```
+sudo systemctl start vncserver@:9
+```
+
+Remember to `ssh` into the server with the correct forwarded port `-L 590X:localhost:590X`
+
+# Forwarding MPD 
+
+In `~/.config/mpd/mpd.conf`-
+
+```
+port "6600" # change if needed
+bind_to_address "any"
+```
+
+then just `ssh` with *port* forwarded, and run your MPD client configured to use the same port on *localhost*

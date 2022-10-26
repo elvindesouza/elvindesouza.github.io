@@ -40,17 +40,17 @@ We must set up a device(server system) as a DHCP server and HTTP server with a f
 
 ## Switch 0
 
-![](switch0.jpg){ height=300px }
+![](switch0.jpg)
 
 The ports on the switch to which there are connections are enabled by default, and there is no additional configuration needed.
 
 ## Server 0
 
-![](server0a.jpg){ height=300px }
+![](server0a.jpg)
 
 Go to the "Desktop" tab, and in the menu select "Firewall". Enable the firewall service on the server.
 
-![](server0b.jpg){ height=300px }
+![](server0b.jpg)
 
 Add inbound rules-
 
@@ -63,15 +63,15 @@ Assign this host a static IP address of _20.0.0.1_
 
 The subnet mask would be _255.0.0.0_
 
-![](server0c.jpg){ height=300px }
+![](server0c.jpg)
 
 Now go to the "Services" tab, and enable the HTTP server
 
 Under the "SERVICES" section, select "DHCP". Enable the DHCP server.
 
-![](server0e.jpg){ height=300px }
+![](server0e.jpg)
 
-![](server0d.jpg){ height=300px }
+![](server0d.jpg)
 
 ## PC 0
 
@@ -79,13 +79,13 @@ In the "Config" tab, go to the "FastEthernet0" configuration, located under the 
 
 Set the IPv4 configuration to DHCP
 
-![](pc0.jpg){ height=300px }
+![](pc0.jpg)
 
 ## PC 1
 
 Set the IP configuration to DHCP the same way we did before
 
-![](pc1.jpg){ height=300px }
+![](pc1.jpg)
 
 For all the PCs configured, we can wait for the negotiations to complete, and we will see the DHCP-configured IP address greyed out in that field.
 
@@ -93,7 +93,7 @@ For all the PCs configured, we can wait for the negotiations to complete, and we
 
 Set the IP configuration to DHCP the same way we did before. Observe the IP address and subnet mask.
 
-![](pc2.jpg){ height=300px }
+![](pc2.jpg)
 
 ## Testing Connectivity and Correctness of Configuration
 
@@ -107,17 +107,17 @@ Next, open the configuration for PC1, go to the "Desktop" tab, and select "Web B
 
 From this, we have verified that the firewall rules are correct, and produce the intended result of dropping ICMP traffic, while allowing IP traffic through
 
-![](pc1b.jpg){ height=300px }
-![](pc2b.jpg){ height=300px }
+![](pc1b.jpg)
+![](pc2b.jpg)
 
 Now, let's modify the ruleset of the firewall to allow ICMP packets and drop IP traffic
 
-![](server0switched.jpg){ height=300px }
+![](server0switched.jpg)
 
 We see that this time, IP traffic is blocked, while ICMP packets are allowed through, and we can get an ICMP echo reply.
 
-![](switched1.jpg){ height=300px }
-![](switched2.jpg){ height=300px }
+![](switched1.jpg)
+![](switched2.jpg)
 
 _Our final network topology map is_
 
