@@ -15,6 +15,11 @@ permalink: /pages/words
 
 ## Add them to your lexicon!
 
+    melange
+    apostate
+    recant
+    remit
+    extenuating
     rescind
     renege
     rift

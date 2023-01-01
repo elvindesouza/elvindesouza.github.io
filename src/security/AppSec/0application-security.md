@@ -22,6 +22,12 @@ permalink: /security/appsec
 
 # Recent Blogposts
 
+## [Threat Modeling](threat_modeling.md)
+
+[Certificate of Completion](https://www.linkedin.com/learning/certificates/9c11efd851ef6cf49e2dc2383d738e781f43f6844504c929ba024cd148ae10a5?u=126888530)
+
+The "Four-Question Framework", General steps used in threat modeling. Determining and Ranking Threats using STRIDE, and managing these risks
+
 ## [The OWASP Top Ten](OWASP10.md)
 
 The OWASP Top Ten is a standard awareness document for developers and web application security. It represents a broad consensus about the most critical security risks to web applications.
