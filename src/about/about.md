@@ -144,7 +144,7 @@ _June 2021-Now_
 
 # My Technical Skills and Proficiencies
 
-I have experience with programming, networking, operating systems, and security fundamentals.
+I have experience with **application programming** and **application security**.
 
 ## Python
 
@@ -242,8 +242,6 @@ I also have experience with the modern web with **Angular**, **NodeJs**: **expre
 
 - literature
 - playing and teaching the guitar
-- sports
-- art
 - video editing
 
 ---
