@@ -261,6 +261,8 @@ You can check out my GitHub [here](https://github.com/elvindesouza/)
 
 You can check out my LinkedIn [here](https://www.linkedin.com/in/elvindesouza/)
 
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
 <!-- You can check out my Leetcode [here](https://leetcode.com/elvindesouza/) -->
 <!---->
 <!-- You can check out my TryHackMe [here](https://tryhackme.com/p/elvindesouza) -->
