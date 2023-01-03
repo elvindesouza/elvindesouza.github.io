@@ -36,7 +36,7 @@ I am also an avid programmer, with extensive problem solving skills and using pr
 
 ## Web Engineer at Converge-Collegepond
 
-_July-Oct 2022
+_July-Oct 2022_
 
 _Mumbai, India_
 
@@ -74,15 +74,19 @@ Ensures that I have the security problem-solving skills required to:
 
 [Certificate and Verification Code](resources/ComptiaSecurity.pdf)
 
+![](img/linkedinlearning1.jpg)
+
 ## LinkedIn Learning Certifications
 
-Available [here](elvindsouza.github.io/src/about/resources)
+Available [here](https://github.com/elvindesouza/elvindesouza.github.io/tree/master/src/about/resources/LinkedInCertificates)
 
 You may also view my LinkedIn profile(link at the bottom of this page) to see these certifications
 
 ---
 
 # Education
+
+![](img/vu.jpg)
 
 ## Bachelor of Technology in Computer Engineering in association with IBM ( BTech. CE INFOSEC )
 
@@ -134,6 +138,8 @@ _79.85%_
 - Stream : Science
 - Selection : Physics+Chemistry+Maths
 
+![](img/vincents1.jpg)
+
 ## Secondary School Certificate
 
 **Maharashtra State Board of Secondary & Higher Secondary Education**
@@ -148,6 +154,8 @@ _MAR 2018_
 _89.80%_
 
 # Community and Leadership
+
+![](img/revolution.jpg)
 
 ## Tech Department and Project Department Lead at the Revolution Software Development Club
 
@@ -169,6 +177,8 @@ _June 2021-Jan 2023_
 
 
 **Previous position**: Tech Assistant, [letter of appreciation](resources/RevolutionTechAssistant.pdf)
+
+![](img/genesis.jpg)
 
 ## Tech Assistant at the Genesis ML/AI Club
 
