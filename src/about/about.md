@@ -23,15 +23,22 @@ permalink: /about
 
 I like programming, cybersecurity, and linux.
 
-I have a strong work ethic, with good teamwork and communication skills
+I have a strong work ethic, with good teamwork and exceptional communication skills
 
 I am also an avid programmer, with extensive problem solving skills and using programming patterns.
 
+---
+
 # Work Experience
+
+![](img/converge.jpg){:width="200px"}
+![](img/collegepond.jpg){:width="200px"}
 
 ## Web Engineer at Converge-Collegepond
 
-_July 2022-Now_
+_July-Oct 2022
+
+_Mumbai, India_
 
 - Created and maintained web pages for the website built with WordPress
 - Designed forms, implemented them on the website, parsed form responses, and aggregated data
@@ -46,11 +53,13 @@ _July 2022-Now_
 
 [Letter of Experience](resources/Collegepond-Converge-Experience.pdf)
 
+---
+
 # Certifications and Accreditations
 
-## CompTIA Security+ Certification
+![](img/comptia.jpg)
 
-[Certificate and Verification Code](resources/ComptiaSecurity.pdf)
+## CompTIA Security+ Certification
 
 _SY0-601_
 
@@ -63,6 +72,14 @@ Ensures that I have the security problem-solving skills required to:
 - Operate with an awareness of applicable laws and policies, including principles of governance, risk, and compliance
 - Identify, analyze, and respond to security events and incidents
 
+[Certificate and Verification Code](resources/ComptiaSecurity.pdf)
+
+## LinkedIn Learning Certifications
+
+Available [here](elvindsouza.github.io/src/about/resources)
+
+You may also view my LinkedIn profile(link at the bottom of this page) to see these certifications
+
 ---
 
 # Education
@@ -71,7 +88,9 @@ Ensures that I have the security problem-solving skills required to:
 
 [Transcript of Marks](resources/VishwakarmaUniversity-Transcript.pdf)
 
-_Vishwakarma University, Pune_
+_Vishwakarma University_
+
+_Pune, India_
 
 _AUG 2020-Now_
 
@@ -81,7 +100,7 @@ _latest GPA 9.26/10_
 
 - Specialization ( Minor ) : Information Security
 
-### Relevant Courses 
+#### Relevant Courses 
 
 **(6-month courses, substantial credit ratings only)**
 
@@ -106,6 +125,8 @@ _latest GPA 9.26/10_
 
 _Rasiklal M. Dhariwal Junior College_
 
+_Pune, India_
+
 _FEB 2020_
 
 _79.85%_
@@ -117,7 +138,10 @@ _79.85%_
 
 **Maharashtra State Board of Secondary & Higher Secondary Education**
 
-_St. Vincent’s High School, Pune_
+_St. Vincent’s High School_
+
+_Pune, India_
+
 
 _MAR 2018_
 
@@ -127,13 +151,24 @@ _89.80%_
 
 ## Tech Department and Project Department Lead at the Revolution Software Development Club
 
-_June 2021-Now_
+_June 2021-Jan 2023_
 
 - Spread knowledge of industry-standard technology by organizing hackathons, workshops, projects and webinars
 - Conducted research on bleeding edge tooling, and worked on projects involving the same
 - Increased community outreach as a Content Strategist by writing in-depth technical pieces
 
-Previous position: Tech Assistant, [letter of appreciation](resources/RevolutionTechAssistant.pdf)
+**Webinar - Introduction to Debugging by Revolution SDC**
+
+[Youtube](https://www.youtube.com/watch?v=FSbX6KquPnA)
+
+[LinkedIn](https://www.linkedin.com/posts/revolution-software-club_on-30th-nov-2022-introduction-to-debugging-activity-7004085249617858560-fvSC?utm_source=share&utm_medium=member_desktop)
+
+    Session on how to resolve bugs using the scientific method and using the VSCode debugger.
+    I came up with the idea, conceptualized and designed the structure of the webinar and composed the speaking points covered in each chapter and live demonstrations performed by the other participants.
+    I was the main presenter for the webinar and was the driving force behind its execution.
+
+
+**Previous position**: Tech Assistant, [letter of appreciation](resources/RevolutionTechAssistant.pdf)
 
 ## Tech Assistant at the Genesis ML/AI Club
 
@@ -142,9 +177,15 @@ _June 2021-Now_
 - Built a model with scikit-learn to predict heart failure with high accuracy rate using binary logistic regression
 - Authored write-ups on applied ML (ranking, recommendation, classification, regression, clustering, anomaly detection)
 
+[GitHub - Heart Failure Detection](https://github.com/elvindesouza/assorted/tree/master/heart-failure-detection)
+
+[GitHub - Data Science and Data Visualization Introduction](https://github.com/elvindesouza/assorted/blob/master/Introduction/Python_Introductory_Notebook.ipynb)
+
+---
+
 # My Technical Skills and Proficiencies
 
-I have experience with **application programming** and **application security**.
+I have experience in **application programming** and **application security**.
 
 ## Python
 
@@ -172,6 +213,25 @@ I am also familiar with the coreutils/Unix-style(philisophy) programming, and ha
 
 I also have experience in setting up and maintaining **webservers** like apache and nginx. Related skills here include setting up services in accodance with [available benchmarks](https://www.cisecurity.org/cis-benchmarks/) (www/ permissions, symlinks, updates-patches-maintenance, configuration files, managing and rotating logs)
 
+## Information Security
+
+I hold the [Comptia Security+](#comptia-security-certification) 
+
+I have experience with the following vulnerability assessment and penetration testing tools/frameworks-
+
+- Burp Suite, Nessus, OWASP ZAP, nikto, openVAS
+- Metasploit
+- sqlmap
+- lynis
+- wfuzz
+- theharvester
+- nmap
+- hping3
+- Wireshark
+- john, hydra, hashcat
+
+*Please explore the Security section of the website to see what topics/tooling I have experience/interest in.*
+
 ## Java
 
 ![](img/logo_java.png){:width="100px"}
@@ -182,15 +242,6 @@ _1 year of experience_
 - distributed application development by following guidelines on maintaining projects in accordance with guidelines(writing quality comments, testcases, [black box programming](https://en.wikipedia.org/wiki/Black_box#:~:text=In%20computing%20in%20general%2C%20a,routine%20suitable%20for%20re%2Duse.)), using version control and signing commits, and following a well-documented SDLC methodology
 - secure development with fuzz testing and unit testing
 
-## SQL
-
-![](img/logo_db.jpeg){:width="100px"}
-
-_1 year of experience_
-
-- (Relational) Database management using **SQL** with MySQL, and SQLite.
-- limited experience with mongoDB as part of a MEAN stack webapp
-
 ## Javascript for Web Development
 
 ![](img/logo_js.png){:width="50px"}
@@ -199,23 +250,20 @@ _5 months of experience_
 
 I also have experience with the modern web with **Angular**, **NodeJs**: **express**, ejs, pug, etc, though i feel more comfortable with the back-end
 
-## Other Skills
+## Other Technical Skills
 
 - Git
-- OOP
-- C/C++
-- Penetration Testing
 - LaTeX
 - Markdown
 - Applying Data Structures and Algorithms
 
-# Communication Skills and Soft Skills
+# Soft Skills
 
-- problem solving
 - communication skills
-- analytical thinking
 - strong work ethic
+- problem solving
 - enthusiastic learner
+- analytical thinking
 - teamwork skills
 - critical thinking
 
@@ -229,6 +277,8 @@ I also have experience with the modern web with **Angular**, **NodeJs**: **expre
 ### German
 
 - Level A1, Passed the Fit in Deutsch 1 (Fit1/Fit Eins) from the Goethe-Institut with grade A
+
+[Certificate](resources/German_Fit1.pdf)
 
 ### Hindi
 
@@ -261,9 +311,6 @@ You can check out my GitHub [here](https://github.com/elvindesouza/)
 
 You can check out my LinkedIn [here](https://www.linkedin.com/in/elvindesouza/)
 
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="elvindesouza" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/elvindesouza?trk=profile-badge">Elvin deSouza</a></div>
               
 <!-- You can check out my Leetcode [here](https://leetcode.com/elvindesouza/) -->
 <!---->

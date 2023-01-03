@@ -18,6 +18,10 @@ cp-copy
 ref-references
 ```
 
+# 03.01.23
+- new major version
+- update about page
+
 # 26.10.22
 - add dotfile configuration mds(WIP)
 - add owasp10 mds
