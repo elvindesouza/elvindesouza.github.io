@@ -104,7 +104,7 @@ _latest GPA 9.26/10_
 
 - Specialization ( Minor ) : Information Security
 
-#### Relevant Courses 
+### Relevant Courses 
 
 **(6-month courses, substantial credit ratings only)**
 
@@ -165,16 +165,17 @@ _June 2021-Jan 2023_
 - Conducted research on bleeding edge tooling, and worked on projects involving the same
 - Increased community outreach as a Content Strategist by writing in-depth technical pieces
 
+![](img/revolution_workshop.jpg)
+
 **Webinar - Introduction to Debugging by Revolution SDC**
 
 [Youtube](https://www.youtube.com/watch?v=FSbX6KquPnA)
 
 [LinkedIn](https://www.linkedin.com/posts/revolution-software-club_on-30th-nov-2022-introduction-to-debugging-activity-7004085249617858560-fvSC?utm_source=share&utm_medium=member_desktop)
 
-    Session on how to resolve bugs using the scientific method and using the VSCode debugger.
-    I came up with the idea, conceptualized and designed the structure of the webinar and composed the speaking points covered in each chapter and live demonstrations performed by the other participants.
-    I was the main presenter for the webinar and was the driving force behind its execution.
-
+- Session on how to resolve bugs using the scientific method and using the VSCode debugger.
+- I came up with the idea, conceptualized and designed the structure of the webinar and composed the speaking points covered in each chapter and live demonstrations performed by the other participants.
+- I was the main presenter for the webinar and was the driving force behind its execution.
 
 **Previous position**: Tech Assistant, [letter of appreciation](resources/RevolutionTechAssistant.pdf)
 
@@ -240,7 +241,7 @@ I have experience with the following vulnerability assessment and penetration te
 - Wireshark
 - john, hydra, hashcat
 
-*Please explore the Security section of the website to see what topics/tooling I have experience/interest in.*
+*Please explore the [Security section](https://elvindesouza.github.io/security/) of the website to see what topics/tooling I have experience/interest in.*
 
 ## Java
 
@@ -258,12 +259,14 @@ _1 year of experience_
 
 _5 months of experience_
 
-I also have experience with the modern web with **Angular**, **NodeJs**: **express**, ejs, pug, etc, though i feel more comfortable with the back-end
+I also have experience with the modern web with **Angular**, **NodeJs**: **express**, ejs, pug, etc
 
 ## Other Technical Skills
 
 - Git
 - LaTeX
+- SSH
+- virtualization, Docker
 - Markdown
 - Applying Data Structures and Algorithms
 
@@ -315,7 +318,7 @@ _Aside from technology and programming related interests, my hobbies include pla
 
 # View my Work
 
-_some links might not be available because accounts have been set to private_
+_some links might not be available right now_
 
 You can check out my GitHub [here](https://github.com/elvindesouza/)
 
