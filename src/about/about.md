@@ -79,7 +79,9 @@ Ensures that I have the security problem-solving skills required to:
 
 ## AWS Academy Cloud Foundations
 
-AWS Academy Cloud Foundations is intended for students who seek an overall understanding of cloud computing concepts, independent of specific technical roles. It provides a detailed overview of cloud concepts, AWS core services, security, architecture, pricing, and support.
+AWS Academy Cloud Foundations is provides an overall understanding of cloud computing concepts, independent of specific technical roles. It provides a detailed overview of cloud concepts, AWS core services, security, architecture, pricing, and support.
+
+[Certificate](https://www.credly.com/badges/152d8dfe-17fc-4dfe-9394-21ed0d521a49/public_url)
 
 ## CCNA: Introduction to Networking
 
@@ -137,10 +139,10 @@ You may also view my LinkedIn profile(link at the bottom of this page) to see th
 
 ![](img/hofuni.gif)
 
-![img/HofUniversityInternationalStudents.jpg]{:width="400px"}
+![]img/HofUniversityInternationalStudents.jpg{:width="400px"}
 
 
-## Computer Science/ Studium im Informatik - International Exchange Student
+## Computer Science/Informatik - International Exchange Student
 
 _Hochschule Hof University of Applied Sciences_
 
