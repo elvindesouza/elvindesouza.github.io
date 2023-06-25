@@ -19,7 +19,9 @@ permalink: /about
 
 ![](img/me.jpg){:width="300px"}
 
-**Undergraduate Computer Engineer at Vishwakarma University Pune, majoring in Information Security in association with IBM**
+**Undergraduate Computer Engineer at Hochschule Hof University of Applied Sciences, Hof, Germany**
+
+**Majoring in Information Security in association with IBM**
 
 I like programming, cybersecurity, and linux.
 
@@ -74,6 +76,57 @@ Ensures that I have the security problem-solving skills required to:
 
 [Certificate and Verification Code](resources/ComptiaSecurity.pdf)
 
+
+## AWS Academy Cloud Foundations
+
+AWS Academy Cloud Foundations is intended for students who seek an overall understanding of cloud computing concepts, independent of specific technical roles. It provides a detailed overview of cloud concepts, AWS core services, security, architecture, pricing, and support.
+
+## CCNA: Introduction to Networking
+
+This course introduces the architecture, structure, functions, components, and models of the Internet and other computer networks. The principles and structure of IP addressing and the fundamentals of Ethernet concepts, media, and operations are introduced to provide a foundation for the curriculum. By the end of the course, students will be able to build simple local area networks (LAN), perform basic configurations for routers and switches, and implement IP addressing schemes.
+
+These course materials will assist you in developing the skills necessary to do the following:
+
+    Explain the advances in modern network technologies.
+    Implement initial settings including passwords, IP addressing, and default gateway parameters on a network switch and end devices.
+    Explain how network protocols enable devices to access local and remote network resources.
+    Explain how physical layer protocols, services, and network media support communications across data networks.
+    Calculate numbers between decimal, binary, and hexadecimal systems.
+    Explain how media access control in the data link layer supports communications across networks.
+    Explain how Ethernet operates in a switched network.
+    Explain how routers use network layer protocols and services to enable end-to-end connectivity.
+    Explain how ARP and ND enable communication on a local area network.
+    Implement initial settings on a router and end devices.
+    Calculate an IPv4 subnetting scheme to efficiently segment your network.
+    Implement an IPv6 addressing scheme.
+    Use various tools to test network connectivity.
+    Compare the operation of transport layer protocols in supporting end-to-end communication.
+    Explain the operation of the application layer in providing support to end-user applications.
+    Configure switches and routers with device hardening features to enhance security.
+    Troubleshoot connectivity in a small network.
+
+
+## CyberOps Associate
+
+CyberOps Associate v1.0 covers knowledge and skills needed to successfully handle the tasks, duties, and responsibilities of an associate-level Security Analyst working in a Security Operations Center (SOC).
+
+Upon completion of the CyberOps Associate v1.0 course, students will be able to perform the following tasks:
+
+    Install virtual machines to create a safe environment for implementing and analyzing cybersecurity threat events.
+    Explain the role of the Cybersecurity Operations Analyst in the enterprise.
+    Explain the Windows Operating System features and characteristics needed to support cybersecurity analyses.
+    Explain the features and characteristics of the Linux Operating System.
+    Analyze the operation of network protocols and services.
+    Explain the operation of the network infrastructure.
+    Classify the various types of network attacks.
+    Use network monitoring tools to identify attacks against network protocols and services.
+    Explain how to prevent malicious access to computer networks, hosts, and data.
+    Explain the impacts of cryptography on network security monitoring.
+    Explain how to investigate endpoint vulnerabilities and attacks.
+    Evaluate network security alerts.
+    Analyze network intrusion data to identify compromised hosts and vulnerabilities.
+    Apply incident response models to manage network security incidents.
+
 ![](img/linkedinlearning1.jpg)
 
 ## LinkedIn Learning Certifications
@@ -85,6 +138,36 @@ You may also view my LinkedIn profile(link at the bottom of this page) to see th
 ---
 
 # Education
+
+![](img/hofuni.gif)
+
+## Computer Science/ Studium im Informatik - International Exchange Student
+
+_Hochschule Hof University of Applied Sciences_
+
+_Hof, Bavaria, Germany_
+
+_Feb 2023-Now_
+
+Activities and societies: Taking part in the following research/project work with Professors-
+
+1. Lost in Translation: Exploiting Automatic Website Translations using Homoglyph Attacks on Phishing
+
+Websites
+2. Encryption and Signing of E-Mails using S/MIME and OpenPGP on SmartphonesActivities and societies: Taking part in the following research/project work with Professors- 1. Lost in Translation: Exploiting Automatic Website Translations using Homoglyph Attacks on Phishing Websites 2. Encryption and Signing of E-Mails using S/MIME and OpenPGP on Smartphones
+
+
+Enrolled in the Computer Science program, taking up a subset of the following courses-
+
+11.1.1.1 CCNA - Introduction to Networks
+11.1.1.2 CCNA - Routing, Switching and Wireless Essentials
+11.1.1.3 CCNA - Enterprise Networking, Security and Automation
+11.1.2 CCNA - CyberSecurity Operations
+11.1.1 CCNA - Network Security
+11.3.5 Information System Security
+11.5 Cloud Computing
+Project Work
+Deutsch als Fremdsprache: A2.1
 
 ![](img/vu.jpg)
 
@@ -148,10 +231,45 @@ _St. Vincent’s High School_
 
 _Pune, India_
 
-
 _MAR 2018_
 
 _89.80%_
+
+---
+
+# Projects
+
+### Can Johnny Encrypt E-Mails on Smartphones?
+
+Research under Prof. Dr. Florian Adamsky of the Institute for Information Systems at Hof University – Encryption and signing of e-mails using S/MIME and OpenPGP on smartphones
+
+### Lost In Translation
+
+Project under Prof. Dr. Florian Adamsky of the Institute for Information Systems at Hof University- Exploiting automatic website translations (through phishing websites) using homoglyph attacks
+
+### AutOSINT
+
+A graphical user interface to automate OSINT/information gathering and reconnaissance
+Use is made of APIs, among other things, to generate results
+Documentation generated using Sphinx
+
+### [Small Network Hardening](https://elvindesouza.github.io/hardening)
+
+Hardened a small network by installing network security measures, and setting them up keeping in mind the services available on the network. Removed unnecessary services and applications, and audited user and service accounts on the systems. Reserved IP addresses manually, set up whitelists, and made other configurations to make the network more secure.
+
+### [Small Network Penetration Testing](https://elvindesouza.github.io/NetworkPenetrationTesting)
+
+Conducting a Network Penetration Test on a Small Network. Followed all the standard steps of a penetration test in accordance with applicable standards and guidelines, and documented the process.
+
+### [GPG-GUI](https://elvindesouza.github.io/GPG-GUI/)
+
+Simple graphical front-end to GnuPG, making encryption accessible to everyone!
+
+### [Utility of the kexec Linux system call.](https://elvindesouza.github.io/security/kexec)
+
+Documenting how a physical attack can be carried out by (mis)using the kexec system call to boot into another kernel(operating system) from a kernel, and perform an attack with scripting in a more familiar environment
+
+---
 
 # Community and Leadership
 
@@ -202,8 +320,6 @@ I have experience in **application programming** and **application security**.
 
 ![](img/logo_python.jpg){:width="100px"}
 
-_3 years of experience_
-
 - scripting and automation, using the standard library(with **re**
   , **shutil**, **os**, **pathlib**,etc.) along with the plethora of amazing libraries available like **pytest**,**selenium**,**requests**
 - web development with **Django**, **database APIs**(MySQL,SQLite)
@@ -215,8 +331,6 @@ _3 years of experience_
 ## GNU/Linux
 
 ![](img/logo_linux.png){:width="100px"}
-
-_3 years of experience_
 
 scripting/command-line, security, architecture, administration, etc. and have gained expertise of the fundamentals like filesystem layout, permissions, conventions, etc. along with experience with popular software, good practices, and **bash** scripting.
 
@@ -243,21 +357,9 @@ I have experience with the following vulnerability assessment and penetration te
 
 *Please explore the [Security section](https://elvindesouza.github.io/security/) of the website to see what topics/tooling I have experience/interest in.*
 
-## Java
-
-![](img/logo_java.png){:width="100px"}
-
-_1 year of experience_
-
-- application development with **AWT** and **Swing**, **JDBC** to create user-friendly GUIs with appropriate encapsulation and exception handling
-- distributed application development by following guidelines on maintaining projects in accordance with guidelines(writing quality comments, testcases, [black box programming](https://en.wikipedia.org/wiki/Black_box#:~:text=In%20computing%20in%20general%2C%20a,routine%20suitable%20for%20re%2Duse.)), using version control and signing commits, and following a well-documented SDLC methodology
-- secure development with fuzz testing and unit testing
-
 ## Javascript for Web Development
 
 ![](img/logo_js.png){:width="50px"}
-
-_5 months of experience_
 
 I also have experience with the modern web with **Angular**, **NodeJs**: **express**, ejs, pug, etc
 
@@ -282,6 +384,7 @@ I also have experience with the modern web with **Angular**, **NodeJs**: **expre
 
 ### English
 
+- Certified Level C2 on the CEFR
 - Distinction (90/100) in Communication Skills Grade 3, Trinity College London
 - Distinction in Choral Speaking Grade 2, Trinity College London
 - Distinction (89/100) in Speech and Drama Grade 2, Trinity College London
@@ -289,6 +392,7 @@ I also have experience with the modern web with **Angular**, **NodeJs**: **expre
 
 ### German
 
+- Completed Deutsch A2.1 course
 - Level A1, Passed the Fit in Deutsch 1 (Fit1/Fit Eins) from the Goethe-Institut with grade A
 
 [Certificate](resources/German_Fit1.pdf)
