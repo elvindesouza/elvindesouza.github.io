@@ -17,11 +17,11 @@ permalink: /about
 
 # Elvin deSouza - A Summary
 
-![](img/me.jpg){:width="300px"}
+![](img/me.jpg){:width="500px"}
 
 **Undergraduate Computer Engineer at Hochschule Hof University of Applied Sciences, Hof, Germany**
 
-**Majoring in Information Security in association with IBM**
+<!-- **Majoring in Information Security in association with IBM** -->
 
 I like programming, cybersecurity, and linux.
 
@@ -83,9 +83,7 @@ AWS Academy Cloud Foundations is intended for students who seek an overall under
 
 ## CCNA: Introduction to Networking
 
-This course introduces the architecture, structure, functions, components, and models of the Internet and other computer networks. The principles and structure of IP addressing and the fundamentals of Ethernet concepts, media, and operations are introduced to provide a foundation for the curriculum. By the end of the course, students will be able to build simple local area networks (LAN), perform basic configurations for routers and switches, and implement IP addressing schemes.
-
-These course materials will assist you in developing the skills necessary to do the following:
+This course introduces the architecture, structure, functions, components, and models of the Internet and other computer networks. 
 
     Explain the advances in modern network technologies.
     Implement initial settings including passwords, IP addressing, and default gateway parameters on a network switch and end devices.
@@ -109,8 +107,6 @@ These course materials will assist you in developing the skills necessary to do 
 ## CyberOps Associate
 
 CyberOps Associate v1.0 covers knowledge and skills needed to successfully handle the tasks, duties, and responsibilities of an associate-level Security Analyst working in a Security Operations Center (SOC).
-
-Upon completion of the CyberOps Associate v1.0 course, students will be able to perform the following tasks:
 
     Install virtual machines to create a safe environment for implementing and analyzing cybersecurity threat events.
     Explain the role of the Cybersecurity Operations Analyst in the enterprise.
@@ -141,6 +137,9 @@ You may also view my LinkedIn profile(link at the bottom of this page) to see th
 
 ![](img/hofuni.gif)
 
+![img/HofUniversityInternationalStudents.jpg]{:width="400px"}
+
+
 ## Computer Science/ Studium im Informatik - International Exchange Student
 
 _Hochschule Hof University of Applied Sciences_
@@ -149,25 +148,19 @@ _Hof, Bavaria, Germany_
 
 _Feb 2023-Now_
 
-Activities and societies: Taking part in the following research/project work with Professors-
-
-1. Lost in Translation: Exploiting Automatic Website Translations using Homoglyph Attacks on Phishing
-
-Websites
-2. Encryption and Signing of E-Mails using S/MIME and OpenPGP on SmartphonesActivities and societies: Taking part in the following research/project work with Professors- 1. Lost in Translation: Exploiting Automatic Website Translations using Homoglyph Attacks on Phishing Websites 2. Encryption and Signing of E-Mails using S/MIME and OpenPGP on Smartphones
-
-
 Enrolled in the Computer Science program, taking up a subset of the following courses-
 
-11.1.1.1 CCNA - Introduction to Networks
-11.1.1.2 CCNA - Routing, Switching and Wireless Essentials
-11.1.1.3 CCNA - Enterprise Networking, Security and Automation
-11.1.2 CCNA - CyberSecurity Operations
-11.1.1 CCNA - Network Security
-11.3.5 Information System Security
-11.5 Cloud Computing
-Project Work
-Deutsch als Fremdsprache: A2.1
+- 11.1.1.1 CCNA - Introduction to Networks
+- 11.1.1.2 CCNA - Routing, Switching and Wireless Essentials
+- 11.1.1.3 CCNA - Enterprise Networking, Security and Automation
+- 11.1.2 CCNA - CyberSecurity Operations
+- 11.1.1 CCNA - Network Security
+- 11.3.5 Information System Security
+- 11.5 Cloud Computing
+- Project Work
+- Deutsch als Fremdsprache: A2.1
+
+[Certificate of Enrolment](resources/HofUniversity.pdf)
 
 ![](img/vu.jpg)
 
@@ -239,33 +232,33 @@ _89.80%_
 
 # Projects
 
-### Can Johnny Encrypt E-Mails on Smartphones?
+## Can Johnny Encrypt E-Mails on Smartphones?
 
 Research under Prof. Dr. Florian Adamsky of the Institute for Information Systems at Hof University – Encryption and signing of e-mails using S/MIME and OpenPGP on smartphones
 
-### Lost In Translation
+## Lost In Translation
 
 Project under Prof. Dr. Florian Adamsky of the Institute for Information Systems at Hof University- Exploiting automatic website translations (through phishing websites) using homoglyph attacks
 
-### AutOSINT
+## AutOSINT
 
 A graphical user interface to automate OSINT/information gathering and reconnaissance
 Use is made of APIs, among other things, to generate results
 Documentation generated using Sphinx
 
-### [Small Network Hardening](https://elvindesouza.github.io/hardening)
+## [Small Network Hardening](https://elvindesouza.github.io/hardening)
 
 Hardened a small network by installing network security measures, and setting them up keeping in mind the services available on the network. Removed unnecessary services and applications, and audited user and service accounts on the systems. Reserved IP addresses manually, set up whitelists, and made other configurations to make the network more secure.
 
-### [Small Network Penetration Testing](https://elvindesouza.github.io/NetworkPenetrationTesting)
+## [Small Network Penetration Testing](https://elvindesouza.github.io/NetworkPenetrationTesting)
 
 Conducting a Network Penetration Test on a Small Network. Followed all the standard steps of a penetration test in accordance with applicable standards and guidelines, and documented the process.
 
-### [GPG-GUI](https://elvindesouza.github.io/GPG-GUI/)
+## [GPG-GUI](https://elvindesouza.github.io/GPG-GUI/)
 
 Simple graphical front-end to GnuPG, making encryption accessible to everyone!
 
-### [Utility of the kexec Linux system call.](https://elvindesouza.github.io/security/kexec)
+## [Utility of the kexec Linux system call.](https://elvindesouza.github.io/security/kexec)
 
 Documenting how a physical attack can be carried out by (mis)using the kexec system call to boot into another kernel(operating system) from a kernel, and perform an attack with scripting in a more familiar environment
 
@@ -278,6 +271,8 @@ Documenting how a physical attack can be carried out by (mis)using the kexec sys
 ## Tech Department and Project Department Lead at the Revolution Software Development Club
 
 _June 2021-Jan 2023_
+
+[letter of appreciation](resources/RevolutionLead.pdf)
 
 - Spread knowledge of industry-standard technology by organizing hackathons, workshops, projects and webinars
 - Conducted research on bleeding edge tooling, and worked on projects involving the same
@@ -372,7 +367,7 @@ I also have experience with the modern web with **Angular**, **NodeJs**: **expre
 - Markdown
 - Applying Data Structures and Algorithms
 
-# Soft Skills
+# Soft Skills and Language Skills
 
 - communication skills
 - strong work ethic
@@ -382,34 +377,24 @@ I also have experience with the modern web with **Angular**, **NodeJs**: **expre
 - teamwork skills
 - critical thinking
 
-### English
+## English
 
-- Certified Level C2 on the CEFR
+- [Certified Level C2 on the CEFR](resources/English-C2.pdf)
+
+## German
+
+- Completed Deutsch A2.1 course
+- [Level A1, Passed the Fit in Deutsch 1 (Fit1/Fit Eins) from the Goethe-Institut with grade A](resources/German_Fit1.pdf)
+
+
+# Awards and Recognition
+
+- Received recognition from RVDP, NCIIPC for reporting several vulnerabilities in government infrastructure
+- 'Code Wars 2023' IBM-ICE National Hackathon- Shortlisted: Low-level design document for firewall to detect ARP spoofing
 - Distinction (90/100) in Communication Skills Grade 3, Trinity College London
 - Distinction in Choral Speaking Grade 2, Trinity College London
 - Distinction (89/100) in Speech and Drama Grade 2, Trinity College London
 - Scored 34/35 ( rank 221 Internationally ) in the International English Olympiad
-
-### German
-
-- Completed Deutsch A2.1 course
-- Level A1, Passed the Fit in Deutsch 1 (Fit1/Fit Eins) from the Goethe-Institut with grade A
-
-[Certificate](resources/German_Fit1.pdf)
-
-### Hindi
-
-- as a second language
-
-### Marathi
-
-- as a fourth language
-
-## Misc Skills
-
-- literature
-- playing and teaching the guitar
-- video editing
 
 ---
 

@@ -18,6 +18,11 @@ cp-copy
 ref-references
 ```
 
+# 25.06.23
+- add german resume/Lebenslauf
+- updated about page
+- fixed links on projects page
+
 # 03.01.23
 - new major version
 - update about page
