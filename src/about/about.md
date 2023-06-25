@@ -17,7 +17,7 @@ permalink: /about
 
 # Elvin deSouza - A Summary
 
-![](img/me.jpg){:width="500px"}
+![](img/me.jpg){:width="700px"}
 
 **Undergraduate Computer Engineer at Hochschule Hof University of Applied Sciences, Hof, Germany**
 
@@ -139,7 +139,7 @@ You may also view my LinkedIn profile(link at the bottom of this page) to see th
 
 ![](img/hofuni.gif)
 
-![]img/HofUniversityInternationalStudents.jpg{:width="400px"}
+![](img/HofUniversityInternationalStudents.jpg){:width="400px"}
 
 
 ## Computer Science/Informatik - International Exchange Student
@@ -301,11 +301,6 @@ _June 2021-Jan 2023_
 _June 2021-Now_
 
 - Built a model with scikit-learn to predict heart failure with high accuracy rate using binary logistic regression
-- Authored write-ups on applied ML (ranking, recommendation, classification, regression, clustering, anomaly detection)
-
-[GitHub - Heart Failure Detection](https://github.com/elvindesouza/assorted/tree/master/heart-failure-detection)
-
-[GitHub - Data Science and Data Visualization Introduction](https://github.com/elvindesouza/assorted/blob/master/Introduction/Python_Introductory_Notebook.ipynb)
 
 ---
 
