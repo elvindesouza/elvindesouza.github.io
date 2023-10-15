@@ -36,7 +36,10 @@ Proven track record of contributing to research projects under professors, and s
 
 # Work Experience
 
-![](img/iisys.png){:width="400px"}
+<div style="background-color: white;">
+![](img/iisys.png){:width="800px"; }
+</div>
+
 
 ## Research Assistant in the Research Group for System and Network Security (SNS) of the Institute for Information Systems at Hochschule Hof
 
@@ -131,7 +134,7 @@ You may also view my LinkedIn profile(link at the bottom of this page) to see th
 
 # Education
 
-![](img/hofuni.gif)
+![](img/hofuni.gif){:width="700px"}
 
 ![](img/HofUniversityInternationalStudents.jpg){:width="400px"}
 
@@ -154,7 +157,7 @@ Enrolled in the Computer Science program, took up the following courses-
 - Deutsch als Fremdsprache: A2.1
 - Deutsch als Fremdsprache: B1.1
 
-![](img/vu.jpg)
+![](img/vu.png){:width="700px"}
 
 ## Bachelor of Technology in Computer Engineering in association with IBM ( BTech. CE INFOSEC )
 
@@ -300,18 +303,14 @@ I have experience in **application programming** and **application security**.
 - web development with **Django**, **database APIs**(MySQL,SQLite)
 - [secure Python development ](../security/AppSec/secure_coding_python.md) using unit tests, running code linters, type checkers on projects to check for undetected issues, security tools like [Prospector](../security/AppSec/secure_coding_python.md#Prospector) and [Bandit](../security/AppSec/secure_coding_python.md#Bandit) to find vulnerabilities and possible flaws
 - extensible module/library development following the PEP8 python style guide, conforming to the guidelines on project structure and layout, naming conventions, docstrings, type hints, commit messages, etc.
-- experience with AI/ML and data visualization-processing libraries like
-  **openCV**, **matplotlib**, **numpy**, **pandas**, **scikit-learn**, etc [as a Tech. Assistant at the Genesis ML Club](#tech-assistant-at-the-genesis-mlai-club)
 
 ## GNU/Linux
 
 ![](img/logo_linux.png){:width="100px"}
 
-scripting/command-line, security, architecture, administration, etc. and have gained expertise of the fundamentals like filesystem layout, permissions, conventions, etc. along with experience with popular software, good practices, and **bash** scripting.
-
-I am also familiar with the coreutils/Unix-style(philisophy) programming, and have learnt the skills of **system management**, **security**, **scripting**, **containers**, **automation**, and **troubleshooting**
-
-I also have experience in setting up and maintaining **webservers** like apache and nginx. Related skills here include setting up services in accodance with [available benchmarks](https://www.cisecurity.org/cis-benchmarks/) (www/ permissions, symlinks, updates-patches-maintenance, configuration files, managing and rotating logs)
+- Scripting/command-line, security, architecture, administration, etc. and have gained expertise of the fundamentals like filesystem layout, permissions, conventions, etc. along with experience with popular software, good practices, and **bash** scripting.
+- I am also familiar with the coreutils/Unix-style(philisophy) programming, and have learnt the skills of **system management**, **security**, **scripting**, **containers**, **automation**, and **troubleshooting**
+- I also have experience in setting up and maintaining **webservers** like apache and nginx. Related skills here include setting up services in accodance with [available benchmarks](https://www.cisecurity.org/cis-benchmarks/) (www/ permissions, symlinks, updates-patches-maintenance, configuration files, managing and rotating logs)
 
 ## Information Security
 
