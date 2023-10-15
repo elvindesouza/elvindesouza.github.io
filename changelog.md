@@ -20,6 +20,9 @@ ref-references
 
 # 15.10.23
 - mod about page
+- add new pic
+- add updated english lebenslauf/German-standard resume
+- add updated US/international resume
 
 # 25.06.23
 - add german resume/Lebenslauf

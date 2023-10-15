@@ -154,8 +154,6 @@ Enrolled in the Computer Science program, took up the following courses-
 - Deutsch als Fremdsprache: A2.1
 - Deutsch als Fremdsprache: B1.1
 
-[Certificate of Enrolment](resources/HofUniversity.pdf)
-
 ![](img/vu.jpg)
 
 ## Bachelor of Technology in Computer Engineering in association with IBM ( BTech. CE INFOSEC )
