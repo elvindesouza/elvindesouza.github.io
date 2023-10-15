@@ -18,6 +18,9 @@ cp-copy
 ref-references
 ```
 
+# 15.10.23
+- mod about page
+
 # 25.06.23
 - add german resume/Lebenslauf
 - updated about page

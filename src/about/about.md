@@ -19,19 +19,43 @@ permalink: /about
 
 ![](img/me.jpg){:width="700px"}
 
-**Undergraduate Computer Engineer at Hochschule Hof University of Applied Sciences, Hof, Germany**
+**Research Assistant in the Research Group for System and Network Security(SNS) of the Institute for Information Systems at Hof University of Applied Sciences**
 
-<!-- **Majoring in Information Security in association with IBM** -->
+<!-- from linkedin description -->
 
 I like programming, cybersecurity, and linux.
 
 I have a strong work ethic, with good teamwork and exceptional communication skills
 
 I am also an avid programmer, with extensive problem solving skills and using programming patterns.
+Passionate computer engineer with a focus on application security and secure coding. Leveraging a solid foundation in GNU/Linux system administration and internals. Adept at crafting elegant solutions through programming skills and keen problem-solving acumen. Experienced in collaborating within dynamic team environments, driven by exceptional communication and teamwork abilities. 
+
+Proven track record of contributing to research projects under professors, and student clubs. Diligent, enthusiastic, and committed to upholding the highest work ethic.
 
 ---
 
 # Work Experience
+
+![](img/iisys.png){:width="400px"}
+
+## Research Assistant in the Research Group for System and Network Security (SNS) of the Institute for Information Systems at Hochschule Hof
+
+_October 2023-Now_
+
+_Hof, Germany_
+
+
+*The "Multi-modal Human-machine Interface with AI" project aims to develop such new interfaces with AI. In order to solve the data protection problems, novel onion routing methods are being researched to obscure the metadata and thus ensure maximum data protection. This project will further investigate some of the issues with Tor, particularly how end-to-end congestion control techniques affect the speed of onion routing.*
+
+- Investigating the implications of the cross-circuit interference (CCI) problem in the latest version of the Tor client, which includes end-to-end congestion control integration
+- Comparing various proposed solutions to mitigate the CCI problem in Shadow.
+
+Work performed under Prof. Dr. Florian Adamsky and professionally supervised by Mr. Sebastian Pahl.
+
+[Offer Letter](resources/iisys-Offer.pdf)
+
+[Internship Contract](resources/iisys-Contract.pdf)
+
 
 ![](img/converge.jpg){:width="200px"}
 ![](img/collegepond.jpg){:width="200px"}
@@ -87,43 +111,13 @@ AWS Academy Cloud Foundations is provides an overall understanding of cloud comp
 
 This course introduces the architecture, structure, functions, components, and models of the Internet and other computer networks. 
 
-    Explain the advances in modern network technologies.
-    Implement initial settings including passwords, IP addressing, and default gateway parameters on a network switch and end devices.
-    Explain how network protocols enable devices to access local and remote network resources.
-    Explain how physical layer protocols, services, and network media support communications across data networks.
-    Calculate numbers between decimal, binary, and hexadecimal systems.
-    Explain how media access control in the data link layer supports communications across networks.
-    Explain how Ethernet operates in a switched network.
-    Explain how routers use network layer protocols and services to enable end-to-end connectivity.
-    Explain how ARP and ND enable communication on a local area network.
-    Implement initial settings on a router and end devices.
-    Calculate an IPv4 subnetting scheme to efficiently segment your network.
-    Implement an IPv6 addressing scheme.
-    Use various tools to test network connectivity.
-    Compare the operation of transport layer protocols in supporting end-to-end communication.
-    Explain the operation of the application layer in providing support to end-user applications.
-    Configure switches and routers with device hardening features to enhance security.
-    Troubleshoot connectivity in a small network.
-
+[Certificate](https://www.credly.com/badges/3cc3f44e-13ac-457e-8f64-3b80da56de92/public_url)
 
 ## CyberOps Associate
 
 CyberOps Associate v1.0 covers knowledge and skills needed to successfully handle the tasks, duties, and responsibilities of an associate-level Security Analyst working in a Security Operations Center (SOC).
 
-    Install virtual machines to create a safe environment for implementing and analyzing cybersecurity threat events.
-    Explain the role of the Cybersecurity Operations Analyst in the enterprise.
-    Explain the Windows Operating System features and characteristics needed to support cybersecurity analyses.
-    Explain the features and characteristics of the Linux Operating System.
-    Analyze the operation of network protocols and services.
-    Explain the operation of the network infrastructure.
-    Classify the various types of network attacks.
-    Use network monitoring tools to identify attacks against network protocols and services.
-    Explain how to prevent malicious access to computer networks, hosts, and data.
-    Explain the impacts of cryptography on network security monitoring.
-    Explain how to investigate endpoint vulnerabilities and attacks.
-    Evaluate network security alerts.
-    Analyze network intrusion data to identify compromised hosts and vulnerabilities.
-    Apply incident response models to manage network security incidents.
+[Certificate](https://www.credly.com/badges/9f4ad9de-455b-40bd-be69-d00c0f853926/public_url)
 
 ![](img/linkedinlearning1.jpg)
 
@@ -150,17 +144,15 @@ _Hof, Bavaria, Germany_
 
 _Feb 2023-Now_
 
-Enrolled in the Computer Science program, taking up a subset of the following courses-
+Enrolled in the Computer Science program, took up the following courses-
 
 - 11.1.1.1 CCNA - Introduction to Networks
-- 11.1.1.2 CCNA - Routing, Switching and Wireless Essentials
-- 11.1.1.3 CCNA - Enterprise Networking, Security and Automation
 - 11.1.2 CCNA - CyberSecurity Operations
-- 11.1.1 CCNA - Network Security
-- 11.3.5 Information System Security
 - 11.5 Cloud Computing
+- 11.3.5 Information System Security
 - Project Work
 - Deutsch als Fremdsprache: A2.1
+- Deutsch als Fremdsprache: B1.1
 
 [Certificate of Enrolment](resources/HofUniversity.pdf)
 
@@ -176,11 +168,11 @@ _Pune, India_
 
 _AUG 2020-Now_
 
-_CGPA 8.68/10_
+_CGPA 8.74/10_
 
-_latest GPA 9.26/10_
+_latest GPA 8.91/10_
 
-- Specialization ( Minor ) : Information Security
+- Specialization : Information Security
 
 ### Relevant Courses 
 
@@ -294,13 +286,6 @@ _June 2021-Jan 2023_
 
 **Previous position**: Tech Assistant, [letter of appreciation](resources/RevolutionTechAssistant.pdf)
 
-![](img/genesis.jpg)
-
-## Tech Assistant at the Genesis ML/AI Club
-
-_June 2021-Now_
-
-- Built a model with scikit-learn to predict heart failure with high accuracy rate using binary logistic regression
 
 ---
 
@@ -380,8 +365,8 @@ I also have experience with the modern web with **Angular**, **NodeJs**: **expre
 
 ## German
 
-- Completed Deutsch A2.1 course
-- [Level A1, Passed the Fit in Deutsch 1 (Fit1/Fit Eins) from the Goethe-Institut with grade A](resources/German_Fit1.pdf)
+- Level A2 on the CEFR
+- [Fit in Deutsch 1 (Fit1/Fit Eins) from the Goethe-Institut with grade A](resources/German_Fit1.pdf)
 
 
 # Awards and Recognition
@@ -410,8 +395,8 @@ You can check out my GitHub [here](https://github.com/elvindesouza/)
 
 You can check out my LinkedIn [here](https://www.linkedin.com/in/elvindesouza/)
 
+You can check out my Leetcode [here](https://leetcode.com/elvindesouza/)
               
-<!-- You can check out my Leetcode [here](https://leetcode.com/elvindesouza/) -->
 <!---->
 <!-- You can check out my TryHackMe [here](https://tryhackme.com/p/elvindesouza) -->
 <!---->
