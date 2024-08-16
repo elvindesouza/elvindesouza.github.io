@@ -7,9 +7,6 @@ body {
   line-height: 1.5;
   font-family: "Cyber", Monaco, "Bitstream Vera Sans Mono", "Lucida Console",
     Terminal, monospace;
-  max-width: 80%; /* Adjust this percentage as needed */
-  margin: 0 auto; /* Center the content on the page */
-  padding: 20px; /* Add padding for spacing */
 }
 h1,
 h2,
@@ -176,4 +173,10 @@ ol {
 }
 .mediumsize {
   font-size: 60px;
+}
+
+#content.main-content {
+  max-width: 140rem;
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 0 1rem; /* Optional: Add some padding for spacing */
 }
