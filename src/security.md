@@ -52,7 +52,7 @@ Security related apps and tools available for Android
 
 Android hardening and de-bloating, setting up Termux for SSH/SFTP and FTP access
 
-## [Blue Teaming Section](security/Blue/0blue-security.md)
+## [Blue/Defensive Security](security/Blue/0blue-security.md)
 
 ## [Red Teaming Section](security/Red/0red-security.md)
 

@@ -7,6 +7,10 @@ permalink: /spotlight
 
 ---
 
+## [Multi-Factor Authentication](/src/security/Blue/mfa.md)
+
+A brief look at SMS-2FA, TOTP and hardware security keys, with some recommendations
+
 ## [To design and configure a firewall on a server](src/security/NetworkSecurity/firewall/firewall.md)
 
 To design and configure a firewall on a server using Cisco Packet Tracer. Also involves testing correct configuration/ruleset. 

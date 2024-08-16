@@ -18,6 +18,12 @@ cp-copy
 ref-references
 ```
 
+# 16.08.2024
+- mod about page; updated information and adding credentials
+
+# 05.11.2023
+- add mfa page
+
 # 15.10.23
 - mod about page
 - add new pic
