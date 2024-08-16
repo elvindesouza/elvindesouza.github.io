@@ -34,13 +34,11 @@ Proven track record of contributing to research projects under professors, and s
 
 ---
 
+<div class="container">
+
 # Work Experience
 
-<div style="background-color: white;">
-<img src="img/iisys.png" alt="IISYS Logo" style="width:800px; background-color:white;">
-</div>
-
-<!-- ![](img/iisys.png){:width="800px"; } -->
+![](img/iisys.png){:width="400px"; }
 
 ## Research Assistant in the Research Group for System and Network Security (SNS) of the Institute for Information Systems at Hochschule Hof
 
@@ -132,6 +130,8 @@ List of certificates [here](https://github.com/elvindesouza/elvindesouza.github.
 
 
 ## Computer Science/Informatik - International Exchange Student
+
+[Transcript](resources/HofUniversity-Transcript.pdf)
 
 _Hochschule Hof University of Applied Sciences_
 
@@ -383,3 +383,5 @@ You can check out my Leetcode [here](https://leetcode.com/elvindesouza/)
 <!-- You can check out my GitLab [here](https://gitlab.com/elvindesouza) -->
 
 You can find my contact details [here](https://elvindesouza.github.io/about/contact/)
+
+</div>
