@@ -5,8 +5,9 @@ body {
   padding: 0;
   background-color: #000000;
   line-height: 1.5;
-  font-family: "Cyber", Monaco, "Bitstream Vera Sans Mono", "Lucida Console",
-    Terminal, monospace;
+  /* font-family: "Cyber", Monaco, "Bitstream Vera Sans Mono", "Lucida Console", */
+    /* Terminal, monospace; */
+  font-family: "Garamond", "EB Garamond", "Georgia", "Times New Roman", serif;
 }
 h1,
 h2,
@@ -18,8 +19,9 @@ h7,
 h8 {
   color: #e9ffc0;
   line-height: 1.5;
-  font-family: "Cyber", Monaco, "Bitstream Vera Sans Mono", "Lucida Console",
-    Terminal, monospace;
+  /* font-family: "Cyber", Monaco, "Bitstream Vera Sans Mono", "Lucida Console", */
+  /*   Terminal, monospace; */
+  font-family: "Garamond", "EB Garamond", "Georgia", "Times New Roman", serif;
   text-align: left;
   margin: 0 0 20px;
 }
@@ -27,8 +29,9 @@ p {
   color: #ffffff;
   padding-left: 10px;
   font-size: 25px;
-  font-family: "Cyber", Monaco, "Bitstream Vera Sans Mono", "Lucida Console",
-    Terminal, monospace;
+  /* font-family: "Cyber", Monaco, "Bitstream Vera Sans Mono", "Lucida Console", */
+  /*   Terminal, monospace; */
+  font-family: "Garamond", "EB Garamond", "Georgia", "Times New Roman", serif;
 }
 .hr {
   border: 0;
@@ -36,9 +39,10 @@ p {
 }
 li {
   color: #ffffff;
-  font-size: 30px;
-  font-family: "Cyber", Monaco, "Bitstream Vera Sans Mono", "Lucida Console",
-    Terminal, monospace;
+  font-size: 25px;
+  /* font-family: "Cyber", Monaco, "Bitstream Vera Sans Mono", "Lucida Console", */
+  /*   Terminal, monospace; */
+  font-family: "Garamond", "EB Garamond", "Georgia", "Times New Roman", serif;
 }
 .button {
   text-decoration: none;

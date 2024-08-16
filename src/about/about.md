@@ -36,7 +36,7 @@ Proven track record of contributing to research projects under professors, and s
 
 # Work Experience
 
-![](img/iisys.png){:width="600px"; }
+![](img/iisys.png){:width="900px"; }
 
 ## Research Assistant in the Research Group for System and Network Security (SNS) of the Institute for Information Systems at Hochschule Hof
 
@@ -110,7 +110,7 @@ CyberOps Associate v1.0 covers knowledge and skills needed to successfully handl
 
 [Certificate](https://www.credly.com/badges/9f4ad9de-455b-40bd-be69-d00c0f853926/public_url)
 
-![](img/linkedinlearning1.jpg)
+![](img/linkedinlearning1.jpg){:width="1000px"}
 
 ## LinkedIn Learning Certifications
 
@@ -122,7 +122,7 @@ List of certificates [here](https://github.com/elvindesouza/elvindesouza.github.
 
 # Education
 
-![](img/hofuni.gif){:width="500px"}
+![](img/hofuni.gif){:width="400px"}
 
 ![](img/HofUniversityInternationalStudents.jpg){:width="400px"}
 
@@ -147,7 +147,7 @@ Took up the following courses-
 - Deutsch als Fremdsprache: A2.1
 - Deutsch als Fremdsprache: B1.1
 
-![](img/vu.png){:width="500px"}
+![](img/vu.png){:width="700px"}
 
 ## Bachelor of Technology in Computer Engineering in association with IBM ( BTech. CE )
 
@@ -193,7 +193,7 @@ _79.85%_
 - Stream : Science
 - Selection : Physics+Chemistry+Maths
 
-![](img/vincents1.jpg){:width="600px"}
+![](img/vincents1.jpg){:width="700px"}
 
 ## Secondary School Certificate
 
