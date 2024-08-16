@@ -17,7 +17,7 @@ permalink: /about
 
 # Elvin deSouza - A Summary
 
-![](img/me.jpg){:width="700px"}
+![](img/me.jpg){:width="500px"}
 
 **Research Assistant in the Research Group for System and Network Security(SNS) of the Institute for Information Systems at Hof University of Applied Sciences**
 
@@ -37,9 +37,10 @@ Proven track record of contributing to research projects under professors, and s
 # Work Experience
 
 <div style="background-color: white;">
-![](img/iisys.png){:width="800px"; }
+<img src="img/iisys.png" alt="IISYS Logo" style="width:800px; background-color:white;">
 </div>
 
+<!-- ![](img/iisys.png){:width="800px"; } -->
 
 ## Research Assistant in the Research Group for System and Network Security (SNS) of the Institute for Information Systems at Hochschule Hof
 
@@ -85,8 +86,6 @@ _Mumbai, India_
 
 ## CompTIA Security+ Certification
 
-_SY0-601_
-
 Ensures that I have the security problem-solving skills required to:
 
 - Assess the security posture of an enterprise environment and recommend and implement appropriate security solutions
@@ -119,15 +118,15 @@ CyberOps Associate v1.0 covers knowledge and skills needed to successfully handl
 
 ## LinkedIn Learning Certifications
 
-Available [here](https://github.com/elvindesouza/elvindesouza.github.io/tree/master/src/about/resources/LinkedInCertificates)
+You can view them on my [LinkedIn profile](https://www.linkedin.com/in/elvindesouza/)
 
-You may also view my LinkedIn profile(link at the bottom of this page) to see these certifications
+List of certificates [here](https://github.com/elvindesouza/elvindesouza.github.io/tree/master/src/about/resources/LinkedInCertificates)
 
 ---
 
 # Education
 
-![](img/hofuni.gif){:width="700px"}
+![](img/hofuni.gif){:width="500px"}
 
 ![](img/HofUniversityInternationalStudents.jpg){:width="400px"}
 
@@ -150,7 +149,7 @@ Took up the following courses-
 - Deutsch als Fremdsprache: A2.1
 - Deutsch als Fremdsprache: B1.1
 
-![](img/vu.png){:width="700px"}
+![](img/vu.png){:width="500px"}
 
 ## Bachelor of Technology in Computer Engineering in association with IBM ( BTech. CE )
 
@@ -164,13 +163,12 @@ _Pune, India_
 
 _Aug 2020-Jul 2024_
 
-_CGPA 8.74/10_
+_Final CGPA 8.86/10, 83.28%, A+ grade - Rank 33 in merit list_
 
-- Specialization : Cybersecurity
 
 ### Relevant Courses 
 
-**(6-month courses, substantial credit ratings only)**
+**Degree Specialization** : Cybersecurity
 
 - Application Security  CS03SG01
 - Computer networking BTECHCS18503
@@ -351,18 +349,12 @@ I have experience with the following vulnerability assessment and penetration te
 
 ## German
 
-- Level A2 on the CEFR
-- [Fit in Deutsch 1 (Fit1/Fit Eins) from the Goethe-Institut with grade A](resources/German_Fit1.pdf)
-
+- Level B1 on the CEFR
 
 # Awards and Recognition
 
 - Received recognition from RVDP, NCIIPC for reporting several vulnerabilities in government infrastructure
 - 'Code Wars 2023' IBM-ICE National Hackathon- Shortlisted: Low-level design document for firewall to detect ARP spoofing
-- Distinction (90/100) in Communication Skills Grade 3, Trinity College London
-- Distinction in Choral Speaking Grade 2, Trinity College London
-- Distinction (89/100) in Speech and Drama Grade 2, Trinity College London
-- Scored 34/35 ( rank 221 Internationally ) in the International English Olympiad
 
 ---
 
@@ -374,8 +366,6 @@ _Aside from technology and programming related interests, my hobbies include pla
 
 
 # View my Work
-
-_some links might not be available right now_
 
 You can check out my GitHub [here](https://github.com/elvindesouza/)
 
@@ -393,5 +383,3 @@ You can check out my Leetcode [here](https://leetcode.com/elvindesouza/)
 <!-- You can check out my GitLab [here](https://gitlab.com/elvindesouza) -->
 
 You can find my contact details [here](https://elvindesouza.github.io/about/contact/)
-
----
