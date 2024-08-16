@@ -24,7 +24,9 @@ h8 {
   font-family: "Garamond", "EB Garamond", "Georgia", "Times New Roman", serif;
   text-align: left;
   margin: 0 0 20px;
+  font-size: calc(1em + 0.3125em); /* Increase font-size by 5 points (0.3125em) */
 }
+
 p {
   color: #ffffff;
   padding-left: 10px;
