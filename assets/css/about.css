@@ -24,13 +24,44 @@ h8 {
   font-family: "Garamond", "EB Garamond", "Georgia", "Times New Roman", serif;
   text-align: left;
   margin: 0 0 20px;
-  font-size: calc(1em + 0.3125em); /* Increase font-size by 5 points (0.3125em) */
+}
+
+h1 {
+  font-size: 3.0em; /* Largest */
+}
+
+h2 {
+  font-size: 2.75em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 2.25em;
+}
+
+h5 {
+  font-size: 2.0em;
+}
+
+h6 {
+  font-size: 1.75em;
+}
+
+h7 {
+  font-size: 1.5em;
+}
+
+h8 {
+  font-size: 1.25em; /* Smallest */
 }
 
 p {
   color: #ffffff;
   padding-left: 10px;
-  font-size: 25px;
+  font-size: 33px;
   /* font-family: "Cyber", Monaco, "Bitstream Vera Sans Mono", "Lucida Console", */
   /*   Terminal, monospace; */
   font-family: "Garamond", "EB Garamond", "Georgia", "Times New Roman", serif;
@@ -41,7 +72,7 @@ p {
 }
 li {
   color: #ffffff;
-  font-size: 25px;
+  font-size: 30px;
   /* font-family: "Cyber", Monaco, "Bitstream Vera Sans Mono", "Lucida Console", */
   /*   Terminal, monospace; */
   font-family: "Garamond", "EB Garamond", "Georgia", "Times New Roman", serif;
