@@ -34,8 +34,6 @@ Proven track record of contributing to research projects under professors, and s
 
 ---
 
-<div class="container">
-
 # Work Experience
 
 ![](img/iisys.png){:width="400px"; }
@@ -383,5 +381,3 @@ You can check out my Leetcode [here](https://leetcode.com/elvindesouza/)
 <!-- You can check out my GitLab [here](https://gitlab.com/elvindesouza) -->
 
 You can find my contact details [here](https://elvindesouza.github.io/about/contact/)
-
-</div>
