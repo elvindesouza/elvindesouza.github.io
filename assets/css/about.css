@@ -26,7 +26,7 @@ h8 {
 p {
   color: #ffffff;
   padding-left: 10px;
-  font-size: 30px;
+  font-size: 25px;
   font-family: "Cyber", Monaco, "Bitstream Vera Sans Mono", "Lucida Console",
     Terminal, monospace;
 }
@@ -176,7 +176,7 @@ ol {
 }
 
 #content.main-content {
-  max-width: 140rem;
+  max-width: 120rem;
   margin: 0 auto; /* Center the content horizontally */
   padding: 0 1rem; /* Optional: Add some padding for spacing */
 }

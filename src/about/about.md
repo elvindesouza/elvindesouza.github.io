@@ -36,7 +36,7 @@ Proven track record of contributing to research projects under professors, and s
 
 # Work Experience
 
-![](img/iisys.png){:width="400px"; }
+![](img/iisys.png){:width="600px"; }
 
 ## Research Assistant in the Research Group for System and Network Security (SNS) of the Institute for Information Systems at Hochschule Hof
 
@@ -193,7 +193,7 @@ _79.85%_
 - Stream : Science
 - Selection : Physics+Chemistry+Maths
 
-![](img/vincents1.jpg)
+![](img/vincents1.jpg){:width="600px"}
 
 ## Secondary School Certificate
 
