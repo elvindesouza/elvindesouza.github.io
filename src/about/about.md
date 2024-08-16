@@ -55,11 +55,6 @@ _Hof, Germany_
 
 Work performed under Prof. Dr. Florian Adamsky and professionally supervised by Mr. Sebastian Pahl.
 
-[Offer Letter](resources/iisys-Offer.pdf)
-
-[Internship Contract](resources/iisys-Contract.pdf)
-
-
 ![](img/converge.jpg){:width="200px"}
 ![](img/collegepond.jpg){:width="200px"}
 
@@ -91,8 +86,6 @@ _Mumbai, India_
 ## CompTIA Security+ Certification
 
 _SY0-601_
-
-_PASS, score 786/900_
 
 Ensures that I have the security problem-solving skills required to:
 
@@ -145,9 +138,9 @@ _Hochschule Hof University of Applied Sciences_
 
 _Hof, Bavaria, Germany_
 
-_Feb 2023-Now_
+_Feb 2023-Oct 2023_
 
-Enrolled in the Computer Science program, took up the following courses-
+Took up the following courses-
 
 - 11.1.1.1 CCNA - Introduction to Networks
 - 11.1.2 CCNA - CyberSecurity Operations
@@ -159,21 +152,21 @@ Enrolled in the Computer Science program, took up the following courses-
 
 ![](img/vu.png){:width="700px"}
 
-## Bachelor of Technology in Computer Engineering in association with IBM ( BTech. CE INFOSEC )
+## Bachelor of Technology in Computer Engineering in association with IBM ( BTech. CE )
 
 [Transcript of Marks](resources/VishwakarmaUniversity-Transcript.pdf)
+
+[Merit/Rank Certificate](resources/VishwakarmaUniversity-RankCertificate.jpg)
 
 _Vishwakarma University_
 
 _Pune, India_
 
-_AUG 2020-Now_
+_Aug 2020-Jul 2024_
 
 _CGPA 8.74/10_
 
-_latest GPA 8.91/10_
-
-- Specialization : Information Security
+- Specialization : Cybersecurity
 
 ### Relevant Courses 
 
@@ -181,17 +174,12 @@ _latest GPA 8.91/10_
 
 - Application Security  CS03SG01
 - Computer networking BTECHCS18503
-- Data Structures BTECHCS18301
 - Database Management Systems BTECHCS18403
-- Design and Analysis of Algorithms BTECHCS18502
 - Information Security Fundamentals-IBM COD0001392
 - Information Technology Systems Security and Physical Security BTECHCS18410
 - Operating Systems BTECHCS18501
-- Problem Solving With Programming BTECHCS18205
 - Project Management BTECHCS18514
 - Technological Skill Development-III (Python) BTECHCS18407
-- Technology Skill Development-II (Java) BTECHCS18406
-- Technology skill Development Lab-1 (C++) BTECHCS18306
 - Web Technologies BTECHCS18508
 
 ## Higher Secondary School Certificate
@@ -237,8 +225,12 @@ Project under Prof. Dr. Florian Adamsky of the Institute for Information Systems
 
 ## AutOSINT
 
+_Done as part of major project during Bachelors degree_
+
 A graphical user interface to automate OSINT/information gathering and reconnaissance
-Use is made of APIs, among other things, to generate results
+
+Made use of APIs to generate results
+
 Documentation generated using Sphinx
 
 ## [Small Network Hardening](https://elvindesouza.github.io/hardening)
@@ -331,19 +323,12 @@ I have experience with the following vulnerability assessment and penetration te
 
 *Please explore the [Security section](https://elvindesouza.github.io/security/) of the website to see what topics/tooling I have experience/interest in.*
 
-## Javascript for Web Development
-
-![](img/logo_js.png){:width="50px"}
-
-I also have experience with the modern web with **Angular**, **NodeJs**: **express**, ejs, pug, etc
-
 ## Other Technical Skills
 
 - Git
-- LaTeX
+- LaTeX, Markdown
 - SSH
 - virtualization, Docker
-- Markdown
 - Applying Data Structures and Algorithms
 
 # Soft Skills and Language Skills
@@ -358,7 +343,11 @@ I also have experience with the modern web with **Angular**, **NodeJs**: **expre
 
 ## English
 
-- [Certified Level C2 on the CEFR](resources/English-C2.pdf)
+- Level C2(fluent/advanced) on the CEFR
+
+- **IELTS** Band 8.5 overall (8.5 Listening, 8.5 Reading, 8.0 Writing, 8.0 Speaking)
+
+- [IELTS Test Report Form](resources/IELTS.pdf)
 
 ## German
 
