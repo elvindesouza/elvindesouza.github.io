@@ -80,7 +80,7 @@ _Mumbai, India_
 
 ![](img/comptia.jpg)
 
-## CompTIA Security+ Certification
+## CompTIA Security+ 601
 
 Ensures that I have the security problem-solving skills required to:
 
@@ -94,21 +94,21 @@ Ensures that I have the security problem-solving skills required to:
 
 ## AWS Academy Cloud Foundations
 
-AWS Academy Cloud Foundations is provides an overall understanding of cloud computing concepts, independent of specific technical roles. It provides a detailed overview of cloud concepts, AWS core services, security, architecture, pricing, and support.
+_AWS Academy Cloud Foundations is provides an overall understanding of cloud computing concepts, independent of specific technical roles. It provides a detailed overview of cloud concepts, AWS core services, security, architecture, pricing, and support._
 
 [Certificate](https://www.credly.com/badges/152d8dfe-17fc-4dfe-9394-21ed0d521a49/public_url)
 
-## CCNA: Introduction to Networking
-
-This course introduces the architecture, structure, functions, components, and models of the Internet and other computer networks. 
-
-[Certificate](https://www.credly.com/badges/3cc3f44e-13ac-457e-8f64-3b80da56de92/public_url)
-
 ## CyberOps Associate
 
-CyberOps Associate v1.0 covers knowledge and skills needed to successfully handle the tasks, duties, and responsibilities of an associate-level Security Analyst working in a Security Operations Center (SOC).
+_CyberOps Associate v1.0 covers knowledge and skills needed to successfully handle the tasks, duties, and responsibilities of an associate-level Security Analyst working in a Security Operations Center (SOC)._
 
 [Certificate](https://www.credly.com/badges/9f4ad9de-455b-40bd-be69-d00c0f853926/public_url)
+
+## CCNA: Introduction to Networking
+
+_This course introduces the architecture, structure, functions, components, and models of the Internet and other computer networks._ 
+
+[Certificate](https://www.credly.com/badges/3cc3f44e-13ac-457e-8f64-3b80da56de92/public_url)
 
 ![](img/linkedinlearning1.jpg){:width="1000px"}
 
@@ -121,6 +121,26 @@ List of certificates [here](https://github.com/elvindesouza/elvindesouza.github.
 ---
 
 # Education
+
+
+![](img/vu.png){:width="700px"}
+
+## Bachelor of Technology in Computer Engineering
+
+[Transcript of Marks](resources/VishwakarmaUniversity-Transcript.pdf)
+
+[Merit/Rank Certificate](resources/VishwakarmaUniversity-RankCertificate.jpg)
+
+_Vishwakarma University_
+
+_Pune, India_
+
+_Aug 2020-Jul 2024_
+
+_Final CGPA 8.86/10, 83.28%, A+ grade - Rank 33 in merit list_
+
+Specialization in Information Security
+
 
 ![](img/hofuni.gif){:width="400px"}
 
@@ -147,36 +167,6 @@ Took up the following courses-
 - Deutsch als Fremdsprache: A2.1
 - Deutsch als Fremdsprache: B1.1
 
-![](img/vu.png){:width="700px"}
-
-## Bachelor of Technology in Computer Engineering in association with IBM ( BTech. CE )
-
-[Transcript of Marks](resources/VishwakarmaUniversity-Transcript.pdf)
-
-[Merit/Rank Certificate](resources/VishwakarmaUniversity-RankCertificate.jpg)
-
-_Vishwakarma University_
-
-_Pune, India_
-
-_Aug 2020-Jul 2024_
-
-_Final CGPA 8.86/10, 83.28%, A+ grade - Rank 33 in merit list_
-
-
-### Relevant Courses 
-
-**Degree Specialization** : Cybersecurity
-
-- Application Security  CS03SG01
-- Computer networking BTECHCS18503
-- Database Management Systems BTECHCS18403
-- Information Security Fundamentals-IBM COD0001392
-- Information Technology Systems Security and Physical Security BTECHCS18410
-- Operating Systems BTECHCS18501
-- Project Management BTECHCS18514
-- Technological Skill Development-III (Python) BTECHCS18407
-- Web Technologies BTECHCS18508
 
 ## Higher Secondary School Certificate
 
@@ -189,9 +179,6 @@ _Pune, India_
 _FEB 2020_
 
 _79.85%_
-
-- Stream : Science
-- Selection : Physics+Chemistry+Maths
 
 ![](img/vincents1.jpg){:width="700px"}
 
@@ -240,10 +227,6 @@ Conducting a Network Penetration Test on a Small Network. Followed all the stand
 ## [GPG-GUI](https://elvindesouza.github.io/GPG-GUI/)
 
 Simple graphical front-end to GnuPG, making encryption accessible to everyone!
-
-## [Utility of the kexec Linux system call.](https://elvindesouza.github.io/security/kexec)
-
-Documenting how a physical attack can be carried out by (mis)using the kexec system call to boot into another kernel(operating system) from a kernel, and perform an attack with scripting in a more familiar environment
 
 ---
 
@@ -317,7 +300,7 @@ I have experience with the following vulnerability assessment and penetration te
 - Wireshark
 - john, hydra, hashcat
 
-*Please explore the [Security section](https://elvindesouza.github.io/security/) of the website to see what topics/tooling I have experience/interest in.*
+*[Security section](https://elvindesouza.github.io/security/) of the website to see what topics/tooling I have experience/interest in.*
 
 ## Other Technical Skills
 
@@ -337,21 +320,27 @@ I have experience with the following vulnerability assessment and penetration te
 - teamwork skills
 - critical thinking
 
+
 ## English
 
-- Level C2(fluent/advanced) on the CEFR
+Level C2(fluent/advanced) on the CEFR
 
-- **IELTS** Band 8.5 overall (8.5 Listening, 8.5 Reading, 8.0 Writing, 8.0 Speaking)
+**IELTS** Band 8.5 overall (8.5 Listening, 8.5 Reading, 8.0 Writing, 8.0 Speaking)
 
-- [IELTS Test Report Form](resources/IELTS.pdf)
+[IELTS Test Report Form](resources/IELTS.pdf)
 
 ## German
 
-- Level B1 on the CEFR
+Level B1 (intermediate) on the CEFR
+
+[Goethe Zertifikat B1](resources/GoetheB1.pdf)
 
 # Awards and Recognition
 
+- Rank 33 on merit list in BTech. Computer Engineering degree
+
 - Received recognition from RVDP, NCIIPC for reporting several vulnerabilities in government infrastructure
+
 - 'Code Wars 2023' IBM-ICE National Hackathon- Shortlisted: Low-level design document for firewall to detect ARP spoofing
 
 ---
@@ -369,7 +358,7 @@ You can check out my GitHub [here](https://github.com/elvindesouza/)
 
 You can check out my LinkedIn [here](https://www.linkedin.com/in/elvindesouza/)
 
-You can check out my Leetcode [here](https://leetcode.com/elvindesouza/)
+<!-- You can check out my Leetcode [here](https://leetcode.com/elvindesouza/) -->
               
 <!---->
 <!-- You can check out my TryHackMe [here](https://tryhackme.com/p/elvindesouza) -->

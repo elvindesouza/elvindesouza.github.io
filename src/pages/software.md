@@ -34,22 +34,6 @@ Donation link available at bottom of the developer's website
 
 [Donate](https://give.thunderbird.net/en-GB/)
 
-## Simple Mobile Tools Suite
-
-[Website](https://www.simplemobiletools.com/)
-
-[Donate](https://www.simplemobiletools.com/donate)
-
-## FreeTube
-
-_promotes non-free services and products_
-
-[Website](https://freetubeapp.io/)
-
-Donation link given at bottom of homepage
-
-<!-- ## tutanota -->
-
 ## Signal
 
 [Website](https://signal.org)
@@ -58,61 +42,33 @@ Donation link given at bottom of homepage
 
 > end-to-end encryption (powered by the open source Signal Protocol) keeps your conversations secure
 
-## newpipe
+## KDE 
 
-_promotes non-free services and products_
-
-[Website](https://newpipe.net/)
-
-[Donate](https://newpipe.net/donate/)
-
-## yt-dlp
-
-_promotes non-free services and products_
-
-## neovim
-
-[Website](https://neovim.io/)
-
-[Donate](https://neovim.io/sponsors/)
-
-## KDE compilation
+The org behind the KDE Plasma desktop and other great applications like kdenlive and krita
 
 [Homepage](https://kde.org)
 
 [Donate](https://kde.org/community/donations/)
 
-## archlinux
 
-[Homepage](https://archlinux.org/)
+## Libreoffice
 
-[Donate](https://archlinux.org/donate/)
+[Homepage](https://www.libreoffice.org/)
+
+[Donate](https://www.libreoffice.org/donate/)
 
 ## Other Important Copyleft/Free Software
 
-#### libreoffice
 
 #### gimp
-
-#### kdenlive
-
-#### krita
 
 #### obs-studio
 
 #### blender
 
-#### ranger
-
-#### Coreboot
-
 ---
 
 # Important People and Collectives
-
-## [Internet Freedom Foundation-India](https://internetfreedom.in/)
-
-[Donate](https://internetfreedom.in/donate/)
 
 ## [freecodecamp](https://freecodecamp.org)
 
@@ -136,12 +92,6 @@ _promotes non-free services and products_
 
 [Donate](https://sfconservancy.org/donate/)
 
-## [The Python Software Foundation](https://www.python.org/psf-landing/)
-
-[Donate](https://www.python.org/psf/donations/)
-
-<!-- Erik Dubios -->
-
 **Note-**
 
 Some privacy&security android apps listed [here](../security/android.md)
@@ -152,7 +102,3 @@ Find free software!
 [FSF-High Priority Projects](https://www.fsf.org/campaigns/priority-projects/)
 
 [Awesome Free Software](https://project-awesome.org/johnjago/awesome-free-software#ides)
-
-[Free Software Directory](https://directory.fsf.org/wiki/Main_Page)
-
-[GNU Software](https://www.gnu.org/software/software.html#allgnupkgs)
