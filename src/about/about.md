@@ -19,28 +19,29 @@ permalink: /about
 
 ![](img/me.jpg){:width="500px"}
 
-**Research Assistant in the Research Group for System and Network Security(SNS) of the Institute for Information Systems at Hof University of Applied Sciences**
+**Pursuing a Masters degree in Computer Science at the Rheinland-Palatinate Technical University at Kaiserslautern**
 
 <!-- from linkedin description -->
 
-I like programming, cybersecurity, and linux.
+I like cybersecurity, Linux and programming.
 
-I have a strong work ethic, with good teamwork and exceptional communication skills
+I have a strong work ethic, with good teamwork and exceptional communication skills. I am a native/fluent English speaker and can speak German at a professional level.
 
-I am also an avid programmer, with extensive problem solving skills and using programming patterns.
-Passionate computer engineer with a focus on application security and secure coding. Leveraging a solid foundation in GNU/Linux system administration and internals. Adept at crafting elegant solutions through programming skills and keen problem-solving acumen. Experienced in collaborating within dynamic team environments, driven by exceptional communication and teamwork abilities. 
+Currently, I am pursuing a Masters degree, to become a computer engineer with a focus on application security and secure coding. I'm passionate about Linux and themes of information security, with a solid foundation in GNU/Linux system administration and internals.
+
+I am also an avid programmer, I am skilled at crafting solutions with a solid problem solving mindset and ability to use the appropriate programming patterns. Experienced in collaborating within dynamic team environments, driven by exceptional communication and teamwork abilities.
 
 Proven track record of contributing to research projects under professors, and student clubs. Diligent, enthusiastic, and committed to upholding the highest work ethic.
 
 ---
 
-# Work Experience
+# Exposure and Experience
 
 ![](img/iisys.png){:width="900px"; }
 
 ## Research Assistant in the Research Group for System and Network Security (SNS) of the Institute for Information Systems at Hochschule Hof
 
-_October 2023-Now_
+_October 2023 - February 2025_
 
 _Hof, Germany_
 
@@ -80,7 +81,7 @@ _Mumbai, India_
 
 ![](img/comptia.jpg)
 
-## CompTIA Security+ 601
+## CompTIA Security+ 601/Security+ ce
 
 Ensures that I have the security problem-solving skills required to:
 
@@ -121,6 +122,32 @@ List of certificates [here](https://github.com/elvindesouza/elvindesouza.github.
 ---
 
 # Education
+
+![](img/rptu.svg)
+
+## Master of Science in Computer Science
+
+_Rhineland-Palatinate Technical University_
+
+_Kaiserslautern, Germany_
+
+_October 2025 - Now_
+
+Specialization 1 (Major) - Distributed and Networked Systems
+- Network Security
+- Protocols and Algorithms for Network Security
+- Information Security Assessment and Operations
+- Privacy and Security Seminar
+- Secure Decentralized Systems (Project)
+- Decentralized Systems
+- Privacy-Enhancing Technologies
+
+
+Specialization 2 (Minor) - Software Engineering
+- Safety and Reliability of Embedded Systems
+- Foundations of Software Engineering
+- Requirements Engineering
+- Programming Distributed Systems
 
 
 ![](img/vu.png){:width="700px"}
@@ -323,7 +350,7 @@ I have experience with the following vulnerability assessment and penetration te
 
 ## English
 
-Level C2(fluent/advanced) on the CEFR
+I speak English fluently at an advanced/native level.
 
 **IELTS** Band 8.5 overall (8.5 Listening, 8.5 Reading, 8.0 Writing, 8.0 Speaking)
 
@@ -331,7 +358,7 @@ Level C2(fluent/advanced) on the CEFR
 
 ## German
 
-Level B1 (intermediate) on the CEFR
+I speak German at a professional level, and I am reaching fluency.
 
 [Goethe Zertifikat B1](resources/GoetheB1.pdf)
 
@@ -347,7 +374,7 @@ Level B1 (intermediate) on the CEFR
 
 _I am a proponent of free and open source software that adheres to the Unix philosophy. Software that adheres at least in part to this that I use, donate to development of, or keep an eye on is listed [here](../pages/software.md)_
 
-_Aside from technology and programming related interests, my hobbies include playing the guitar and writing about things I am fascinated by._
+_Aside from technology related interests, my hobbies and passions include playing the guitar(I play in a band, AlgoRhythmic), fencing, sports, traveling, learning languages and getting to see the world out there._
 
 ---
 
