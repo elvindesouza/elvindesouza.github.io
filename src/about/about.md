@@ -19,7 +19,7 @@ permalink: /about
 
 ![](img/me.jpg){:width="500px"}
 
-**Pursuing a Masters degree in Computer Science at the Rheinland-Palatinate Technical University at Kaiserslautern**
+**I am a Computer Engineering graduate, currently pursuing a Masters degree in Computer Science at the Rheinland-Palatinate Technical University at Kaiserslautern**
 
 <!-- from linkedin description -->
 
@@ -123,7 +123,7 @@ List of certificates [here](https://github.com/elvindesouza/elvindesouza.github.
 
 # Education
 
-![](img/rptu.svg)
+![](img/rptu.svg){:width="400px"}
 
 ## Master of Science in Computer Science
 
@@ -150,7 +150,7 @@ Specialization 2 (Minor) - Software Engineering
 - Programming Distributed Systems
 
 
-![](img/vu.png){:width="700px"}
+![](img/vu.png){:width="400px"}
 
 ## Bachelor of Technology in Computer Engineering
 

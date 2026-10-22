@@ -18,6 +18,11 @@ cp-copy
 ref-references
 ```
 
+# 22.10.2026
+Huge Refresh - I'm updating my about page, and I've updated my contact information.
+
+I'm also adding a project I've been working on (/security/isms): where I invent a 60-person company, and create a Information Security Management System implementation (ISO 27001, BSI IT-Grundschutz), then a GDPR compliance package along with a compliance-as-code section.
+
 # 16.08.2024
 - mod about page; updated information and adding credentials
 

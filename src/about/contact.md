@@ -14,7 +14,7 @@ permalink: /about/contact/
 
 ## Feel free to reach out!
 
-## <a href="mailto:elvindesouza@tutanota.com"> <img src="https://img.icons8.com/fluent/48/000000/gmail.png" width="4.5%"/> [elvindesouza@gmail.com](mailto:elvindesouza@gmail.com)
+## <a href="mailto:elvindesouza@tutanota.com"> <img src="https://img.icons8.com/fluent/48/000000/gmail.png" width="4.5%"/> [elvindesouza@tutanota.com](mailto:elvindesouza@tutanota.com)
 
 <!-- ## [Public Key](https://github.com/elvindesouza/elvindesouza/blob/master/public-key.gpg) -->
 
